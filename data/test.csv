@@ -1,0 +1,2001 @@
+Customer_ID,Age,Gender,Location,Subscription_Type,Account_Age_Months,Monthly_Spending,Total_Usage_Hours,Support_Calls,Late_Payments,Streaming_Usage,Discount_Used,Satisfaction_Score,Last_Interaction_Type,Complaint_Tickets,Promo_Opted_In
+9001,61,Female,New York,Premium,26,101.91,37,7,0,73,66,9,Negative,2,0
+9002,33,Male,Illinois,Basic,44,33.05,160,9,1,13,8,6,Negative,4,0
+9003,22,Female,California,Premium,3,36.67,240,6,4,43,65,2,Neutral,0,0
+9004,22,Male,Texas,Premium,45,172.92,172,7,1,75,69,8,Negative,0,0
+9005,52,Male,Illinois,Premium,47,30.98,136,8,4,58,7,8,Negative,3,1
+9006,59,Male,New York,Premium,28,35.65,386,8,1,34,43,5,Negative,0,1
+9007,43,Female,Florida,Basic,54,60.96,428,3,3,58,28,6,Neutral,1,1
+9008,26,Female,New York,Premium,54,42.15,467,4,4,62,85,8,Neutral,0,0
+9009,63,Female,Illinois,Premium,21,166.48,418,5,4,32,8,9,Positive,0,0
+9010,47,Male,New York,Basic,26,11.19,233,4,1,83,15,3,Positive,0,0
+9011,53,Female,Texas,Basic,32,171.13,201,0,4,91,77,5,Negative,1,0
+9012,44,Male,Florida,Basic,27,90.88,282,7,2,46,43,7,Neutral,4,0
+9013,18,Female,Illinois,Premium,20,146.43,444,9,4,8,5,2,Positive,2,1
+9014,65,Male,New York,Premium,30,83.18,37,2,1,25,75,4,Neutral,4,0
+9015,62,Female,Illinois,Premium,50,184.11,278,7,2,9,34,4,Neutral,1,0
+9016,43,Male,Florida,Premium,49,58.47,289,9,4,43,26,1,Positive,4,0
+9017,27,Male,Texas,Premium,25,51.96,446,6,2,57,12,4,Positive,4,0
+9018,21,Male,Texas,Basic,42,159.92,420,9,0,36,69,8,Neutral,4,0
+9019,65,Male,California,Basic,11,11.74,344,3,2,78,97,8,Negative,1,1
+9020,21,Male,Texas,Premium,23,21.06,372,6,3,43,91,3,Positive,2,0
+9021,21,Male,Florida,Basic,28,59.84,437,2,2,41,23,8,Negative,0,1
+9022,55,Male,Illinois,Enterprise,41,159.25,100,4,3,19,80,5,Neutral,3,0
+9023,26,Female,Texas,Premium,7,49.14,57,2,4,6,59,4,Negative,3,0
+9024,51,Female,Texas,Basic,41,119.31,330,7,4,87,91,4,Neutral,2,0
+9025,22,Female,Texas,Premium,4,41.56,364,8,1,84,80,5,Positive,1,0
+9026,48,Female,New York,Premium,53,187.25,189,8,1,11,44,7,Negative,4,0
+9027,53,Female,California,Premium,57,67.93,359,9,4,11,82,1,Negative,1,0
+9028,50,Male,Texas,Enterprise,43,27.96,133,2,0,29,79,3,Negative,4,1
+9029,30,Male,Texas,Basic,50,42.01,29,6,1,10,11,7,Negative,2,1
+9030,28,Female,California,Premium,46,113.74,493,1,3,54,19,1,Positive,0,0
+9031,54,Female,Texas,Premium,44,44.83,217,1,3,66,70,7,Neutral,2,0
+9032,52,Male,Illinois,Premium,2,151.07,398,8,2,3,90,6,Neutral,4,0
+9033,57,Male,Florida,Basic,14,69.38,461,7,4,94,32,1,Negative,4,0
+9034,67,Female,New York,Basic,3,43.79,57,8,0,3,31,3,Negative,1,1
+9035,66,Female,Texas,Premium,27,27.98,87,8,1,86,51,9,Neutral,1,0
+9036,64,Male,Illinois,Enterprise,2,64.37,142,7,2,51,31,1,Negative,3,0
+9037,35,Female,Texas,Basic,59,190.56,467,3,0,46,89,1,Negative,2,1
+9038,47,Female,Texas,Premium,40,19.68,253,8,0,58,13,2,Negative,0,1
+9039,56,Male,Illinois,Enterprise,16,191.41,386,2,1,33,99,8,Neutral,2,1
+9040,30,Female,Illinois,Basic,7,151.36,389,8,0,74,98,8,Neutral,2,1
+9041,22,Female,Illinois,Basic,50,121.11,498,8,3,44,33,10,Neutral,0,0
+9042,59,Female,Texas,Basic,36,102.68,249,4,1,29,29,1,Negative,4,1
+9043,23,Female,Florida,Premium,52,37.03,439,5,3,90,23,5,Negative,1,0
+9044,65,Female,Illinois,Basic,49,17.08,20,6,1,87,62,6,Negative,4,1
+9045,23,Female,Illinois,Enterprise,54,128.5,124,4,3,70,19,7,Negative,1,1
+9046,62,Female,Illinois,Basic,12,55.32,287,8,1,25,33,4,Positive,1,1
+9047,20,Male,Florida,Basic,30,110.74,22,2,4,77,4,6,Positive,0,0
+9048,67,Female,New York,Basic,50,93.78,434,6,3,91,90,5,Negative,4,0
+9049,46,Female,New York,Premium,5,154.42,455,5,3,53,11,9,Positive,4,0
+9050,38,Female,New York,Premium,58,61.09,376,6,4,82,98,1,Positive,4,1
+9051,62,Female,Illinois,Basic,28,33.89,175,3,2,42,76,5,Neutral,2,0
+9052,25,Female,Florida,Enterprise,43,125.59,162,5,0,10,77,5,Neutral,3,1
+9053,45,Male,New York,Premium,26,169.26,340,7,1,73,67,7,Positive,2,1
+9054,66,Female,Texas,Enterprise,35,184.36,260,7,0,32,57,2,Positive,0,0
+9055,29,Female,California,Basic,21,185.7,345,3,0,87,88,1,Neutral,0,0
+9056,59,Male,California,Basic,40,16.35,37,2,4,55,28,7,Negative,3,1
+9057,65,Male,California,Premium,4,45.7,350,2,3,94,11,3,Positive,0,0
+9058,55,Female,Texas,Basic,45,152.46,402,5,4,31,81,2,Neutral,4,0
+9059,30,Male,Florida,Premium,22,143.77,259,9,4,22,35,8,Negative,4,0
+9060,48,Female,Texas,Basic,26,120.52,79,3,4,4,37,4,Neutral,3,1
+9061,50,Female,Florida,Premium,44,79.95,411,6,0,82,17,5,Positive,2,0
+9062,49,Male,Florida,Enterprise,59,68.16,358,1,1,70,51,3,Positive,1,1
+9063,44,Male,California,Basic,53,27.18,163,9,0,86,53,9,Neutral,4,0
+9064,35,Female,Texas,Basic,7,121.41,431,6,4,33,35,7,Positive,0,1
+9065,32,Female,Illinois,Basic,41,50.43,248,5,0,40,11,4,Negative,4,0
+9066,21,Female,Florida,Basic,46,179.02,25,0,4,14,31,1,Negative,2,1
+9067,66,Female,Illinois,Basic,2,52.57,388,1,0,57,81,5,Neutral,4,0
+9068,62,Female,Illinois,Premium,55,156.04,81,0,0,37,29,10,Positive,0,0
+9069,63,Male,California,Basic,6,76.18,439,8,4,50,24,5,Negative,4,0
+9070,69,Male,California,Basic,6,165.6,229,5,4,50,35,1,Neutral,4,0
+9071,67,Female,Florida,Basic,53,150.36,96,6,0,16,78,9,Negative,1,0
+9072,64,Male,Texas,Basic,58,14.42,372,1,4,70,95,10,Neutral,1,1
+9073,60,Male,Texas,Basic,30,133.46,313,5,2,58,88,4,Negative,1,0
+9074,59,Female,Illinois,Basic,51,116.6,40,9,2,1,3,10,Neutral,4,0
+9075,28,Male,Texas,Basic,49,166.17,140,9,4,79,58,4,Neutral,4,1
+9076,36,Female,California,Enterprise,11,54.3,281,8,1,99,41,9,Positive,1,0
+9077,46,Female,Florida,Premium,29,148.66,278,9,3,48,28,7,Positive,2,0
+9078,32,Female,Florida,Basic,6,178.43,388,7,2,76,77,1,Negative,2,1
+9079,50,Male,Illinois,Basic,31,158.73,206,7,0,83,42,4,Positive,2,0
+9080,58,Male,California,Basic,8,185.03,33,5,2,68,46,5,Positive,4,0
+9081,49,Male,Illinois,Enterprise,49,68.27,126,4,1,93,33,9,Neutral,3,1
+9082,38,Female,New York,Basic,24,89.9,82,6,4,4,85,3,Negative,3,0
+9083,18,Male,New York,Premium,16,84.5,88,8,0,96,31,9,Positive,3,1
+9084,31,Female,New York,Enterprise,50,74.33,143,2,0,27,42,6,Positive,0,0
+9085,34,Female,California,Premium,18,38.65,353,1,0,39,92,9,Positive,4,1
+9086,43,Male,Illinois,Premium,7,13.28,373,8,2,98,70,4,Neutral,2,0
+9087,23,Male,Florida,Premium,49,59.98,366,7,1,74,15,1,Positive,1,1
+9088,65,Male,New York,Basic,8,198.67,264,2,4,93,82,4,Neutral,0,1
+9089,24,Female,New York,Premium,36,65.87,363,7,0,10,19,8,Negative,1,0
+9090,33,Male,Texas,Basic,51,162.73,75,9,0,88,62,10,Neutral,0,1
+9091,34,Female,Illinois,Premium,31,38.35,14,0,4,73,97,7,Positive,4,0
+9092,67,Male,New York,Premium,20,115.97,229,2,1,21,98,1,Negative,0,1
+9093,51,Female,Illinois,Premium,9,32.09,114,5,2,18,67,7,Negative,1,0
+9094,66,Male,Texas,Basic,53,136.46,388,3,4,17,49,3,Positive,3,1
+9095,63,Female,Texas,Basic,4,31.17,373,7,4,42,15,2,Negative,4,1
+9096,58,Male,New York,Premium,23,65.94,489,9,0,81,75,3,Negative,3,0
+9097,41,Female,Illinois,Basic,39,35.0,155,7,3,69,91,3,Neutral,2,1
+9098,54,Male,Florida,Premium,39,77.83,498,9,0,72,31,10,Positive,1,1
+9099,27,Male,Texas,Premium,26,69.89,52,8,2,9,95,9,Positive,4,0
+9100,44,Male,Florida,Premium,24,61.59,202,4,2,30,46,8,Positive,1,1
+9101,40,Female,New York,Basic,59,38.23,297,6,1,80,96,6,Negative,1,1
+9102,19,Female,Florida,Basic,35,108.83,422,1,4,54,92,7,Neutral,0,0
+9103,26,Female,California,Premium,13,48.28,477,5,4,1,86,4,Positive,1,0
+9104,54,Male,New York,Basic,43,168.71,14,3,4,55,23,5,Neutral,2,0
+9105,66,Male,Illinois,Premium,9,134.88,274,7,2,30,55,1,Negative,4,0
+9106,21,Female,New York,Enterprise,48,172.62,32,8,2,19,34,3,Neutral,4,1
+9107,48,Female,New York,Premium,34,173.53,487,1,4,50,26,4,Positive,2,0
+9108,49,Male,New York,Basic,23,73.52,362,5,3,53,70,10,Positive,1,0
+9109,38,Female,New York,Premium,58,24.14,152,5,0,38,23,6,Positive,0,1
+9110,38,Female,Illinois,Basic,34,58.31,449,6,3,38,98,4,Negative,0,0
+9111,29,Female,Illinois,Premium,10,93.72,451,1,1,95,96,7,Neutral,4,0
+9112,32,Female,Florida,Basic,42,188.97,320,2,4,81,80,6,Neutral,2,0
+9113,32,Female,Illinois,Premium,47,96.06,221,7,3,58,10,6,Negative,1,0
+9114,35,Female,New York,Basic,31,189.95,58,8,0,40,5,1,Negative,3,1
+9115,37,Female,Florida,Enterprise,42,156.95,440,2,1,7,97,6,Positive,3,1
+9116,43,Female,Florida,Basic,19,99.43,76,2,4,62,87,2,Neutral,2,1
+9117,66,Male,Florida,Basic,23,174.84,98,3,1,66,98,1,Positive,2,1
+9118,61,Female,Florida,Enterprise,28,181.73,267,9,1,9,46,4,Positive,0,0
+9119,41,Male,Florida,Basic,45,92.65,272,4,3,17,5,4,Neutral,1,1
+9120,68,Male,Illinois,Premium,10,164.6,498,3,1,64,37,7,Negative,0,1
+9121,38,Female,Texas,Basic,38,174.71,454,9,0,80,50,5,Neutral,0,0
+9122,31,Male,New York,Basic,34,91.78,298,6,0,98,9,10,Neutral,2,1
+9123,69,Male,Florida,Premium,1,99.82,266,3,0,13,18,10,Positive,4,0
+9124,67,Male,Texas,Basic,43,60.66,161,8,2,88,68,3,Positive,0,0
+9125,19,Female,Florida,Premium,21,95.84,69,0,1,45,61,4,Neutral,1,1
+9126,69,Female,New York,Basic,50,102.86,169,5,1,1,0,10,Neutral,2,1
+9127,38,Male,Florida,Premium,32,132.31,256,6,2,99,9,1,Neutral,4,0
+9128,48,Female,New York,Premium,45,122.41,72,6,2,85,47,6,Neutral,0,1
+9129,20,Female,New York,Premium,51,180.09,152,6,2,28,25,6,Positive,1,0
+9130,37,Male,Illinois,Basic,9,133.21,394,1,0,76,72,5,Neutral,0,0
+9131,39,Male,New York,Basic,11,36.13,174,2,4,35,92,2,Negative,2,1
+9132,64,Female,New York,Premium,13,55.36,106,5,2,66,70,5,Neutral,0,1
+9133,28,Female,Florida,Premium,27,184.08,344,8,1,96,59,7,Positive,4,0
+9134,38,Female,Illinois,Basic,53,21.63,288,8,1,76,63,5,Negative,1,1
+9135,34,Male,New York,Premium,37,142.58,413,1,4,85,75,5,Neutral,2,0
+9136,25,Male,California,Enterprise,18,25.87,326,7,1,28,71,4,Neutral,0,1
+9137,51,Female,New York,Basic,18,51.94,465,0,0,6,82,1,Neutral,4,1
+9138,18,Female,Florida,Basic,11,163.21,117,0,4,96,80,9,Neutral,2,1
+9139,31,Male,California,Basic,39,78.21,216,6,3,33,18,7,Negative,1,0
+9140,21,Female,Illinois,Basic,29,101.16,247,7,4,5,82,2,Positive,0,1
+9141,63,Female,California,Enterprise,47,158.76,272,6,2,92,32,5,Positive,4,1
+9142,20,Male,Florida,Basic,22,120.64,296,8,0,80,26,9,Neutral,0,1
+9143,58,Female,Texas,Premium,31,62.44,256,5,0,38,86,2,Positive,4,0
+9144,41,Female,Texas,Premium,10,190.62,442,3,2,79,23,10,Neutral,3,1
+9145,62,Female,Florida,Premium,44,93.57,90,0,4,29,48,10,Positive,1,1
+9146,27,Female,California,Premium,50,31.92,256,2,1,59,53,8,Negative,3,1
+9147,43,Male,Florida,Premium,2,22.44,459,0,1,77,39,8,Positive,2,1
+9148,48,Female,Illinois,Premium,7,164.92,292,9,4,84,73,6,Positive,1,1
+9149,60,Male,Illinois,Premium,53,105.58,325,0,3,72,25,9,Positive,2,0
+9150,59,Male,Illinois,Premium,55,110.46,400,5,3,66,73,7,Neutral,2,1
+9151,57,Male,New York,Basic,38,65.36,303,3,4,5,80,3,Positive,0,1
+9152,68,Male,New York,Premium,44,167.09,449,4,4,2,7,7,Negative,2,1
+9153,58,Female,Florida,Premium,4,170.33,117,9,4,30,24,5,Neutral,0,1
+9154,27,Female,Texas,Premium,40,113.22,422,6,4,59,44,8,Neutral,2,1
+9155,30,Male,Florida,Basic,6,163.12,151,6,1,28,74,7,Negative,4,1
+9156,25,Male,Florida,Basic,54,157.22,177,6,3,85,78,5,Neutral,1,0
+9157,45,Female,Illinois,Basic,15,58.97,441,1,2,64,53,8,Positive,0,0
+9158,64,Male,Texas,Basic,28,180.58,139,5,3,14,49,1,Negative,4,0
+9159,64,Female,Illinois,Basic,2,48.57,186,3,0,41,2,1,Neutral,4,1
+9160,45,Male,Texas,Enterprise,43,128.06,130,9,0,90,48,6,Negative,0,1
+9161,54,Female,Illinois,Basic,19,186.35,371,5,0,76,53,5,Neutral,2,0
+9162,31,Female,Texas,Basic,26,59.02,479,9,0,74,67,8,Positive,4,1
+9163,40,Female,Illinois,Premium,46,110.58,490,9,1,73,21,1,Negative,0,0
+9164,38,Male,Texas,Enterprise,16,150.71,438,0,1,27,39,3,Negative,2,1
+9165,61,Male,Texas,Premium,25,169.08,303,0,1,58,82,9,Negative,3,0
+9166,50,Male,Florida,Basic,33,27.92,202,1,3,24,88,10,Neutral,1,1
+9167,68,Female,California,Premium,52,12.15,266,9,2,6,4,1,Neutral,1,0
+9168,46,Male,Illinois,Premium,51,187.88,228,6,0,63,17,5,Positive,1,1
+9169,33,Male,New York,Premium,28,109.3,217,4,4,24,69,10,Negative,4,0
+9170,27,Female,Illinois,Premium,24,143.93,348,3,4,97,16,9,Neutral,2,1
+9171,62,Male,Illinois,Basic,28,68.69,13,9,2,14,81,5,Neutral,4,1
+9172,35,Female,California,Basic,24,66.17,130,8,1,98,59,1,Negative,3,1
+9173,42,Male,New York,Enterprise,24,130.16,11,1,0,77,37,7,Negative,0,1
+9174,37,Male,California,Basic,31,49.11,258,0,4,19,8,1,Negative,1,1
+9175,36,Female,New York,Basic,12,145.52,144,6,2,60,50,4,Negative,0,0
+9176,21,Male,California,Premium,42,50.47,373,7,0,28,73,2,Negative,2,0
+9177,22,Male,New York,Premium,7,14.1,312,1,1,51,99,5,Negative,0,0
+9178,55,Female,Texas,Premium,54,178.38,155,1,2,31,38,3,Neutral,4,0
+9179,21,Male,Texas,Basic,54,136.92,345,1,0,60,62,1,Neutral,1,1
+9180,53,Female,Illinois,Premium,28,158.12,496,8,0,49,90,10,Positive,2,0
+9181,23,Female,Illinois,Basic,55,126.88,344,4,0,44,90,10,Negative,0,1
+9182,28,Male,Florida,Premium,27,150.84,273,2,0,94,36,10,Neutral,3,0
+9183,26,Female,Illinois,Premium,26,42.07,338,3,0,17,30,6,Positive,4,1
+9184,19,Female,New York,Basic,58,18.15,91,5,4,88,59,9,Neutral,3,1
+9185,62,Female,California,Premium,48,169.24,235,3,0,57,94,3,Positive,1,0
+9186,26,Female,California,Premium,10,144.29,99,9,2,25,87,5,Positive,0,1
+9187,26,Male,Texas,Basic,33,131.22,114,5,1,16,24,8,Positive,2,0
+9188,26,Male,Texas,Basic,26,74.87,494,6,3,82,86,10,Neutral,0,0
+9189,44,Female,Illinois,Basic,7,182.48,212,7,4,21,11,2,Negative,1,0
+9190,58,Female,Texas,Premium,24,37.18,67,6,4,91,12,8,Neutral,2,1
+9191,66,Male,New York,Basic,8,149.37,304,5,3,33,79,7,Neutral,2,0
+9192,62,Female,Texas,Basic,37,103.09,71,6,4,33,62,3,Neutral,0,1
+9193,41,Male,California,Premium,45,195.14,11,7,2,51,18,1,Positive,3,0
+9194,26,Male,Texas,Premium,4,99.23,295,1,2,29,17,6,Neutral,1,0
+9195,41,Male,California,Basic,9,49.46,485,8,4,51,3,5,Positive,2,0
+9196,56,Male,Florida,Basic,57,120.14,278,6,0,13,64,3,Neutral,4,1
+9197,43,Female,New York,Premium,22,165.07,408,8,0,68,22,10,Neutral,0,1
+9198,62,Male,Florida,Premium,58,139.02,72,0,1,41,64,8,Neutral,4,1
+9199,29,Female,Florida,Basic,45,36.86,36,5,3,28,58,6,Positive,4,0
+9200,65,Female,Florida,Enterprise,56,10.36,96,8,3,97,20,5,Positive,0,1
+9201,59,Male,California,Premium,11,20.52,166,5,3,6,33,6,Positive,2,1
+9202,18,Female,Texas,Premium,15,103.55,10,9,0,52,85,9,Neutral,3,1
+9203,18,Male,Florida,Basic,36,27.06,433,6,1,78,56,9,Positive,2,0
+9204,62,Female,Florida,Premium,19,11.46,277,4,1,45,79,1,Negative,0,0
+9205,42,Female,New York,Basic,18,102.54,336,6,2,64,17,9,Neutral,2,0
+9206,53,Female,California,Premium,12,38.08,401,5,0,7,25,8,Negative,2,1
+9207,40,Male,Texas,Premium,23,54.9,16,9,4,55,26,4,Negative,4,0
+9208,44,Male,Florida,Basic,33,56.16,350,7,1,16,60,8,Neutral,1,0
+9209,57,Male,Florida,Premium,57,43.92,195,2,4,11,60,6,Negative,3,1
+9210,35,Male,Texas,Premium,18,143.66,374,9,2,54,93,8,Negative,2,1
+9211,25,Male,New York,Basic,18,194.71,356,0,4,81,23,8,Positive,3,0
+9212,39,Male,Florida,Premium,40,14.42,434,8,1,89,44,2,Positive,2,0
+9213,35,Female,Florida,Basic,13,42.07,264,2,0,67,38,8,Neutral,0,0
+9214,43,Male,Texas,Basic,30,101.55,159,9,0,97,40,8,Negative,2,0
+9215,64,Female,Illinois,Premium,44,153.62,263,9,1,91,24,3,Positive,0,0
+9216,46,Male,Illinois,Basic,43,27.55,350,2,3,1,55,5,Neutral,0,0
+9217,59,Female,Illinois,Basic,54,162.09,387,9,2,2,85,3,Negative,3,0
+9218,39,Male,Illinois,Basic,54,117.88,28,3,3,9,25,8,Positive,4,1
+9219,32,Male,New York,Basic,23,122.03,111,4,1,22,86,2,Negative,4,1
+9220,21,Female,Illinois,Basic,21,12.54,299,7,4,40,89,1,Negative,0,1
+9221,49,Female,California,Premium,3,23.29,56,7,3,81,81,4,Neutral,4,1
+9222,28,Female,Illinois,Basic,51,193.48,76,7,4,22,74,4,Neutral,2,0
+9223,24,Male,Florida,Premium,18,152.3,204,0,4,19,35,10,Negative,4,1
+9224,23,Male,Texas,Premium,29,160.71,77,9,2,85,56,1,Neutral,2,0
+9225,26,Male,Florida,Premium,20,38.65,181,7,1,77,16,3,Positive,3,1
+9226,33,Male,Illinois,Basic,49,13.03,101,4,1,82,95,9,Negative,3,1
+9227,36,Female,Florida,Premium,6,131.58,238,2,1,0,86,7,Negative,2,1
+9228,23,Female,Illinois,Basic,51,152.74,113,9,4,92,42,10,Neutral,2,1
+9229,57,Male,Texas,Premium,10,186.0,229,4,3,33,49,10,Neutral,4,0
+9230,24,Female,Illinois,Premium,10,47.14,323,4,1,60,82,6,Positive,3,0
+9231,57,Female,California,Basic,37,142.05,387,0,1,98,61,3,Negative,1,0
+9232,56,Male,New York,Basic,15,29.92,376,8,1,85,50,10,Neutral,1,0
+9233,52,Male,Illinois,Basic,8,136.87,435,4,3,9,14,7,Positive,2,1
+9234,23,Female,New York,Basic,48,135.81,469,1,2,94,64,9,Neutral,4,1
+9235,48,Female,Texas,Premium,49,85.31,175,1,2,72,2,8,Positive,2,1
+9236,53,Male,New York,Premium,7,125.12,187,6,1,73,80,10,Neutral,1,0
+9237,57,Female,California,Basic,50,126.56,260,8,1,75,16,5,Negative,1,0
+9238,22,Male,California,Basic,36,50.92,58,4,4,23,58,9,Positive,2,0
+9239,29,Female,Texas,Basic,47,134.46,276,3,4,87,28,8,Neutral,2,1
+9240,60,Female,Florida,Premium,20,129.5,449,1,0,92,67,9,Negative,0,0
+9241,24,Male,Texas,Premium,28,87.82,384,3,4,96,4,6,Positive,4,0
+9242,38,Male,Florida,Premium,38,62.01,138,3,3,24,53,5,Positive,1,0
+9243,35,Male,Texas,Enterprise,7,143.99,261,8,2,2,56,9,Neutral,1,0
+9244,61,Female,Illinois,Premium,26,85.76,333,6,4,91,93,7,Negative,3,1
+9245,31,Male,Texas,Basic,1,140.9,311,7,2,66,9,8,Negative,2,0
+9246,21,Female,Florida,Premium,24,121.6,187,0,3,25,37,10,Positive,3,0
+9247,57,Male,California,Premium,54,47.77,259,6,1,86,12,10,Neutral,2,0
+9248,42,Male,New York,Enterprise,53,187.18,297,1,2,94,2,8,Neutral,4,0
+9249,42,Female,New York,Premium,53,114.1,270,7,0,3,8,4,Negative,1,1
+9250,50,Male,New York,Premium,9,36.9,198,4,2,95,55,7,Positive,0,0
+9251,32,Male,Florida,Premium,10,94.05,397,3,2,17,72,7,Positive,0,1
+9252,48,Male,Illinois,Premium,56,62.62,314,8,3,90,16,9,Positive,4,1
+9253,63,Male,California,Basic,3,21.85,308,4,1,71,98,5,Negative,3,0
+9254,59,Female,Florida,Basic,22,84.63,441,0,4,79,98,6,Neutral,2,0
+9255,55,Male,Illinois,Basic,42,197.82,490,4,1,18,4,6,Positive,4,1
+9256,34,Male,Texas,Basic,45,192.77,262,6,3,19,7,6,Neutral,1,1
+9257,37,Female,Florida,Basic,8,78.65,200,9,1,7,31,1,Negative,3,0
+9258,64,Female,Illinois,Premium,19,45.05,24,8,0,21,16,9,Negative,4,1
+9259,22,Female,California,Basic,47,47.15,401,4,0,72,55,8,Neutral,1,0
+9260,46,Female,New York,Premium,21,192.5,170,4,3,69,56,5,Neutral,1,0
+9261,55,Male,Texas,Basic,55,66.87,379,2,1,50,9,4,Negative,2,0
+9262,21,Female,Texas,Basic,55,75.16,157,4,0,10,37,7,Neutral,4,1
+9263,55,Female,New York,Premium,59,110.84,226,4,4,62,38,1,Negative,3,1
+9264,53,Male,California,Premium,47,49.04,235,3,1,59,82,10,Positive,4,1
+9265,20,Female,New York,Basic,23,165.52,72,5,3,14,98,1,Positive,4,1
+9266,59,Male,Illinois,Enterprise,46,145.78,82,8,3,99,82,9,Neutral,4,0
+9267,24,Female,Florida,Basic,55,157.46,309,2,0,23,12,5,Positive,2,1
+9268,51,Male,California,Premium,11,102.48,281,2,4,73,36,10,Neutral,0,0
+9269,19,Female,Illinois,Enterprise,37,68.63,150,9,4,1,42,8,Positive,3,0
+9270,40,Female,New York,Premium,58,90.99,252,5,4,18,45,9,Positive,2,1
+9271,35,Male,California,Basic,54,32.82,399,4,4,65,16,9,Positive,4,0
+9272,48,Female,California,Enterprise,20,131.14,257,7,1,30,34,9,Neutral,2,0
+9273,29,Male,New York,Premium,23,162.27,467,7,4,96,67,5,Neutral,2,1
+9274,64,Female,Illinois,Premium,22,110.44,381,8,4,25,88,4,Negative,2,1
+9275,30,Female,Florida,Basic,19,90.98,165,9,2,71,88,8,Negative,4,1
+9276,60,Male,Texas,Basic,4,168.98,175,7,4,84,91,10,Neutral,4,1
+9277,23,Male,Texas,Basic,42,22.83,342,4,3,18,30,10,Neutral,0,1
+9278,23,Male,Florida,Premium,3,42.59,187,6,4,3,25,9,Neutral,0,1
+9279,47,Female,Florida,Premium,49,100.44,340,7,3,3,27,9,Neutral,1,0
+9280,49,Male,Texas,Premium,56,88.21,100,4,4,94,48,6,Neutral,3,0
+9281,45,Female,Texas,Basic,13,179.58,321,2,0,98,15,8,Neutral,3,0
+9282,69,Male,Texas,Premium,27,38.68,448,7,4,27,28,10,Neutral,1,0
+9283,44,Male,Florida,Basic,7,142.92,479,6,1,11,19,8,Neutral,2,0
+9284,57,Male,Illinois,Basic,27,131.07,163,8,0,76,9,3,Neutral,2,1
+9285,50,Male,New York,Premium,7,38.17,39,4,2,10,99,2,Positive,0,0
+9286,59,Female,Illinois,Enterprise,15,149.34,311,6,2,82,68,7,Positive,1,0
+9287,34,Female,New York,Basic,2,150.6,317,3,4,56,52,2,Negative,1,1
+9288,30,Female,Texas,Basic,52,112.87,384,0,3,97,8,3,Positive,3,0
+9289,33,Female,Florida,Basic,47,34.16,384,2,3,92,21,4,Positive,4,0
+9290,43,Male,Texas,Basic,13,84.3,256,9,0,49,90,6,Negative,3,0
+9291,44,Male,Illinois,Basic,53,109.56,222,3,2,51,20,6,Neutral,4,1
+9292,45,Male,New York,Premium,44,117.05,338,8,2,10,47,10,Neutral,2,0
+9293,42,Male,California,Basic,55,121.69,247,3,2,5,92,9,Neutral,4,0
+9294,63,Male,New York,Basic,21,143.12,341,7,3,19,4,10,Positive,3,0
+9295,66,Female,New York,Premium,48,187.4,216,3,0,40,14,7,Positive,3,0
+9296,40,Male,Florida,Basic,39,44.42,219,6,1,98,68,1,Negative,2,1
+9297,68,Female,New York,Premium,28,111.29,272,7,0,32,74,9,Positive,3,0
+9298,39,Female,Illinois,Basic,8,142.43,358,5,3,55,67,6,Neutral,2,0
+9299,63,Male,California,Basic,36,93.9,163,9,0,13,59,4,Positive,1,0
+9300,32,Female,California,Enterprise,25,132.02,415,1,0,7,76,3,Positive,0,0
+9301,53,Male,New York,Basic,34,120.06,242,8,4,75,8,3,Negative,3,1
+9302,24,Female,Texas,Premium,22,170.7,36,3,0,58,58,4,Negative,4,1
+9303,39,Female,Illinois,Premium,17,152.05,324,5,1,87,87,4,Neutral,2,1
+9304,47,Male,Illinois,Premium,41,80.03,235,8,4,28,78,7,Negative,0,1
+9305,27,Female,Texas,Basic,49,46.92,182,0,1,24,52,10,Negative,1,0
+9306,42,Male,Florida,Basic,41,15.42,175,3,3,8,41,4,Negative,2,0
+9307,62,Female,Florida,Basic,50,150.54,20,3,3,67,98,9,Negative,0,0
+9308,36,Female,Florida,Premium,14,154.95,287,4,3,8,35,10,Negative,4,0
+9309,52,Male,Texas,Basic,4,173.95,361,3,2,22,38,10,Positive,1,1
+9310,18,Male,Florida,Basic,35,63.51,237,1,4,42,59,6,Positive,4,0
+9311,49,Male,Florida,Premium,32,88.65,262,8,4,28,43,1,Negative,4,0
+9312,66,Female,New York,Premium,4,87.4,277,3,4,4,33,3,Positive,1,1
+9313,48,Male,Texas,Premium,24,111.52,326,9,0,77,77,10,Neutral,4,1
+9314,50,Female,Florida,Basic,24,144.16,197,0,1,89,92,8,Negative,3,0
+9315,61,Male,Illinois,Premium,56,120.48,411,9,4,1,10,6,Neutral,4,0
+9316,66,Male,Florida,Premium,40,20.3,402,6,2,48,21,1,Positive,0,1
+9317,32,Male,New York,Basic,20,141.4,468,1,1,19,69,5,Neutral,2,0
+9318,57,Male,Texas,Premium,58,126.78,46,8,2,28,11,2,Negative,4,1
+9319,60,Female,Florida,Basic,54,124.3,27,2,0,11,39,1,Negative,1,1
+9320,56,Male,New York,Enterprise,34,186.38,67,8,0,78,95,8,Negative,3,0
+9321,29,Female,Florida,Premium,23,87.14,230,1,3,53,17,10,Neutral,2,0
+9322,37,Female,California,Basic,15,76.78,295,5,1,53,8,3,Positive,4,0
+9323,18,Female,Florida,Premium,8,44.0,23,8,2,77,16,2,Negative,0,0
+9324,24,Male,Florida,Basic,4,71.47,491,8,0,28,20,10,Negative,1,1
+9325,26,Male,California,Basic,37,129.85,219,2,4,53,30,8,Positive,4,1
+9326,39,Female,Texas,Basic,19,103.11,298,9,1,39,87,2,Neutral,3,0
+9327,64,Male,Florida,Premium,30,104.99,338,0,3,95,76,2,Positive,4,0
+9328,63,Female,Texas,Basic,14,31.27,245,6,1,17,76,5,Positive,4,0
+9329,64,Female,New York,Basic,25,93.7,59,3,0,0,58,10,Positive,0,0
+9330,51,Male,Illinois,Premium,45,78.13,409,8,2,76,87,10,Positive,0,1
+9331,64,Female,Texas,Basic,8,144.59,144,8,1,7,96,10,Negative,3,1
+9332,48,Male,Florida,Basic,52,29.38,136,1,0,30,81,9,Positive,0,0
+9333,26,Female,New York,Premium,18,155.47,382,6,0,28,23,4,Negative,4,1
+9334,21,Male,New York,Premium,13,104.15,196,7,2,79,32,4,Negative,3,1
+9335,32,Female,Illinois,Premium,25,136.17,332,0,4,92,60,9,Negative,3,0
+9336,30,Female,California,Basic,18,197.78,496,4,3,28,53,8,Positive,4,0
+9337,29,Male,New York,Premium,26,161.81,143,4,1,4,28,6,Positive,2,1
+9338,51,Female,Florida,Basic,15,103.64,12,9,2,31,89,5,Positive,0,0
+9339,58,Female,Illinois,Basic,46,81.69,280,1,0,47,4,5,Positive,1,1
+9340,26,Female,Florida,Basic,51,177.79,318,8,0,90,91,1,Neutral,4,0
+9341,48,Female,California,Premium,53,38.61,451,9,1,19,40,5,Positive,3,1
+9342,57,Female,Florida,Basic,35,60.18,460,2,1,79,33,6,Positive,0,1
+9343,38,Female,California,Basic,43,175.26,115,3,1,48,82,3,Negative,2,1
+9344,53,Male,Illinois,Basic,8,58.9,316,4,3,46,3,10,Positive,1,0
+9345,27,Male,Florida,Premium,26,44.04,447,3,4,32,69,10,Positive,4,1
+9346,18,Female,Texas,Premium,58,164.63,288,5,4,10,25,8,Neutral,2,0
+9347,37,Female,Florida,Basic,22,93.46,202,0,4,42,15,8,Positive,4,1
+9348,36,Male,Texas,Premium,28,178.02,34,5,3,41,66,2,Negative,4,1
+9349,30,Female,Texas,Premium,12,68.66,372,4,1,26,90,4,Neutral,0,0
+9350,34,Female,Florida,Premium,43,120.81,362,9,3,65,84,5,Positive,3,0
+9351,46,Female,Texas,Basic,58,68.17,13,2,4,27,60,3,Negative,1,1
+9352,22,Female,New York,Enterprise,48,168.55,191,8,0,31,90,1,Positive,3,1
+9353,69,Male,New York,Premium,6,71.32,54,9,2,87,24,9,Neutral,3,1
+9354,32,Female,Florida,Premium,9,69.13,170,2,3,70,26,10,Positive,2,0
+9355,33,Female,New York,Premium,9,113.18,170,4,1,25,69,8,Positive,0,1
+9356,45,Male,Texas,Basic,42,126.03,458,0,2,67,37,5,Neutral,4,0
+9357,51,Female,Illinois,Premium,47,53.44,369,4,4,34,89,2,Neutral,1,0
+9358,31,Male,Florida,Premium,43,12.61,262,5,2,85,82,3,Neutral,4,1
+9359,27,Female,California,Enterprise,48,46.6,33,0,1,7,25,2,Positive,0,0
+9360,39,Male,New York,Premium,16,167.28,361,7,2,19,17,7,Neutral,1,0
+9361,36,Male,New York,Premium,27,178.47,54,4,3,40,62,3,Positive,1,1
+9362,22,Male,Texas,Basic,12,137.98,321,5,3,20,39,4,Neutral,4,0
+9363,24,Female,New York,Basic,59,60.27,310,1,0,57,36,8,Neutral,3,0
+9364,29,Male,Florida,Basic,35,45.81,420,8,4,60,44,8,Neutral,2,1
+9365,23,Male,Illinois,Enterprise,37,45.11,462,7,2,59,27,6,Negative,1,0
+9366,40,Male,New York,Premium,14,181.99,441,7,4,56,68,6,Negative,4,1
+9367,68,Female,Florida,Enterprise,38,108.21,422,5,2,9,14,7,Positive,4,0
+9368,24,Male,Illinois,Enterprise,30,111.47,50,9,1,19,75,10,Negative,0,1
+9369,44,Male,New York,Enterprise,21,100.31,229,3,3,98,13,1,Neutral,1,0
+9370,27,Male,California,Basic,20,140.16,212,1,1,57,68,8,Negative,0,1
+9371,33,Female,Florida,Basic,23,113.15,497,8,1,34,29,5,Positive,4,0
+9372,66,Female,Texas,Premium,24,131.56,295,0,4,90,29,2,Negative,1,0
+9373,59,Male,Texas,Premium,40,186.32,97,7,1,67,93,9,Negative,4,0
+9374,68,Male,Illinois,Basic,11,152.98,190,7,1,75,14,2,Positive,1,1
+9375,64,Female,Florida,Basic,10,56.05,227,5,0,45,56,5,Neutral,4,1
+9376,61,Female,Illinois,Basic,53,65.06,331,5,4,79,67,9,Negative,0,1
+9377,34,Male,Florida,Premium,37,162.5,363,1,1,13,72,10,Neutral,0,0
+9378,18,Male,New York,Basic,35,107.69,217,5,4,99,71,2,Negative,1,1
+9379,36,Male,New York,Premium,14,35.07,256,4,2,78,24,5,Negative,4,1
+9380,43,Male,Florida,Basic,54,22.18,139,6,2,88,80,5,Positive,0,1
+9381,57,Female,Illinois,Premium,15,41.61,131,6,1,57,16,6,Negative,3,0
+9382,21,Female,Florida,Premium,2,94.41,405,5,4,88,38,9,Positive,2,1
+9383,29,Female,New York,Basic,7,18.19,16,2,1,52,93,1,Neutral,3,0
+9384,50,Female,Texas,Basic,56,27.67,60,6,4,65,23,7,Positive,4,1
+9385,38,Female,New York,Basic,24,149.35,324,4,4,79,81,2,Negative,0,1
+9386,57,Male,California,Premium,35,186.13,215,4,1,42,45,7,Negative,3,0
+9387,45,Male,Illinois,Basic,24,20.14,297,1,0,74,56,5,Neutral,4,1
+9388,47,Male,Illinois,Enterprise,2,48.31,464,8,0,27,33,7,Positive,2,1
+9389,56,Female,Illinois,Enterprise,25,32.17,190,7,2,89,81,8,Neutral,0,0
+9390,20,Female,California,Premium,41,118.88,173,0,0,6,73,10,Positive,4,1
+9391,59,Female,Illinois,Premium,24,161.48,447,0,3,17,47,1,Neutral,3,1
+9392,18,Male,California,Premium,16,92.98,444,3,2,29,52,8,Negative,2,0
+9393,19,Female,Texas,Basic,19,16.27,492,9,1,61,75,9,Positive,3,1
+9394,54,Male,New York,Basic,27,81.53,219,7,4,30,27,8,Negative,1,0
+9395,68,Male,New York,Basic,46,41.78,489,0,1,27,30,1,Negative,1,0
+9396,48,Male,New York,Basic,2,62.35,86,1,0,11,49,10,Positive,2,0
+9397,28,Female,California,Enterprise,32,31.35,211,1,4,70,2,7,Neutral,4,1
+9398,29,Male,New York,Basic,21,78.98,248,4,2,70,91,6,Negative,1,0
+9399,19,Female,Texas,Basic,49,115.18,277,9,2,81,91,1,Neutral,2,1
+9400,37,Female,Florida,Basic,45,158.94,268,4,1,52,64,5,Negative,4,1
+9401,55,Male,Texas,Basic,3,82.33,223,8,2,48,83,5,Positive,1,0
+9402,66,Female,New York,Basic,43,10.3,93,6,0,87,51,10,Neutral,0,0
+9403,29,Female,Illinois,Premium,15,137.55,82,8,0,40,60,9,Neutral,1,0
+9404,64,Female,Florida,Premium,21,141.68,403,5,1,74,41,10,Negative,4,1
+9405,61,Female,Florida,Basic,8,34.77,117,8,3,41,56,9,Neutral,3,1
+9406,30,Female,Florida,Premium,27,102.26,69,8,4,49,52,7,Negative,4,0
+9407,65,Male,Illinois,Premium,11,19.64,129,6,1,93,8,5,Neutral,0,1
+9408,47,Female,Florida,Premium,42,127.97,379,6,4,24,5,10,Neutral,0,1
+9409,22,Female,California,Basic,3,180.71,379,3,2,92,2,4,Neutral,4,0
+9410,47,Male,Illinois,Premium,12,88.06,331,4,2,44,88,2,Positive,1,0
+9411,39,Male,California,Basic,22,99.49,354,5,3,80,97,1,Positive,4,0
+9412,20,Female,Illinois,Basic,29,191.5,61,2,3,40,31,8,Positive,2,1
+9413,53,Female,New York,Premium,40,148.95,245,4,0,44,70,3,Neutral,4,0
+9414,18,Female,Florida,Basic,3,181.3,377,6,2,31,23,8,Negative,4,1
+9415,19,Male,Illinois,Premium,30,36.49,144,1,2,37,50,3,Negative,3,0
+9416,32,Male,California,Premium,12,99.39,322,6,1,27,37,8,Negative,2,1
+9417,33,Female,Texas,Basic,17,69.59,204,6,4,90,71,4,Positive,3,0
+9418,62,Male,Florida,Premium,38,127.99,462,3,2,40,53,6,Neutral,3,1
+9419,48,Male,California,Basic,52,166.06,90,3,1,41,62,8,Neutral,2,1
+9420,50,Male,Texas,Premium,13,36.38,381,7,0,39,27,3,Negative,1,0
+9421,61,Male,Illinois,Premium,53,149.1,388,0,2,4,98,6,Negative,2,1
+9422,24,Male,Florida,Basic,36,117.39,353,5,0,11,79,3,Negative,0,0
+9423,31,Female,Texas,Premium,51,29.2,60,4,0,35,96,4,Neutral,1,0
+9424,37,Female,California,Enterprise,31,157.45,144,1,0,40,68,3,Negative,2,0
+9425,27,Female,Texas,Basic,20,115.03,124,1,4,28,29,10,Positive,3,0
+9426,63,Female,Illinois,Basic,51,69.45,247,5,4,14,1,9,Neutral,0,0
+9427,18,Female,Illinois,Premium,48,34.39,24,7,3,42,10,2,Neutral,4,0
+9428,60,Male,Illinois,Enterprise,34,55.58,360,5,1,70,26,3,Negative,4,0
+9429,27,Male,Illinois,Premium,39,114.77,278,0,0,65,30,5,Neutral,1,1
+9430,53,Male,Illinois,Basic,22,113.3,430,2,1,45,45,4,Negative,2,0
+9431,50,Female,New York,Basic,39,186.87,397,0,2,38,13,7,Positive,3,1
+9432,66,Male,Texas,Premium,14,50.7,276,3,1,95,22,2,Negative,4,1
+9433,38,Female,California,Basic,3,46.44,457,3,2,59,37,7,Neutral,0,0
+9434,42,Male,Florida,Premium,57,170.55,364,9,4,53,71,6,Positive,3,0
+9435,47,Female,Texas,Basic,16,77.28,23,3,1,1,62,4,Negative,1,0
+9436,34,Female,New York,Premium,1,82.63,219,4,2,6,71,1,Positive,0,0
+9437,60,Male,Texas,Basic,48,43.29,401,2,3,5,37,5,Neutral,1,0
+9438,55,Male,Florida,Basic,53,59.67,298,9,0,97,9,6,Positive,2,1
+9439,32,Male,Florida,Basic,49,175.01,18,6,4,7,85,9,Neutral,3,0
+9440,52,Female,Texas,Premium,9,18.46,420,0,1,82,80,7,Negative,0,0
+9441,26,Female,California,Basic,49,121.43,441,9,4,93,76,1,Positive,3,0
+9442,61,Female,California,Basic,4,161.13,45,8,0,49,12,10,Negative,2,1
+9443,55,Female,Florida,Premium,4,182.2,286,1,3,80,94,9,Positive,4,1
+9444,32,Male,Florida,Basic,28,132.65,237,7,3,30,88,3,Positive,1,1
+9445,53,Female,Texas,Basic,5,29.19,412,0,1,21,50,7,Neutral,3,0
+9446,66,Female,Illinois,Premium,3,112.12,155,3,1,55,40,7,Negative,1,1
+9447,29,Female,Florida,Premium,37,124.52,279,9,4,4,57,1,Positive,3,0
+9448,28,Female,Texas,Enterprise,10,77.02,199,6,3,31,46,8,Positive,0,0
+9449,67,Female,New York,Enterprise,2,160.3,355,0,0,65,25,10,Negative,1,0
+9450,64,Male,New York,Premium,19,109.04,268,9,2,74,63,7,Positive,1,0
+9451,57,Male,California,Basic,20,16.37,172,1,2,0,15,2,Negative,3,1
+9452,63,Male,California,Basic,59,187.29,111,7,2,56,98,1,Positive,0,1
+9453,62,Male,Florida,Premium,1,135.98,361,2,0,1,49,2,Neutral,2,0
+9454,63,Male,Texas,Premium,44,190.03,77,5,2,7,74,6,Neutral,0,1
+9455,51,Female,New York,Basic,21,126.25,120,7,4,97,79,7,Neutral,2,0
+9456,28,Female,Texas,Basic,23,138.06,77,3,2,62,50,1,Positive,0,0
+9457,32,Female,New York,Basic,15,37.16,278,8,0,76,24,8,Positive,0,0
+9458,38,Female,Florida,Basic,38,11.41,225,9,3,16,86,1,Negative,4,1
+9459,42,Male,Texas,Premium,1,32.49,146,8,2,14,83,4,Negative,2,0
+9460,20,Male,California,Premium,16,49.36,288,7,2,87,84,9,Positive,2,1
+9461,41,Male,Texas,Basic,15,115.1,18,8,2,70,57,2,Positive,2,1
+9462,46,Male,California,Premium,20,56.79,58,9,2,92,90,7,Negative,2,0
+9463,50,Female,New York,Basic,18,100.61,187,8,3,26,99,5,Negative,1,0
+9464,44,Male,Texas,Premium,4,166.77,123,4,4,66,96,5,Negative,3,0
+9465,30,Male,California,Basic,1,118.99,164,9,3,81,64,9,Negative,0,1
+9466,18,Male,Texas,Enterprise,53,116.49,191,9,2,44,86,1,Negative,2,0
+9467,66,Male,Florida,Premium,11,190.28,338,0,2,95,84,5,Positive,4,0
+9468,33,Female,California,Enterprise,25,70.44,294,2,0,59,79,10,Positive,2,1
+9469,18,Female,Illinois,Premium,3,157.8,363,9,3,35,47,7,Positive,3,0
+9470,29,Male,New York,Basic,35,175.47,54,6,1,88,79,5,Neutral,4,1
+9471,35,Male,Texas,Enterprise,21,172.22,351,9,0,3,9,7,Neutral,4,1
+9472,38,Male,Texas,Premium,44,92.67,432,1,2,54,94,1,Neutral,4,1
+9473,43,Female,New York,Premium,18,116.78,19,9,4,25,95,4,Neutral,1,0
+9474,37,Female,California,Premium,1,91.25,219,4,0,40,85,2,Negative,1,1
+9475,29,Female,New York,Premium,4,24.19,312,6,0,67,44,9,Negative,0,1
+9476,21,Female,Texas,Basic,29,184.72,186,1,3,20,19,8,Positive,2,0
+9477,18,Male,Illinois,Basic,15,147.94,154,4,0,79,68,4,Negative,3,0
+9478,19,Female,Texas,Basic,14,163.42,456,2,0,4,21,5,Negative,3,0
+9479,42,Female,Florida,Basic,11,54.08,47,6,1,29,96,2,Neutral,3,1
+9480,22,Female,California,Basic,43,120.32,209,6,1,84,90,1,Neutral,1,0
+9481,43,Female,Illinois,Basic,23,38.03,259,0,4,97,64,8,Positive,2,1
+9482,46,Female,New York,Enterprise,7,155.26,424,5,4,5,47,10,Neutral,3,1
+9483,48,Female,California,Basic,46,50.57,52,6,3,95,44,5,Neutral,2,1
+9484,36,Male,Texas,Basic,43,113.04,379,5,2,91,18,10,Positive,0,1
+9485,19,Male,Illinois,Basic,18,83.69,124,2,3,79,16,7,Negative,1,1
+9486,37,Male,New York,Premium,51,181.59,324,7,3,14,93,2,Negative,0,1
+9487,22,Female,New York,Enterprise,7,97.15,201,6,0,71,37,8,Neutral,3,0
+9488,35,Female,Texas,Premium,9,68.11,482,0,4,10,78,1,Negative,0,0
+9489,29,Female,New York,Basic,25,13.56,351,3,0,68,39,6,Positive,3,0
+9490,66,Male,Florida,Premium,22,129.17,44,6,2,22,28,10,Negative,4,1
+9491,24,Male,Florida,Basic,59,105.9,222,9,4,3,12,10,Neutral,3,1
+9492,33,Male,Illinois,Basic,19,137.82,406,4,3,49,41,9,Positive,2,0
+9493,21,Female,California,Premium,49,120.26,177,9,1,91,50,9,Neutral,0,1
+9494,18,Female,Florida,Basic,42,154.23,90,1,4,30,76,6,Positive,0,1
+9495,52,Female,California,Basic,54,31.44,143,9,0,10,91,9,Negative,2,0
+9496,32,Male,Illinois,Basic,10,15.92,54,8,0,54,42,7,Negative,4,0
+9497,69,Female,New York,Basic,16,68.12,43,8,1,42,89,7,Neutral,2,1
+9498,30,Female,Florida,Premium,33,172.4,241,0,1,0,4,10,Negative,2,0
+9499,18,Male,Florida,Basic,53,191.3,278,0,3,46,80,2,Positive,4,1
+9500,41,Female,Texas,Basic,6,55.02,152,6,4,54,10,4,Negative,1,0
+9501,26,Male,Illinois,Basic,9,76.36,330,5,0,55,86,2,Neutral,0,0
+9502,61,Female,California,Basic,36,193.8,475,5,3,99,93,8,Positive,0,0
+9503,33,Male,California,Basic,32,69.39,404,5,0,83,70,2,Positive,4,0
+9504,53,Male,Florida,Premium,16,128.52,186,6,0,7,5,8,Neutral,2,1
+9505,62,Male,Texas,Basic,35,55.1,53,7,3,98,25,1,Negative,1,1
+9506,18,Female,Texas,Basic,35,173.5,357,4,2,79,4,7,Neutral,4,0
+9507,52,Female,Florida,Basic,11,146.7,269,1,1,66,19,4,Positive,3,1
+9508,35,Female,Texas,Premium,58,41.87,42,8,2,54,3,7,Positive,0,0
+9509,54,Male,California,Basic,32,114.5,106,0,1,95,52,2,Positive,0,0
+9510,50,Male,New York,Enterprise,28,96.55,457,6,4,9,97,5,Neutral,0,0
+9511,32,Male,Illinois,Enterprise,57,156.35,56,1,4,50,62,7,Neutral,3,0
+9512,46,Male,New York,Basic,45,148.25,280,7,2,51,57,6,Neutral,4,0
+9513,21,Male,Florida,Basic,30,141.47,302,6,1,81,59,1,Neutral,1,1
+9514,27,Male,New York,Premium,59,144.12,232,4,3,94,19,2,Negative,3,1
+9515,59,Male,Illinois,Premium,22,179.7,97,3,2,72,85,7,Negative,4,1
+9516,32,Female,California,Premium,56,156.63,209,2,3,52,54,5,Positive,4,1
+9517,62,Female,Illinois,Premium,24,116.01,376,9,1,46,98,7,Positive,1,0
+9518,44,Male,Texas,Basic,56,178.04,318,6,1,22,15,7,Negative,4,0
+9519,52,Male,Florida,Basic,58,76.9,106,1,1,75,60,5,Neutral,4,1
+9520,27,Female,Illinois,Basic,2,176.1,56,7,4,61,14,10,Positive,4,0
+9521,31,Male,Texas,Basic,30,126.04,282,2,3,37,21,7,Negative,2,1
+9522,37,Female,Texas,Premium,42,165.34,331,3,0,79,4,2,Positive,0,1
+9523,53,Male,Texas,Basic,52,143.88,166,4,3,94,87,4,Negative,2,1
+9524,45,Female,Illinois,Premium,33,64.35,78,5,1,29,17,5,Neutral,2,0
+9525,31,Male,New York,Enterprise,50,198.91,241,0,1,48,10,3,Neutral,2,1
+9526,53,Male,Illinois,Basic,47,63.77,254,3,2,59,55,3,Negative,2,0
+9527,34,Female,Texas,Basic,38,113.48,455,1,4,69,0,3,Neutral,3,0
+9528,66,Female,New York,Basic,24,63.18,179,9,1,85,15,2,Positive,0,1
+9529,39,Male,Florida,Basic,52,97.72,361,1,3,55,36,6,Positive,1,1
+9530,35,Female,Texas,Basic,38,126.73,445,5,4,46,52,1,Negative,3,1
+9531,26,Female,California,Basic,55,51.51,425,2,1,37,84,1,Negative,0,1
+9532,69,Male,Illinois,Enterprise,40,110.46,381,9,1,20,88,10,Positive,0,1
+9533,66,Male,Texas,Premium,18,167.62,68,4,1,84,48,1,Negative,2,0
+9534,67,Female,Florida,Premium,17,177.74,367,6,0,4,73,3,Negative,0,0
+9535,59,Female,Illinois,Enterprise,52,64.94,303,4,4,45,65,3,Negative,1,0
+9536,27,Female,Texas,Basic,47,39.78,257,4,2,49,45,2,Negative,1,1
+9537,34,Female,Florida,Basic,29,71.74,155,9,4,75,89,10,Neutral,1,0
+9538,20,Male,New York,Basic,49,48.72,84,4,3,90,7,5,Negative,1,0
+9539,62,Female,Texas,Basic,15,148.39,421,5,0,25,9,9,Positive,2,0
+9540,43,Female,Texas,Basic,55,192.48,291,7,1,46,69,7,Neutral,4,0
+9541,28,Male,New York,Enterprise,10,70.59,174,5,1,63,59,9,Positive,3,1
+9542,31,Male,New York,Premium,15,69.83,445,6,4,68,10,7,Neutral,1,1
+9543,30,Male,New York,Enterprise,38,144.28,306,6,4,15,12,10,Neutral,3,0
+9544,30,Male,New York,Basic,17,140.05,309,9,4,32,18,8,Negative,4,0
+9545,50,Male,Illinois,Basic,22,92.89,201,7,2,40,92,5,Neutral,2,1
+9546,35,Male,New York,Premium,20,69.7,389,3,1,46,79,6,Positive,3,0
+9547,28,Male,New York,Basic,15,101.31,159,8,2,36,51,3,Neutral,1,0
+9548,62,Male,California,Premium,51,143.51,357,3,0,24,67,9,Negative,4,1
+9549,19,Female,Florida,Enterprise,58,88.76,128,3,2,60,52,2,Neutral,1,0
+9550,47,Female,Florida,Basic,58,175.08,373,7,0,16,77,2,Negative,0,0
+9551,33,Female,Illinois,Basic,55,137.35,206,4,3,45,64,5,Negative,0,1
+9552,42,Male,Illinois,Basic,19,134.42,460,5,0,9,32,1,Neutral,3,0
+9553,52,Female,California,Premium,20,143.06,172,3,3,41,20,5,Neutral,1,0
+9554,24,Male,New York,Basic,12,184.56,55,3,4,33,22,6,Negative,2,0
+9555,31,Female,New York,Basic,16,80.74,375,9,3,43,66,6,Neutral,2,0
+9556,69,Male,California,Basic,34,99.02,107,0,3,98,42,9,Positive,3,0
+9557,34,Female,New York,Enterprise,55,25.21,310,3,0,8,9,3,Negative,4,0
+9558,49,Male,Texas,Premium,44,63.13,216,1,2,43,47,9,Neutral,2,0
+9559,40,Male,Florida,Premium,41,69.47,119,4,3,27,79,6,Neutral,3,1
+9560,28,Female,Texas,Basic,20,198.38,126,0,4,33,27,10,Negative,4,1
+9561,69,Female,California,Premium,24,88.37,160,6,4,41,89,3,Negative,2,1
+9562,25,Female,Illinois,Basic,36,45.7,253,8,3,94,81,8,Neutral,0,1
+9563,53,Male,California,Basic,58,188.01,68,2,2,37,30,5,Neutral,0,0
+9564,30,Male,Florida,Basic,30,93.7,44,0,3,39,5,7,Positive,4,0
+9565,55,Female,California,Basic,20,60.54,215,1,2,77,72,6,Neutral,1,1
+9566,20,Female,Texas,Basic,25,175.8,70,7,3,45,20,2,Neutral,0,1
+9567,34,Female,New York,Premium,5,120.39,96,0,1,10,36,9,Positive,0,1
+9568,44,Female,Texas,Basic,53,130.61,111,3,0,36,40,7,Negative,0,1
+9569,58,Male,Florida,Enterprise,53,64.11,369,3,4,2,54,9,Positive,0,1
+9570,36,Male,Illinois,Basic,58,137.95,402,9,1,64,97,4,Negative,2,0
+9571,45,Female,California,Premium,37,170.04,152,1,0,7,15,7,Positive,4,0
+9572,47,Female,Florida,Premium,15,129.7,494,7,2,88,85,6,Neutral,4,1
+9573,58,Male,California,Enterprise,21,150.33,181,2,1,70,47,1,Positive,1,1
+9574,19,Male,Florida,Basic,17,66.7,309,7,0,7,80,7,Negative,2,0
+9575,69,Female,California,Basic,1,191.85,53,1,3,84,15,10,Negative,3,1
+9576,30,Female,Texas,Basic,38,148.54,466,9,0,68,91,9,Negative,4,1
+9577,34,Male,New York,Premium,37,52.74,297,8,2,58,81,6,Positive,1,1
+9578,67,Male,Texas,Premium,30,56.83,195,7,4,32,50,6,Positive,3,0
+9579,35,Female,Texas,Premium,35,188.16,455,6,2,7,85,4,Neutral,2,1
+9580,51,Male,California,Premium,20,94.72,282,0,2,40,49,7,Neutral,0,0
+9581,28,Male,Illinois,Basic,4,72.75,453,2,3,27,27,6,Negative,4,1
+9582,67,Female,Florida,Enterprise,50,98.99,204,0,1,96,98,4,Neutral,0,0
+9583,66,Female,Texas,Basic,24,83.87,120,4,1,99,35,7,Negative,3,1
+9584,37,Male,Illinois,Basic,34,145.71,446,6,1,97,65,10,Positive,1,0
+9585,48,Female,Texas,Premium,36,79.87,455,5,3,88,38,8,Positive,2,1
+9586,56,Female,Texas,Basic,14,20.77,312,8,3,35,44,3,Neutral,4,0
+9587,26,Female,Texas,Basic,30,12.97,469,4,3,80,86,10,Neutral,3,0
+9588,46,Female,Illinois,Basic,45,198.09,175,0,0,49,40,9,Negative,2,1
+9589,68,Male,Texas,Premium,3,141.82,324,0,0,11,28,6,Positive,3,0
+9590,37,Male,Illinois,Basic,22,55.37,170,7,3,7,97,1,Positive,0,0
+9591,25,Male,Texas,Basic,17,137.03,73,7,4,37,34,4,Positive,2,1
+9592,51,Female,Texas,Premium,34,178.66,490,4,0,23,51,7,Negative,1,1
+9593,60,Female,New York,Premium,12,148.62,36,0,1,60,64,8,Positive,4,1
+9594,18,Male,New York,Basic,17,145.69,280,3,1,78,79,4,Negative,4,0
+9595,48,Male,California,Basic,5,136.67,205,6,1,11,96,4,Negative,0,0
+9596,49,Female,Texas,Premium,18,156.99,167,0,1,87,62,3,Neutral,2,0
+9597,18,Female,New York,Premium,5,102.36,346,8,0,27,25,5,Neutral,0,1
+9598,59,Male,Illinois,Premium,59,43.06,306,8,0,27,80,9,Negative,4,0
+9599,51,Male,Illinois,Premium,11,60.61,332,4,3,51,42,8,Negative,2,1
+9600,45,Male,New York,Basic,7,135.66,323,4,2,3,69,9,Neutral,2,0
+9601,47,Female,New York,Premium,5,43.7,107,3,3,16,11,1,Neutral,2,1
+9602,29,Male,California,Premium,6,52.26,102,0,4,16,23,8,Negative,0,0
+9603,44,Male,California,Basic,24,160.64,373,2,0,13,9,8,Positive,0,1
+9604,27,Male,New York,Basic,34,109.35,263,5,4,18,40,1,Positive,0,0
+9605,18,Male,Texas,Premium,18,18.93,130,6,1,74,35,9,Neutral,1,0
+9606,26,Female,California,Basic,33,115.9,25,6,3,27,64,10,Neutral,4,1
+9607,30,Male,Illinois,Premium,37,63.8,354,5,1,99,32,9,Neutral,0,1
+9608,53,Male,Texas,Premium,11,69.46,276,2,2,38,40,4,Neutral,0,0
+9609,33,Male,Florida,Basic,38,42.22,482,1,4,48,30,8,Positive,1,1
+9610,41,Male,New York,Premium,17,44.28,214,8,0,89,26,8,Positive,3,0
+9611,64,Female,Texas,Basic,41,108.8,204,2,4,3,35,10,Neutral,3,0
+9612,41,Female,California,Enterprise,30,101.85,131,5,1,93,47,9,Positive,2,0
+9613,67,Female,Florida,Basic,36,103.96,157,4,2,69,83,4,Negative,0,1
+9614,23,Male,Texas,Basic,20,54.58,414,6,0,6,26,6,Neutral,0,0
+9615,47,Female,California,Premium,50,123.97,248,0,3,8,38,9,Neutral,2,0
+9616,32,Male,Florida,Premium,2,145.09,58,7,1,5,25,3,Negative,4,0
+9617,26,Male,Florida,Enterprise,49,188.86,117,5,0,74,37,7,Negative,0,1
+9618,35,Male,Illinois,Basic,59,183.96,152,2,3,74,29,3,Negative,2,0
+9619,53,Female,Florida,Premium,47,176.69,337,3,1,6,75,10,Negative,3,1
+9620,55,Male,Florida,Basic,13,46.11,132,6,1,60,30,10,Neutral,0,0
+9621,67,Female,Texas,Enterprise,34,176.84,176,3,0,89,28,3,Negative,1,1
+9622,57,Male,Texas,Basic,34,64.1,256,7,4,26,75,2,Negative,3,0
+9623,51,Male,Florida,Basic,40,65.71,190,6,0,48,45,9,Negative,2,0
+9624,25,Female,New York,Basic,49,84.5,231,5,2,11,23,2,Neutral,2,0
+9625,31,Male,California,Basic,44,10.95,411,1,2,91,85,4,Neutral,4,1
+9626,31,Male,New York,Basic,16,139.35,81,9,3,52,65,1,Positive,4,0
+9627,60,Female,Illinois,Basic,7,104.57,403,2,3,0,55,5,Negative,0,0
+9628,37,Male,New York,Premium,58,120.76,177,0,3,40,35,7,Negative,2,0
+9629,46,Female,Florida,Basic,17,152.25,127,2,4,46,83,4,Positive,1,1
+9630,62,Female,Illinois,Basic,39,173.37,248,6,1,53,80,3,Positive,2,1
+9631,40,Female,New York,Basic,18,15.75,193,9,0,6,9,1,Neutral,0,0
+9632,54,Male,Florida,Basic,14,176.92,196,0,1,9,95,2,Negative,0,1
+9633,40,Male,Florida,Premium,44,149.81,412,7,3,98,77,4,Negative,3,0
+9634,19,Male,Texas,Basic,2,148.85,466,6,1,68,73,9,Negative,2,1
+9635,54,Female,Texas,Basic,12,19.11,210,2,1,83,39,10,Negative,4,1
+9636,30,Male,Illinois,Basic,14,18.67,60,4,2,49,38,3,Negative,1,1
+9637,69,Female,California,Basic,12,33.17,101,6,0,51,82,7,Positive,4,0
+9638,40,Female,Florida,Basic,32,187.88,156,2,1,79,56,4,Neutral,4,1
+9639,65,Female,Florida,Basic,16,111.56,40,6,1,47,69,9,Negative,0,1
+9640,55,Female,Florida,Premium,20,36.98,313,5,4,47,61,6,Neutral,2,1
+9641,37,Female,Illinois,Premium,39,10.85,180,1,2,58,99,3,Negative,2,0
+9642,61,Male,New York,Premium,21,58.63,163,1,3,76,73,2,Positive,4,1
+9643,62,Male,New York,Premium,56,184.94,165,6,4,68,85,3,Positive,0,1
+9644,19,Male,Florida,Basic,15,156.53,104,8,2,68,91,7,Positive,0,1
+9645,53,Male,California,Basic,44,99.13,451,9,0,99,16,1,Neutral,0,1
+9646,34,Female,California,Basic,19,112.79,21,3,4,53,80,8,Positive,2,0
+9647,65,Female,Texas,Premium,58,138.64,71,3,4,83,9,1,Neutral,0,1
+9648,26,Female,New York,Premium,29,82.5,367,4,4,72,98,2,Positive,1,1
+9649,66,Male,Florida,Basic,17,72.62,24,1,0,60,28,2,Positive,1,1
+9650,59,Male,California,Enterprise,9,105.2,396,7,1,14,58,2,Positive,1,0
+9651,55,Female,New York,Premium,37,32.03,230,7,3,98,63,10,Positive,0,0
+9652,30,Female,Texas,Enterprise,5,21.87,447,4,1,4,77,9,Negative,1,0
+9653,54,Female,Florida,Basic,51,71.51,145,3,3,72,82,8,Negative,3,1
+9654,52,Male,Illinois,Premium,3,113.87,267,1,2,43,42,8,Positive,1,1
+9655,66,Female,Florida,Premium,9,93.69,383,5,4,7,91,10,Negative,1,0
+9656,26,Male,Florida,Enterprise,11,164.14,12,1,0,50,64,7,Negative,3,1
+9657,47,Male,New York,Basic,35,107.35,39,5,4,65,42,8,Negative,2,0
+9658,22,Female,New York,Premium,47,150.57,490,7,3,71,31,6,Negative,3,1
+9659,37,Male,New York,Premium,13,108.41,301,9,4,65,22,3,Negative,1,1
+9660,53,Male,California,Basic,18,135.97,350,2,4,57,97,1,Neutral,4,0
+9661,46,Male,Texas,Basic,16,144.07,428,4,0,5,14,6,Neutral,1,1
+9662,40,Male,New York,Basic,2,16.76,217,5,4,0,80,5,Neutral,1,1
+9663,47,Female,Texas,Premium,6,120.31,83,2,0,19,67,6,Negative,4,1
+9664,26,Female,New York,Basic,25,18.59,437,2,4,3,98,2,Negative,4,1
+9665,24,Female,California,Basic,21,30.88,394,0,1,82,91,8,Negative,2,1
+9666,28,Male,Texas,Basic,32,103.05,10,6,2,23,72,1,Neutral,1,0
+9667,30,Male,California,Enterprise,40,130.94,41,1,4,57,17,4,Neutral,4,1
+9668,66,Male,Illinois,Basic,23,190.75,177,4,2,82,28,9,Positive,1,0
+9669,43,Male,Illinois,Basic,42,153.86,154,4,0,24,76,7,Neutral,1,1
+9670,27,Female,California,Enterprise,2,138.51,143,2,4,99,44,4,Neutral,3,1
+9671,38,Male,Texas,Basic,21,179.68,462,8,3,1,83,4,Neutral,4,0
+9672,34,Male,Illinois,Premium,50,176.05,498,3,3,26,82,1,Neutral,0,0
+9673,23,Female,Florida,Basic,26,127.32,484,5,3,59,57,3,Neutral,1,0
+9674,35,Female,Illinois,Basic,44,35.82,235,5,2,4,62,2,Negative,0,1
+9675,25,Male,Texas,Premium,38,132.08,10,3,1,26,82,5,Negative,0,0
+9676,44,Male,Texas,Basic,33,116.07,495,7,1,75,96,10,Positive,3,1
+9677,40,Male,Texas,Premium,13,70.89,448,3,4,77,14,5,Positive,1,0
+9678,53,Male,New York,Premium,4,14.41,169,3,1,83,33,4,Positive,3,1
+9679,50,Female,Florida,Premium,53,109.63,490,3,4,59,35,3,Neutral,2,1
+9680,63,Male,New York,Basic,41,92.6,452,9,4,63,81,7,Negative,1,0
+9681,66,Male,Illinois,Premium,36,12.22,200,8,0,14,79,7,Positive,2,0
+9682,62,Female,Illinois,Premium,29,105.58,434,5,2,35,53,2,Positive,0,1
+9683,21,Male,New York,Premium,50,72.24,130,5,4,77,14,9,Neutral,3,1
+9684,66,Female,Texas,Basic,1,40.18,220,0,3,85,67,7,Neutral,2,1
+9685,67,Male,Illinois,Premium,23,16.02,88,2,0,38,91,8,Positive,0,1
+9686,63,Female,California,Premium,31,81.08,147,9,0,39,19,10,Neutral,3,1
+9687,68,Female,Illinois,Basic,52,32.13,51,8,0,55,59,6,Positive,3,1
+9688,48,Female,Florida,Premium,16,164.13,355,9,1,4,68,6,Positive,2,1
+9689,55,Male,Illinois,Premium,37,159.71,476,3,1,90,46,6,Neutral,3,1
+9690,27,Female,Texas,Basic,56,109.73,494,2,4,93,37,4,Neutral,0,0
+9691,28,Female,California,Basic,44,69.03,203,5,2,98,73,1,Neutral,2,0
+9692,34,Male,New York,Premium,39,61.77,465,7,2,19,57,6,Negative,4,1
+9693,34,Male,Texas,Premium,7,25.72,114,9,4,71,80,4,Negative,2,1
+9694,29,Female,Florida,Premium,1,75.69,468,2,4,55,78,4,Positive,1,0
+9695,19,Male,California,Basic,32,186.27,321,0,4,31,53,10,Neutral,3,1
+9696,22,Male,Illinois,Basic,31,197.71,243,9,2,89,73,9,Positive,0,0
+9697,28,Female,New York,Premium,58,21.69,190,3,1,79,11,9,Positive,3,0
+9698,51,Male,Florida,Basic,23,45.16,462,0,3,61,0,10,Negative,0,1
+9699,44,Male,California,Basic,53,93.15,404,5,0,9,99,1,Negative,3,1
+9700,23,Female,California,Basic,55,164.64,409,3,3,1,74,10,Neutral,2,0
+9701,40,Female,Texas,Basic,40,105.33,194,3,3,74,67,9,Negative,2,0
+9702,57,Female,Texas,Basic,28,16.62,108,6,4,86,17,7,Negative,1,0
+9703,32,Male,Texas,Basic,2,107.92,420,6,2,19,20,3,Positive,4,1
+9704,44,Male,California,Premium,11,117.29,84,4,3,35,41,2,Positive,3,1
+9705,44,Female,Illinois,Basic,34,110.62,365,5,2,87,0,1,Neutral,4,1
+9706,34,Female,California,Premium,51,178.77,423,2,4,33,76,2,Neutral,1,1
+9707,24,Male,California,Basic,53,87.55,251,8,3,82,61,4,Negative,2,1
+9708,23,Male,New York,Basic,45,31.01,396,3,3,63,44,7,Negative,4,1
+9709,52,Male,Illinois,Premium,20,105.71,239,7,0,63,89,1,Negative,2,0
+9710,53,Female,Illinois,Basic,49,52.67,253,0,4,85,81,9,Neutral,2,0
+9711,55,Male,Florida,Premium,42,16.06,417,2,2,60,59,3,Negative,1,1
+9712,34,Male,California,Premium,14,137.82,270,6,4,8,2,7,Neutral,4,0
+9713,45,Female,Texas,Premium,52,98.96,22,2,4,89,44,7,Negative,4,1
+9714,67,Female,Illinois,Basic,25,57.66,308,9,3,18,85,7,Positive,0,1
+9715,18,Male,California,Basic,32,18.85,159,1,1,20,5,4,Negative,2,0
+9716,38,Female,Florida,Premium,9,96.22,299,9,4,44,64,10,Negative,2,0
+9717,53,Male,Texas,Basic,53,40.33,352,9,0,11,19,6,Positive,0,1
+9718,48,Female,Illinois,Basic,59,111.61,181,8,3,81,56,6,Neutral,3,0
+9719,39,Male,Florida,Basic,44,193.08,151,6,2,44,56,7,Negative,2,1
+9720,57,Male,California,Enterprise,32,129.35,281,9,3,38,93,6,Neutral,1,1
+9721,58,Female,Texas,Enterprise,48,73.88,176,9,4,8,8,3,Negative,2,1
+9722,27,Male,Illinois,Premium,21,52.87,435,4,3,58,14,9,Negative,1,0
+9723,45,Male,Texas,Premium,48,75.0,153,4,3,43,54,2,Positive,0,1
+9724,44,Female,Illinois,Basic,2,130.9,15,7,1,34,63,5,Neutral,0,1
+9725,30,Male,Illinois,Basic,2,25.86,18,8,1,58,15,9,Negative,1,1
+9726,18,Female,New York,Basic,20,39.4,444,6,1,11,12,5,Positive,2,1
+9727,69,Male,Illinois,Basic,54,100.67,37,2,3,45,64,3,Negative,3,0
+9728,60,Male,Illinois,Basic,21,191.86,459,8,1,64,3,4,Negative,3,0
+9729,39,Male,New York,Premium,57,188.88,134,8,4,83,18,6,Positive,2,0
+9730,40,Male,Illinois,Basic,17,10.5,116,4,0,80,72,3,Neutral,1,0
+9731,68,Female,New York,Basic,37,116.65,443,5,3,39,44,5,Neutral,3,1
+9732,51,Male,Florida,Premium,12,62.47,348,4,1,67,63,3,Neutral,4,0
+9733,28,Female,Illinois,Basic,27,18.01,388,5,0,1,28,5,Positive,2,0
+9734,39,Female,Texas,Enterprise,43,143.96,113,5,4,20,80,8,Negative,4,1
+9735,66,Male,Illinois,Basic,7,141.51,420,0,3,65,98,8,Negative,4,0
+9736,22,Male,New York,Enterprise,5,102.76,216,3,0,73,54,5,Positive,0,1
+9737,27,Female,Florida,Premium,53,118.3,341,7,4,74,60,8,Neutral,2,0
+9738,26,Male,Florida,Premium,59,54.3,434,0,0,79,80,7,Neutral,4,0
+9739,34,Male,California,Basic,48,112.77,257,6,3,2,8,7,Negative,1,1
+9740,33,Male,Florida,Basic,25,12.89,286,6,0,12,25,6,Neutral,0,0
+9741,27,Female,Texas,Premium,46,136.62,190,2,0,85,23,8,Positive,2,0
+9742,38,Female,New York,Basic,32,13.7,330,8,0,43,76,2,Positive,4,1
+9743,19,Male,New York,Premium,21,83.19,154,9,3,33,8,10,Positive,4,0
+9744,64,Male,Florida,Enterprise,37,47.95,182,0,0,52,9,2,Neutral,4,1
+9745,53,Female,Florida,Basic,43,125.91,278,3,0,32,39,2,Neutral,4,1
+9746,50,Female,Texas,Basic,11,46.1,420,7,0,89,41,10,Neutral,0,1
+9747,26,Male,Florida,Basic,58,66.35,298,0,1,27,53,1,Negative,1,1
+9748,34,Male,Texas,Basic,52,168.63,268,8,0,90,78,4,Positive,3,1
+9749,50,Female,Texas,Basic,34,163.2,43,5,1,53,50,8,Neutral,4,0
+9750,29,Female,New York,Basic,56,65.05,378,5,0,35,55,9,Neutral,2,0
+9751,30,Male,California,Basic,15,39.26,62,2,4,91,65,8,Negative,4,1
+9752,63,Male,Illinois,Basic,47,87.79,276,1,1,45,34,3,Positive,0,0
+9753,62,Male,Texas,Premium,20,30.45,286,2,0,38,53,8,Negative,1,0
+9754,18,Male,California,Basic,52,156.86,28,2,0,78,53,4,Negative,2,1
+9755,57,Male,Florida,Basic,4,26.86,416,4,3,81,60,4,Negative,2,1
+9756,61,Male,California,Basic,56,67.57,59,1,1,34,89,6,Positive,0,1
+9757,39,Female,New York,Basic,54,177.7,84,0,1,68,51,2,Negative,2,0
+9758,27,Male,California,Premium,27,50.33,194,3,4,70,76,3,Negative,1,1
+9759,65,Male,Illinois,Basic,19,79.5,57,8,3,81,57,3,Negative,1,0
+9760,55,Female,Florida,Enterprise,26,127.09,156,5,3,63,36,9,Positive,1,0
+9761,66,Male,Illinois,Premium,5,34.8,343,5,3,7,4,10,Negative,0,1
+9762,57,Female,Florida,Premium,39,167.99,464,7,0,74,34,9,Positive,0,1
+9763,61,Female,Florida,Basic,41,179.64,489,3,4,49,30,8,Positive,4,1
+9764,68,Female,Illinois,Premium,26,159.49,121,4,0,18,22,1,Neutral,1,1
+9765,69,Male,California,Basic,51,127.33,83,2,2,74,88,2,Negative,1,1
+9766,49,Male,New York,Premium,29,141.13,39,2,4,21,56,8,Negative,2,0
+9767,30,Male,Illinois,Basic,38,186.83,373,7,3,31,98,6,Neutral,4,1
+9768,18,Female,New York,Basic,7,163.21,377,4,0,77,98,2,Positive,3,1
+9769,63,Male,Florida,Premium,40,185.56,74,0,1,30,58,2,Negative,4,1
+9770,41,Female,California,Enterprise,24,187.37,400,6,1,81,37,5,Negative,4,0
+9771,53,Female,California,Premium,33,120.68,13,2,4,20,29,1,Neutral,1,0
+9772,39,Female,California,Basic,18,49.45,62,7,3,19,75,2,Neutral,4,1
+9773,59,Male,Florida,Premium,45,62.83,341,7,1,37,96,3,Positive,1,1
+9774,29,Female,New York,Premium,51,188.66,246,3,3,66,76,7,Negative,3,0
+9775,35,Male,California,Enterprise,50,142.98,373,4,4,10,20,4,Neutral,2,0
+9776,38,Male,California,Basic,45,67.33,341,4,4,41,83,2,Positive,0,0
+9777,47,Female,Florida,Basic,22,174.8,239,0,3,36,59,10,Negative,2,0
+9778,21,Male,California,Premium,19,188.24,212,2,1,36,28,8,Neutral,3,1
+9779,20,Female,California,Enterprise,30,152.31,251,1,1,39,28,3,Neutral,1,1
+9780,19,Male,Florida,Basic,29,40.5,206,5,0,99,80,2,Positive,3,0
+9781,21,Female,California,Premium,26,23.61,365,2,4,76,87,3,Negative,3,0
+9782,21,Female,Texas,Basic,54,51.0,54,2,0,83,58,8,Positive,3,0
+9783,25,Male,New York,Basic,30,183.5,360,4,0,10,98,4,Negative,1,1
+9784,27,Female,California,Basic,36,76.57,249,2,1,37,58,5,Neutral,2,1
+9785,46,Female,New York,Basic,51,165.74,222,0,2,37,56,1,Negative,1,1
+9786,50,Male,Texas,Enterprise,50,180.81,57,6,2,11,32,5,Negative,0,1
+9787,47,Female,California,Basic,56,15.71,255,7,0,41,72,3,Positive,4,1
+9788,39,Female,Texas,Basic,46,182.73,168,3,3,89,84,2,Positive,3,1
+9789,45,Female,New York,Basic,12,126.29,377,3,4,4,69,4,Negative,0,1
+9790,69,Female,Florida,Premium,20,122.9,293,8,3,85,99,6,Negative,0,1
+9791,46,Female,New York,Basic,26,70.0,57,9,2,74,93,6,Positive,3,0
+9792,65,Male,Illinois,Basic,50,26.85,184,9,4,28,17,7,Negative,4,0
+9793,54,Female,Florida,Premium,25,147.18,122,8,4,91,73,4,Neutral,4,0
+9794,61,Male,California,Basic,22,59.63,295,4,3,3,80,9,Negative,4,1
+9795,30,Male,Illinois,Premium,36,99.76,106,0,0,9,87,9,Negative,1,1
+9796,23,Female,Texas,Basic,10,59.19,439,3,4,44,34,5,Negative,1,1
+9797,46,Male,Texas,Premium,52,100.54,466,1,3,10,83,5,Positive,0,1
+9798,32,Female,Illinois,Enterprise,8,88.87,167,8,4,3,77,7,Negative,2,1
+9799,20,Female,California,Premium,10,118.43,250,8,4,16,57,9,Neutral,4,0
+9800,20,Female,California,Basic,24,127.53,362,3,0,39,3,1,Neutral,2,0
+9801,27,Female,Illinois,Premium,28,80.21,321,5,4,53,44,9,Neutral,0,0
+9802,64,Female,New York,Premium,31,141.46,271,0,0,19,59,9,Negative,4,0
+9803,49,Female,Illinois,Premium,37,112.45,67,4,1,76,59,2,Neutral,1,1
+9804,68,Female,Florida,Basic,11,54.69,283,7,1,83,78,10,Positive,3,0
+9805,19,Female,Florida,Basic,42,34.64,117,1,4,56,34,5,Positive,2,1
+9806,34,Male,Illinois,Premium,28,74.63,295,5,3,88,60,10,Negative,4,1
+9807,39,Male,New York,Premium,37,182.54,331,8,3,89,41,7,Negative,4,1
+9808,60,Male,Florida,Premium,1,96.5,415,0,2,55,92,8,Neutral,4,0
+9809,60,Female,California,Premium,36,150.66,401,5,2,73,4,4,Positive,3,1
+9810,63,Male,Florida,Premium,36,148.18,191,6,2,33,47,7,Negative,3,0
+9811,59,Female,California,Enterprise,43,189.39,451,6,3,13,86,10,Negative,4,1
+9812,55,Male,Florida,Basic,53,26.36,479,0,4,99,82,8,Neutral,0,0
+9813,39,Male,Illinois,Basic,12,146.01,494,8,3,18,2,6,Neutral,2,1
+9814,22,Female,Florida,Basic,27,160.23,45,0,4,85,21,3,Neutral,4,0
+9815,57,Male,Florida,Basic,49,177.11,420,0,0,54,14,2,Negative,1,0
+9816,44,Male,New York,Basic,11,109.67,391,6,3,34,71,5,Negative,1,1
+9817,22,Female,Illinois,Premium,22,33.64,295,3,3,35,79,4,Negative,0,0
+9818,50,Male,New York,Basic,35,23.46,321,7,2,6,43,4,Neutral,2,1
+9819,50,Male,Texas,Basic,53,28.57,287,5,3,34,37,4,Positive,0,0
+9820,43,Female,Illinois,Premium,18,50.05,104,4,1,2,29,6,Neutral,1,1
+9821,39,Female,Florida,Premium,54,22.17,463,7,2,40,66,5,Positive,1,0
+9822,34,Female,Texas,Basic,59,69.57,103,5,0,40,88,4,Negative,1,1
+9823,44,Female,California,Enterprise,2,143.78,147,1,0,63,78,9,Negative,3,1
+9824,19,Male,Illinois,Premium,49,131.16,463,3,0,24,16,1,Negative,1,1
+9825,63,Female,Illinois,Basic,45,156.63,54,3,3,67,71,4,Neutral,0,1
+9826,37,Female,Florida,Basic,53,89.45,11,5,1,23,75,7,Positive,4,1
+9827,54,Female,Illinois,Premium,8,168.51,180,0,2,50,89,2,Positive,2,0
+9828,56,Male,Florida,Basic,37,120.62,137,5,2,20,57,2,Neutral,0,0
+9829,61,Male,Florida,Basic,13,76.39,423,7,2,25,77,8,Neutral,2,0
+9830,64,Female,Illinois,Premium,33,22.24,415,1,1,95,6,9,Neutral,3,0
+9831,32,Male,Illinois,Basic,46,55.52,48,4,2,23,51,3,Neutral,4,0
+9832,48,Female,California,Basic,4,89.1,122,9,3,5,24,6,Positive,3,0
+9833,67,Male,Florida,Basic,25,72.32,332,7,0,64,93,2,Negative,3,0
+9834,45,Female,New York,Basic,24,61.26,371,7,1,63,81,8,Negative,0,1
+9835,58,Male,California,Premium,32,45.7,211,2,4,81,73,8,Negative,4,0
+9836,24,Male,California,Basic,6,145.55,484,2,1,29,29,4,Neutral,4,1
+9837,56,Female,New York,Premium,31,101.68,397,4,1,36,39,2,Negative,1,0
+9838,62,Female,Illinois,Basic,8,143.46,380,5,1,92,20,2,Positive,3,0
+9839,63,Female,Illinois,Premium,22,114.4,393,4,4,6,65,5,Positive,3,0
+9840,18,Female,Florida,Premium,31,55.9,246,4,3,46,34,10,Positive,2,1
+9841,24,Male,Illinois,Premium,24,176.81,454,7,1,80,91,7,Neutral,1,0
+9842,24,Male,New York,Premium,20,18.39,233,3,1,96,80,2,Neutral,1,0
+9843,26,Female,California,Basic,52,169.33,45,6,3,14,97,6,Neutral,4,0
+9844,28,Male,California,Basic,27,147.72,169,7,2,33,3,9,Negative,3,0
+9845,61,Male,Texas,Basic,50,192.13,121,3,3,58,61,3,Neutral,1,1
+9846,40,Female,Illinois,Basic,40,62.09,69,5,1,84,96,1,Positive,2,1
+9847,69,Female,New York,Basic,56,34.14,169,1,2,91,40,7,Neutral,3,1
+9848,55,Female,Illinois,Basic,15,130.31,72,2,0,18,48,8,Positive,4,1
+9849,35,Male,Illinois,Premium,24,128.38,105,0,0,37,41,10,Neutral,1,0
+9850,66,Male,Florida,Basic,30,167.65,437,7,3,52,87,8,Neutral,1,1
+9851,33,Female,Texas,Premium,10,93.24,48,5,0,33,30,2,Negative,0,0
+9852,63,Male,Illinois,Premium,15,123.5,348,7,3,78,72,1,Negative,3,1
+9853,22,Male,Texas,Premium,16,127.17,420,9,3,52,33,7,Neutral,4,1
+9854,63,Male,New York,Basic,7,24.3,310,9,2,78,40,6,Neutral,4,1
+9855,42,Male,New York,Basic,35,39.21,15,4,2,83,40,4,Negative,1,0
+9856,69,Female,California,Premium,53,71.79,484,5,2,34,84,3,Neutral,2,0
+9857,22,Female,New York,Premium,38,31.38,331,0,1,26,61,7,Neutral,3,0
+9858,47,Male,California,Premium,52,99.48,88,1,3,5,68,2,Positive,4,0
+9859,67,Female,Illinois,Basic,42,194.41,21,6,3,85,48,6,Negative,4,0
+9860,60,Male,New York,Enterprise,45,105.62,482,3,1,60,73,6,Negative,0,1
+9861,42,Female,New York,Premium,39,185.17,249,1,2,0,31,4,Neutral,3,1
+9862,68,Male,New York,Enterprise,9,34.51,250,9,1,97,4,3,Positive,3,0
+9863,21,Male,Florida,Basic,48,56.38,101,3,3,97,7,2,Positive,3,0
+9864,36,Female,New York,Basic,54,102.5,192,1,1,44,4,9,Negative,3,1
+9865,49,Male,Texas,Basic,59,109.53,196,4,2,77,1,10,Negative,4,1
+9866,29,Female,California,Basic,15,129.84,217,1,3,53,62,5,Neutral,1,0
+9867,24,Male,Illinois,Enterprise,57,51.8,345,6,0,16,35,1,Neutral,0,1
+9868,53,Male,Florida,Premium,22,51.7,291,3,2,72,31,2,Neutral,2,0
+9869,23,Female,New York,Premium,29,144.55,494,5,3,34,21,10,Positive,4,1
+9870,61,Female,California,Basic,11,141.34,41,8,2,56,76,10,Negative,3,0
+9871,34,Male,Florida,Basic,6,173.68,438,3,4,31,69,2,Neutral,0,1
+9872,31,Female,Illinois,Premium,26,41.14,255,2,1,58,62,5,Positive,1,0
+9873,19,Male,New York,Basic,43,158.71,241,7,4,56,95,9,Neutral,2,0
+9874,29,Male,Florida,Premium,8,108.33,227,1,0,20,27,7,Neutral,3,1
+9875,28,Male,California,Basic,17,70.42,128,2,1,0,44,7,Negative,1,1
+9876,65,Male,New York,Premium,13,178.58,431,8,3,12,31,7,Negative,4,1
+9877,50,Male,Illinois,Basic,37,137.23,180,4,1,82,40,5,Negative,2,0
+9878,19,Female,Florida,Basic,46,129.82,465,4,2,59,30,3,Negative,3,0
+9879,41,Male,California,Basic,39,123.85,456,1,3,44,93,9,Neutral,2,1
+9880,33,Female,California,Enterprise,23,145.52,42,5,3,17,61,1,Positive,1,1
+9881,20,Female,Florida,Basic,2,129.19,341,8,4,39,51,6,Negative,3,0
+9882,57,Female,California,Basic,52,189.47,367,7,1,4,21,2,Negative,3,1
+9883,57,Male,Illinois,Basic,22,91.53,492,6,3,77,50,3,Negative,1,0
+9884,62,Male,Florida,Basic,2,189.62,32,1,0,87,68,9,Positive,0,0
+9885,26,Female,Texas,Basic,46,128.42,394,0,3,81,19,7,Positive,1,0
+9886,22,Male,Illinois,Basic,8,46.43,180,4,0,33,56,8,Positive,0,1
+9887,60,Female,California,Basic,44,71.59,148,0,4,18,12,10,Negative,4,0
+9888,18,Male,Illinois,Basic,37,112.29,237,4,1,98,53,9,Neutral,3,1
+9889,33,Male,Texas,Premium,50,29.12,392,3,4,43,2,6,Negative,1,1
+9890,42,Male,New York,Basic,57,141.86,192,0,0,89,73,7,Neutral,2,1
+9891,42,Male,Florida,Basic,42,130.76,268,3,3,56,82,8,Positive,2,0
+9892,36,Male,Florida,Basic,44,118.16,35,3,0,62,16,10,Positive,3,1
+9893,63,Male,Texas,Premium,2,137.06,324,3,0,5,28,6,Positive,2,0
+9894,35,Female,Texas,Premium,33,185.99,246,3,2,98,66,8,Positive,2,0
+9895,44,Female,New York,Premium,36,47.38,145,0,4,75,37,5,Neutral,2,0
+9896,26,Female,California,Basic,12,179.95,333,5,2,81,14,8,Positive,3,1
+9897,55,Male,California,Basic,21,18.09,35,4,3,28,36,2,Neutral,1,0
+9898,38,Male,Texas,Premium,50,137.65,371,1,1,40,40,8,Positive,3,0
+9899,22,Female,California,Enterprise,37,145.1,246,5,0,90,48,5,Positive,3,1
+9900,65,Male,Illinois,Premium,25,81.04,46,8,4,82,60,2,Positive,0,1
+9901,47,Male,Florida,Basic,45,187.7,163,1,1,88,71,4,Negative,0,1
+9902,25,Female,Illinois,Basic,3,45.65,312,8,2,17,81,1,Neutral,0,0
+9903,45,Male,California,Basic,1,179.78,346,1,2,28,50,9,Neutral,0,0
+9904,34,Male,California,Premium,23,63.25,374,3,3,94,45,10,Positive,0,0
+9905,54,Male,California,Basic,46,131.27,121,4,3,82,28,4,Positive,1,1
+9906,69,Male,California,Basic,53,56.56,443,8,2,38,99,10,Negative,0,1
+9907,38,Female,New York,Premium,35,166.98,260,7,1,50,3,7,Positive,4,0
+9908,35,Male,Illinois,Basic,51,37.11,290,5,1,57,40,6,Negative,4,1
+9909,27,Male,Texas,Basic,12,123.87,40,8,4,65,6,6,Positive,3,1
+9910,23,Male,Florida,Basic,51,183.27,183,5,0,88,36,10,Neutral,3,0
+9911,61,Male,Illinois,Enterprise,31,29.3,342,0,3,14,98,4,Negative,4,1
+9912,54,Female,Texas,Premium,41,193.77,364,7,3,80,62,7,Negative,4,1
+9913,40,Male,Florida,Enterprise,58,94.38,467,8,0,74,42,10,Neutral,1,1
+9914,35,Female,California,Basic,14,23.31,278,4,4,98,75,3,Neutral,4,1
+9915,62,Male,Texas,Basic,9,197.25,138,8,1,58,91,7,Negative,2,1
+9916,31,Female,Illinois,Premium,58,113.16,37,6,1,55,91,10,Neutral,4,0
+9917,49,Male,Florida,Premium,22,86.27,279,2,1,58,18,4,Negative,0,1
+9918,37,Female,New York,Basic,11,156.81,201,0,3,15,74,5,Negative,1,0
+9919,54,Male,Texas,Basic,27,15.24,188,9,1,17,89,5,Neutral,2,0
+9920,22,Male,Texas,Premium,57,125.13,157,1,3,58,36,9,Positive,1,0
+9921,42,Male,California,Enterprise,8,129.97,14,7,0,48,76,8,Positive,4,0
+9922,52,Female,Florida,Enterprise,33,128.34,464,3,2,78,76,3,Neutral,0,0
+9923,39,Male,Texas,Basic,42,118.49,13,6,3,6,80,7,Negative,3,0
+9924,25,Male,New York,Premium,29,80.28,418,2,0,75,9,4,Negative,2,1
+9925,52,Female,Florida,Premium,24,166.55,21,5,4,6,41,7,Negative,0,0
+9926,28,Female,Illinois,Premium,34,173.95,259,6,4,83,11,1,Neutral,0,0
+9927,18,Female,Illinois,Enterprise,57,34.94,437,6,1,57,38,2,Positive,1,1
+9928,49,Male,New York,Basic,53,156.61,123,3,0,69,63,9,Negative,4,0
+9929,43,Female,Florida,Enterprise,56,171.92,182,4,4,95,16,10,Positive,3,0
+9930,49,Female,California,Enterprise,52,169.47,484,5,2,82,85,3,Positive,0,0
+9931,49,Male,New York,Enterprise,6,70.32,161,1,0,30,80,9,Negative,3,0
+9932,51,Female,New York,Premium,4,60.35,290,2,0,17,52,7,Negative,3,0
+9933,54,Male,Florida,Basic,46,78.8,345,7,3,66,91,5,Neutral,0,0
+9934,30,Female,Texas,Basic,19,78.97,484,9,0,88,45,10,Positive,3,0
+9935,32,Male,New York,Premium,58,105.13,229,6,4,42,5,9,Positive,0,0
+9936,55,Male,Illinois,Basic,46,21.94,173,9,2,92,88,4,Positive,0,1
+9937,20,Female,California,Basic,7,108.49,330,9,0,43,56,8,Negative,1,0
+9938,33,Female,Illinois,Premium,33,96.71,439,6,3,4,68,2,Neutral,1,1
+9939,53,Male,Illinois,Basic,4,38.2,293,9,2,93,33,7,Negative,1,0
+9940,19,Male,New York,Enterprise,29,112.14,88,3,2,88,0,9,Positive,1,0
+9941,32,Male,California,Basic,58,128.57,360,9,2,69,34,8,Neutral,2,0
+9942,60,Male,Illinois,Basic,36,70.82,27,7,4,76,61,3,Negative,0,0
+9943,21,Female,Texas,Premium,16,54.94,471,2,0,85,87,7,Neutral,4,1
+9944,30,Female,California,Basic,14,12.09,364,4,2,99,31,1,Negative,2,1
+9945,56,Male,Florida,Basic,47,106.82,125,4,3,48,78,10,Positive,4,1
+9946,33,Female,New York,Premium,23,19.39,222,1,4,39,5,2,Neutral,3,0
+9947,59,Female,Illinois,Premium,18,106.16,367,1,2,98,85,5,Negative,4,0
+9948,66,Male,Texas,Basic,1,155.78,128,8,1,83,52,2,Positive,1,0
+9949,26,Female,California,Premium,18,165.59,120,1,4,70,86,10,Negative,1,0
+9950,52,Female,New York,Basic,10,14.5,387,2,4,38,89,3,Positive,0,0
+9951,65,Female,New York,Premium,50,87.13,278,7,3,63,75,9,Neutral,1,1
+9952,43,Male,Texas,Premium,38,143.42,210,0,1,32,64,2,Negative,3,0
+9953,44,Female,Texas,Basic,31,37.46,430,5,4,94,23,1,Neutral,1,1
+9954,56,Male,Texas,Basic,17,100.24,83,5,4,75,90,2,Positive,1,1
+9955,33,Female,Florida,Premium,9,149.33,421,9,0,3,29,2,Negative,0,0
+9956,27,Male,New York,Basic,14,37.03,294,3,0,31,60,4,Positive,4,0
+9957,38,Female,Florida,Basic,5,143.29,42,9,1,4,79,6,Negative,0,0
+9958,44,Male,Illinois,Enterprise,20,195.39,373,4,2,98,49,6,Neutral,2,0
+9959,33,Female,Florida,Enterprise,44,53.87,422,4,1,9,37,4,Positive,0,0
+9960,48,Female,Illinois,Basic,32,72.81,240,4,0,75,88,9,Negative,0,0
+9961,42,Female,Florida,Basic,16,11.69,267,6,1,37,10,6,Positive,3,0
+9962,68,Male,Florida,Premium,27,83.03,203,2,3,53,67,10,Negative,2,0
+9963,30,Male,Texas,Basic,21,101.51,276,3,4,3,63,6,Negative,2,0
+9964,59,Male,New York,Basic,33,66.9,118,3,2,24,95,9,Neutral,2,1
+9965,53,Female,California,Basic,51,138.11,309,4,3,71,46,7,Negative,4,0
+9966,47,Male,Texas,Premium,25,33.54,413,0,0,20,24,2,Neutral,4,1
+9967,23,Female,California,Basic,55,136.07,255,2,0,44,11,7,Positive,4,1
+9968,56,Female,Florida,Enterprise,42,169.0,411,4,0,96,59,4,Negative,1,1
+9969,50,Male,Texas,Basic,20,96.46,96,2,2,35,65,4,Negative,1,1
+9970,23,Male,New York,Basic,3,50.76,185,7,3,71,37,5,Positive,0,0
+9971,22,Male,California,Basic,7,176.34,161,9,0,51,6,9,Positive,1,1
+9972,59,Female,California,Basic,9,128.02,460,0,4,19,9,3,Neutral,3,0
+9973,46,Female,Florida,Enterprise,6,97.42,83,7,1,61,21,1,Positive,4,0
+9974,35,Female,Texas,Premium,10,142.81,380,7,2,90,56,10,Neutral,3,0
+9975,63,Male,Florida,Premium,17,155.0,233,6,2,71,69,1,Positive,0,0
+9976,31,Male,California,Basic,23,103.81,363,4,1,83,97,2,Neutral,3,0
+9977,27,Female,California,Enterprise,28,196.23,355,0,0,79,92,10,Negative,4,0
+9978,59,Female,Texas,Basic,4,63.25,109,2,2,7,56,1,Positive,0,0
+9979,33,Male,Florida,Basic,32,77.15,387,5,4,74,64,8,Negative,2,1
+9980,64,Male,New York,Basic,56,76.32,185,3,1,83,21,7,Neutral,3,1
+9981,60,Male,Illinois,Basic,1,60.38,89,8,3,16,78,7,Neutral,1,1
+9982,25,Female,Texas,Basic,5,179.33,150,5,0,85,71,6,Neutral,4,0
+9983,25,Male,Texas,Premium,12,84.96,455,4,2,60,41,7,Negative,2,0
+9984,36,Male,Illinois,Basic,46,27.96,307,8,3,88,27,6,Positive,3,0
+9985,65,Female,Texas,Premium,1,126.03,383,1,1,64,74,6,Negative,4,0
+9986,56,Female,New York,Premium,6,109.62,154,9,1,39,56,8,Neutral,2,0
+9987,55,Male,New York,Premium,58,157.25,41,8,2,4,30,1,Neutral,1,1
+9988,40,Male,New York,Basic,4,178.37,70,1,4,7,47,8,Positive,3,1
+9989,59,Female,Texas,Premium,30,161.48,40,4,4,33,94,6,Positive,0,0
+9990,40,Female,New York,Basic,11,14.14,212,9,2,25,73,8,Neutral,1,1
+9991,46,Female,New York,Premium,17,171.8,380,4,4,67,97,7,Negative,0,0
+9992,28,Male,Illinois,Enterprise,42,132.82,303,4,0,47,74,7,Neutral,4,1
+9993,23,Female,Illinois,Premium,41,156.44,440,9,0,53,10,8,Positive,1,1
+9994,66,Female,California,Enterprise,38,32.72,114,0,3,93,25,9,Positive,0,0
+9995,51,Male,Texas,Premium,28,119.33,348,5,2,96,49,5,Negative,1,0
+9996,47,Male,Florida,Premium,6,137.91,204,2,2,8,88,9,Positive,3,1
+9997,60,Male,New York,Basic,34,174.3,98,2,1,40,7,3,Neutral,2,1
+9998,33,Male,Illinois,Premium,18,81.16,257,9,4,36,28,5,Positive,4,0
+9999,21,Female,New York,Basic,41,181.76,495,0,4,2,63,8,Positive,4,0
+10000,35,Male,Texas,Basic,51,169.5,50,8,0,56,63,3,Positive,1,0
+10001,55,Female,California,Basic,52,24.45,364,0,3,32,6,9,Neutral,3,0
+10002,57,Female,New York,Premium,48,129.46,118,4,3,58,66,6,Positive,4,0
+10003,62,Female,New York,Premium,28,169.6,263,7,1,16,33,8,Negative,2,0
+10004,55,Female,California,Premium,9,43.74,175,1,4,25,7,10,Negative,2,0
+10005,46,Female,New York,Enterprise,26,118.7,346,9,0,44,50,3,Neutral,0,0
+10006,55,Female,Texas,Basic,5,99.24,276,2,2,99,34,7,Positive,3,1
+10007,26,Female,Florida,Enterprise,1,193.91,365,4,4,67,28,7,Neutral,2,0
+10008,68,Female,Florida,Premium,51,16.67,25,3,4,62,16,4,Neutral,2,1
+10009,44,Female,Florida,Basic,53,142.79,307,6,1,16,87,8,Positive,2,1
+10010,34,Male,Florida,Basic,6,73.9,435,5,3,25,80,10,Negative,4,0
+10011,28,Female,California,Premium,6,15.71,415,0,1,34,64,4,Positive,0,1
+10012,50,Male,Florida,Premium,7,143.92,300,4,4,57,36,2,Neutral,2,0
+10013,67,Female,Illinois,Premium,6,22.34,95,0,2,40,65,4,Negative,3,1
+10014,25,Female,Illinois,Basic,52,101.33,379,2,0,83,0,6,Negative,1,1
+10015,29,Female,Florida,Premium,10,44.91,409,5,3,3,4,2,Negative,1,0
+10016,20,Female,California,Premium,43,126.25,365,0,4,72,18,7,Positive,3,0
+10017,61,Male,California,Basic,32,100.76,273,1,2,15,39,8,Positive,1,0
+10018,28,Female,Florida,Basic,20,180.17,490,5,4,48,51,10,Neutral,3,1
+10019,27,Male,Illinois,Basic,3,40.18,255,4,3,11,3,1,Negative,3,0
+10020,40,Male,Florida,Enterprise,34,102.21,293,0,2,59,52,4,Positive,2,0
+10021,32,Male,Texas,Premium,13,68.76,94,9,3,80,92,2,Negative,1,1
+10022,51,Female,Texas,Basic,17,177.85,138,9,2,88,86,2,Neutral,4,1
+10023,43,Female,California,Premium,46,168.78,250,5,2,77,77,4,Positive,0,1
+10024,51,Male,Florida,Basic,26,64.59,78,0,4,70,81,4,Neutral,4,1
+10025,34,Male,Florida,Premium,42,192.08,16,0,0,19,3,10,Positive,2,0
+10026,66,Male,Florida,Basic,21,164.07,224,4,4,17,15,2,Neutral,1,1
+10027,24,Female,Texas,Basic,51,166.57,215,7,0,26,57,7,Neutral,3,0
+10028,43,Male,Texas,Basic,5,67.53,42,1,0,63,15,5,Positive,4,0
+10029,59,Female,Texas,Basic,42,178.48,99,5,2,34,98,7,Positive,4,0
+10030,44,Female,New York,Premium,45,99.53,343,4,0,78,10,3,Negative,0,1
+10031,32,Male,Illinois,Premium,31,80.22,295,6,1,37,79,5,Neutral,1,0
+10032,49,Female,Florida,Premium,12,50.28,467,0,0,66,96,2,Positive,2,0
+10033,52,Female,California,Premium,25,194.33,25,3,4,92,38,10,Negative,1,1
+10034,41,Male,California,Basic,9,193.78,249,7,4,15,94,9,Neutral,1,1
+10035,38,Female,New York,Basic,9,104.36,35,4,2,73,29,4,Positive,4,1
+10036,35,Female,Texas,Premium,58,196.29,155,4,1,69,68,4,Positive,3,0
+10037,55,Female,Texas,Enterprise,17,174.2,187,7,3,97,56,7,Positive,1,0
+10038,36,Female,Florida,Basic,13,29.25,67,6,3,77,9,9,Neutral,2,1
+10039,40,Male,New York,Enterprise,4,151.33,114,5,3,18,49,3,Neutral,4,1
+10040,40,Male,Texas,Basic,37,181.02,156,2,2,61,72,9,Positive,0,0
+10041,51,Male,Texas,Basic,5,102.26,391,1,2,82,15,8,Neutral,2,1
+10042,18,Male,California,Premium,38,162.77,310,1,3,65,83,5,Positive,2,1
+10043,65,Female,California,Premium,25,42.98,98,0,4,86,76,6,Neutral,1,1
+10044,25,Male,Texas,Premium,24,186.66,470,2,0,55,62,9,Negative,0,0
+10045,25,Male,Illinois,Premium,58,170.47,451,1,2,82,83,1,Negative,0,0
+10046,42,Male,California,Basic,36,54.47,115,0,4,84,57,10,Neutral,0,0
+10047,57,Male,Illinois,Basic,31,27.61,370,3,2,84,79,9,Neutral,3,1
+10048,24,Female,New York,Basic,5,93.82,351,0,0,70,81,4,Positive,3,1
+10049,33,Female,California,Enterprise,11,121.24,402,4,3,56,35,8,Negative,3,0
+10050,68,Male,California,Premium,50,74.99,29,8,0,7,39,9,Positive,4,0
+10051,52,Female,Texas,Premium,43,66.89,295,9,0,78,70,4,Positive,2,0
+10052,34,Male,Florida,Basic,12,11.49,211,3,2,60,47,10,Negative,4,1
+10053,65,Female,New York,Premium,28,10.43,198,9,4,36,2,3,Positive,0,1
+10054,39,Female,Texas,Premium,44,38.32,283,3,0,7,24,5,Neutral,2,1
+10055,44,Female,Florida,Basic,5,153.12,51,4,4,1,21,3,Positive,2,1
+10056,54,Female,Florida,Premium,28,181.88,496,3,1,62,65,5,Positive,2,1
+10057,28,Female,California,Basic,44,34.47,77,8,0,37,74,7,Positive,3,1
+10058,20,Male,Texas,Premium,22,145.76,206,0,3,4,80,7,Negative,3,0
+10059,31,Female,Illinois,Basic,42,57.83,179,0,3,12,32,2,Neutral,3,1
+10060,35,Male,Florida,Premium,26,35.89,315,6,1,15,12,8,Negative,2,1
+10061,26,Male,Illinois,Premium,56,85.29,121,4,1,59,70,9,Negative,3,0
+10062,25,Female,New York,Basic,26,152.94,413,5,1,5,63,10,Positive,2,0
+10063,21,Female,Florida,Basic,46,113.77,76,0,1,20,57,8,Positive,1,1
+10064,67,Female,Texas,Basic,49,36.97,416,1,2,43,61,10,Positive,0,0
+10065,18,Female,Illinois,Premium,16,37.33,40,5,0,13,77,1,Neutral,4,0
+10066,31,Male,Illinois,Basic,36,65.82,267,1,4,99,68,9,Neutral,1,1
+10067,64,Female,Illinois,Premium,19,136.12,281,4,4,30,42,6,Positive,4,1
+10068,43,Male,California,Basic,57,66.85,77,9,1,95,5,9,Negative,0,1
+10069,52,Male,California,Premium,14,30.09,98,2,3,50,32,5,Negative,0,1
+10070,62,Male,Texas,Premium,43,124.29,472,6,0,7,0,4,Neutral,4,1
+10071,56,Female,New York,Premium,58,197.69,264,6,2,26,47,5,Neutral,3,1
+10072,26,Female,Florida,Enterprise,40,150.15,398,4,3,17,44,4,Neutral,1,1
+10073,25,Male,California,Premium,17,109.49,309,9,4,84,38,10,Neutral,0,1
+10074,63,Female,Florida,Premium,35,36.08,367,9,4,15,9,7,Negative,1,0
+10075,38,Female,New York,Premium,34,186.35,114,6,0,10,78,2,Positive,1,1
+10076,60,Female,Texas,Basic,43,124.35,113,1,0,66,61,2,Negative,4,0
+10077,49,Male,Texas,Premium,41,11.29,441,4,2,29,13,8,Positive,1,0
+10078,24,Male,New York,Basic,40,49.0,297,0,1,27,4,6,Negative,2,0
+10079,33,Male,Texas,Premium,1,48.08,253,2,2,0,0,8,Negative,2,0
+10080,49,Male,Texas,Basic,36,105.6,335,3,4,46,37,6,Neutral,0,0
+10081,49,Female,Florida,Premium,55,10.3,251,4,4,85,78,2,Neutral,3,0
+10082,67,Female,California,Basic,3,57.66,432,0,2,42,68,1,Negative,4,1
+10083,52,Male,California,Enterprise,44,67.28,422,8,3,88,26,6,Positive,0,1
+10084,27,Male,Florida,Basic,59,27.81,327,9,1,28,87,9,Positive,1,1
+10085,49,Female,New York,Basic,1,197.24,332,9,1,59,77,2,Positive,2,0
+10086,40,Male,Florida,Enterprise,3,149.57,480,1,0,98,99,7,Neutral,0,1
+10087,37,Male,New York,Basic,15,138.5,121,2,1,20,6,7,Positive,1,0
+10088,18,Male,California,Premium,34,133.1,73,2,0,9,31,3,Negative,4,1
+10089,53,Male,Illinois,Basic,33,183.16,126,9,1,82,46,1,Negative,4,1
+10090,48,Female,Florida,Premium,39,141.8,67,0,1,34,93,7,Negative,0,0
+10091,24,Female,Florida,Basic,48,138.33,498,3,4,53,11,4,Negative,0,1
+10092,65,Female,New York,Premium,34,47.83,363,4,1,31,48,1,Negative,4,1
+10093,44,Female,Illinois,Basic,30,130.32,298,1,4,20,20,3,Neutral,2,1
+10094,19,Female,Texas,Premium,12,77.13,243,0,0,70,87,2,Negative,2,0
+10095,45,Female,Texas,Premium,51,194.51,232,0,2,57,49,1,Neutral,0,0
+10096,69,Male,Texas,Basic,44,145.19,173,5,3,67,6,2,Neutral,1,0
+10097,51,Female,California,Basic,38,29.01,362,5,2,64,75,8,Neutral,3,0
+10098,39,Male,Florida,Basic,49,42.88,154,5,4,66,97,3,Negative,4,1
+10099,27,Male,Texas,Premium,42,92.03,371,9,4,0,56,2,Positive,2,1
+10100,40,Male,Florida,Premium,19,12.46,296,5,1,68,62,4,Negative,3,1
+10101,67,Female,Texas,Premium,11,121.04,315,6,4,21,20,1,Neutral,1,0
+10102,36,Female,Texas,Basic,57,99.94,398,7,0,17,67,6,Negative,2,1
+10103,57,Male,Florida,Basic,6,27.99,253,8,4,46,46,8,Neutral,0,0
+10104,61,Female,Texas,Basic,18,119.61,353,9,2,53,89,2,Positive,2,1
+10105,63,Male,New York,Premium,26,138.71,372,8,1,33,19,6,Positive,0,1
+10106,61,Male,New York,Premium,34,157.64,184,4,0,58,12,10,Positive,0,1
+10107,69,Male,Florida,Premium,50,165.1,124,1,0,25,42,4,Positive,4,1
+10108,27,Female,New York,Premium,45,129.62,135,1,3,2,92,8,Positive,1,1
+10109,40,Female,Illinois,Enterprise,21,82.31,363,8,0,45,28,2,Negative,0,1
+10110,45,Male,Florida,Basic,59,27.14,33,5,1,38,13,1,Neutral,2,1
+10111,66,Male,California,Basic,57,149.87,160,8,3,57,4,1,Positive,0,0
+10112,31,Male,Texas,Premium,28,58.7,203,5,1,92,41,3,Neutral,2,1
+10113,62,Male,Texas,Premium,15,102.31,408,4,3,85,99,10,Neutral,4,0
+10114,30,Female,Florida,Basic,32,157.42,176,8,3,56,90,7,Neutral,1,0
+10115,43,Female,Texas,Basic,19,113.08,34,9,3,34,58,5,Negative,3,1
+10116,42,Male,Florida,Basic,5,182.59,54,1,1,9,9,6,Neutral,2,1
+10117,30,Female,New York,Basic,58,198.87,318,7,1,20,36,3,Negative,3,0
+10118,46,Female,Texas,Premium,17,33.31,128,7,3,64,96,4,Neutral,2,0
+10119,19,Male,New York,Premium,43,133.28,280,7,1,76,27,6,Negative,0,0
+10120,52,Female,Texas,Premium,48,22.71,181,3,4,63,90,4,Negative,3,1
+10121,57,Male,Illinois,Basic,12,27.77,367,6,4,29,12,8,Positive,4,1
+10122,61,Female,California,Premium,4,89.96,257,2,2,39,63,9,Neutral,1,0
+10123,69,Female,Florida,Premium,55,122.67,50,2,4,57,38,4,Neutral,3,0
+10124,58,Male,Florida,Basic,48,194.29,247,0,3,4,24,2,Neutral,0,1
+10125,45,Female,Florida,Basic,34,152.86,248,7,2,53,51,3,Neutral,2,0
+10126,26,Female,New York,Basic,42,80.22,416,4,1,11,54,10,Neutral,4,0
+10127,55,Female,Texas,Premium,57,52.95,229,1,2,41,56,7,Positive,0,1
+10128,45,Male,Texas,Basic,41,110.79,80,4,3,52,45,3,Positive,0,0
+10129,53,Female,New York,Basic,35,166.56,365,2,3,66,78,9,Positive,4,0
+10130,20,Female,Florida,Basic,42,14.71,384,2,0,39,77,7,Positive,0,0
+10131,22,Male,Texas,Basic,33,63.99,106,4,4,18,77,5,Negative,0,0
+10132,53,Female,Texas,Premium,18,49.75,132,3,4,68,72,3,Negative,2,0
+10133,22,Female,California,Basic,51,128.12,220,6,2,85,56,6,Neutral,3,1
+10134,43,Male,Texas,Basic,6,98.92,254,9,2,18,41,9,Positive,0,0
+10135,31,Male,Illinois,Basic,26,114.03,23,3,4,38,65,10,Positive,2,1
+10136,42,Male,Illinois,Basic,13,88.01,357,2,3,43,93,3,Positive,1,0
+10137,64,Female,California,Premium,34,94.03,86,0,1,68,16,10,Neutral,3,0
+10138,20,Male,Florida,Basic,6,112.41,168,7,3,75,40,1,Negative,3,0
+10139,36,Female,Florida,Enterprise,39,127.47,268,2,1,61,7,4,Negative,0,1
+10140,66,Male,New York,Enterprise,20,108.57,219,4,0,90,45,3,Neutral,2,0
+10141,63,Female,Illinois,Basic,5,143.5,468,2,2,60,36,9,Negative,2,1
+10142,46,Female,Florida,Premium,5,21.45,377,9,0,96,47,7,Positive,1,0
+10143,37,Male,New York,Premium,26,100.71,24,4,3,8,51,4,Positive,3,0
+10144,28,Male,Illinois,Premium,27,100.54,254,8,2,18,87,4,Positive,4,1
+10145,64,Female,New York,Basic,28,26.45,249,0,0,57,27,1,Neutral,1,0
+10146,29,Male,Florida,Enterprise,48,116.15,341,9,1,83,23,9,Neutral,0,1
+10147,53,Female,Illinois,Basic,22,177.49,232,8,0,8,75,7,Neutral,4,0
+10148,61,Female,California,Enterprise,58,154.44,323,3,0,29,92,1,Neutral,0,0
+10149,26,Female,Illinois,Basic,7,53.7,368,3,3,18,67,1,Neutral,0,0
+10150,63,Female,Florida,Basic,20,23.19,69,1,2,46,38,7,Negative,2,1
+10151,46,Male,Florida,Basic,57,182.52,115,7,2,99,63,1,Negative,0,1
+10152,27,Male,Florida,Premium,31,187.33,355,2,0,63,4,8,Positive,3,0
+10153,20,Male,California,Basic,36,38.39,483,1,0,63,41,2,Positive,3,0
+10154,35,Female,Illinois,Basic,56,163.35,29,5,3,57,72,9,Neutral,2,1
+10155,18,Male,California,Basic,58,17.88,275,0,1,29,24,3,Negative,0,1
+10156,61,Female,New York,Enterprise,24,108.77,369,9,3,88,70,7,Neutral,2,0
+10157,49,Female,New York,Basic,30,120.81,377,0,1,27,95,1,Negative,2,0
+10158,31,Male,New York,Premium,46,125.67,361,3,0,80,44,9,Positive,0,0
+10159,53,Male,Illinois,Enterprise,6,184.29,334,1,0,78,34,10,Positive,1,1
+10160,21,Male,Texas,Premium,35,163.9,63,1,2,9,21,10,Neutral,3,0
+10161,59,Female,Florida,Enterprise,7,85.93,308,2,0,55,4,4,Negative,4,0
+10162,21,Female,Illinois,Basic,42,106.27,344,5,4,12,90,1,Neutral,4,0
+10163,18,Female,Texas,Premium,56,126.88,471,0,3,14,59,7,Positive,2,0
+10164,52,Male,Texas,Basic,54,178.54,448,9,3,28,65,6,Neutral,1,0
+10165,32,Female,New York,Basic,52,32.49,346,9,0,88,19,5,Neutral,0,0
+10166,52,Male,Illinois,Basic,5,47.0,317,1,1,10,92,1,Negative,2,0
+10167,60,Male,Texas,Basic,31,34.94,272,2,3,81,90,7,Negative,0,0
+10168,21,Male,Texas,Basic,34,43.18,266,7,4,40,14,6,Negative,3,0
+10169,32,Female,Texas,Basic,8,144.05,222,3,4,29,84,4,Negative,2,0
+10170,40,Female,Illinois,Enterprise,15,85.18,144,4,3,78,1,2,Positive,3,0
+10171,50,Female,Illinois,Basic,20,139.59,85,3,4,89,39,10,Positive,4,0
+10172,57,Female,Florida,Basic,52,83.87,17,3,3,64,40,5,Positive,2,1
+10173,57,Female,Texas,Premium,11,155.37,457,1,3,48,1,2,Positive,1,1
+10174,65,Male,Florida,Premium,29,140.44,302,8,3,36,81,3,Negative,1,0
+10175,24,Female,New York,Premium,28,28.74,115,4,2,2,45,10,Negative,2,0
+10176,21,Female,Florida,Premium,44,62.48,182,5,0,80,4,4,Positive,2,0
+10177,22,Female,New York,Basic,18,93.37,188,6,4,47,85,8,Neutral,2,0
+10178,27,Female,Texas,Basic,56,126.97,324,6,4,18,83,7,Neutral,1,1
+10179,68,Female,Florida,Basic,32,119.0,140,7,4,25,44,8,Positive,0,1
+10180,29,Female,New York,Enterprise,48,90.65,330,6,3,21,22,3,Positive,3,0
+10181,50,Female,Illinois,Basic,19,37.39,433,7,3,36,62,8,Neutral,4,0
+10182,51,Male,California,Basic,20,97.05,13,8,0,86,73,10,Negative,1,1
+10183,51,Male,Illinois,Premium,45,195.95,259,3,2,90,39,3,Neutral,1,1
+10184,42,Male,Texas,Premium,1,82.13,97,0,3,19,44,9,Negative,0,1
+10185,36,Male,Florida,Premium,12,182.03,309,0,3,35,71,7,Neutral,2,0
+10186,21,Male,New York,Basic,36,98.03,264,6,1,0,21,8,Positive,4,0
+10187,41,Female,Texas,Basic,4,14.49,303,2,4,91,22,4,Neutral,3,0
+10188,49,Female,Florida,Basic,23,162.88,375,3,3,73,11,4,Positive,1,0
+10189,49,Female,Texas,Premium,16,95.21,98,7,4,87,42,2,Negative,4,0
+10190,57,Male,California,Basic,24,185.94,297,7,0,51,17,1,Negative,4,0
+10191,64,Female,Florida,Premium,49,139.48,309,7,0,72,76,4,Negative,2,0
+10192,33,Female,Texas,Premium,48,187.71,14,9,2,86,14,9,Neutral,2,1
+10193,39,Male,California,Basic,42,172.57,245,9,0,19,2,8,Negative,0,0
+10194,32,Female,Texas,Premium,19,38.25,246,4,2,12,6,2,Negative,3,1
+10195,37,Female,Illinois,Basic,33,164.66,409,6,2,31,78,10,Positive,3,1
+10196,68,Male,Illinois,Basic,17,136.5,248,5,2,90,23,10,Negative,0,1
+10197,64,Male,Florida,Basic,3,55.23,389,8,3,9,14,10,Negative,4,0
+10198,45,Male,Florida,Basic,18,161.57,98,4,2,38,22,6,Negative,0,1
+10199,27,Male,Illinois,Premium,56,74.4,114,1,1,84,38,5,Negative,3,1
+10200,33,Female,Illinois,Basic,15,17.82,293,2,3,25,47,1,Positive,1,0
+10201,64,Male,Illinois,Basic,14,30.41,381,0,1,72,91,1,Negative,0,1
+10202,34,Male,Illinois,Premium,49,66.95,481,0,1,30,78,7,Neutral,2,1
+10203,53,Female,Illinois,Basic,56,74.14,265,0,3,93,46,10,Neutral,0,0
+10204,46,Male,California,Premium,30,130.32,283,5,0,63,28,1,Neutral,4,0
+10205,34,Male,California,Premium,25,121.68,75,4,1,45,53,1,Neutral,0,1
+10206,59,Female,California,Premium,8,178.06,73,8,1,67,9,6,Positive,3,0
+10207,47,Male,California,Premium,26,86.96,282,5,2,18,60,9,Negative,4,1
+10208,47,Female,Illinois,Basic,10,119.97,411,2,2,51,49,3,Positive,2,0
+10209,59,Female,New York,Premium,10,154.82,236,0,1,18,8,9,Positive,1,0
+10210,37,Female,New York,Basic,46,181.19,63,1,2,88,96,5,Negative,3,0
+10211,57,Female,Illinois,Basic,51,63.3,429,4,2,96,87,5,Negative,1,0
+10212,45,Female,Texas,Basic,59,192.0,287,4,4,87,39,4,Neutral,0,1
+10213,59,Male,Florida,Premium,14,148.94,395,5,2,76,22,3,Neutral,3,1
+10214,27,Male,Illinois,Basic,4,121.5,372,8,0,70,85,2,Positive,1,1
+10215,44,Female,Texas,Premium,30,105.04,448,8,0,64,9,10,Neutral,1,1
+10216,19,Male,Texas,Basic,48,163.56,324,5,2,89,24,10,Positive,3,0
+10217,21,Female,New York,Premium,24,86.36,310,7,0,89,62,6,Negative,4,0
+10218,53,Female,California,Basic,2,19.81,73,6,2,8,61,1,Negative,4,1
+10219,59,Male,Florida,Premium,18,68.28,175,8,3,38,4,8,Positive,3,1
+10220,49,Female,Illinois,Basic,16,66.94,41,0,4,2,66,9,Positive,4,0
+10221,55,Male,Texas,Premium,44,75.91,280,5,1,75,21,6,Negative,3,0
+10222,19,Female,Florida,Basic,39,44.5,283,0,4,50,35,10,Positive,3,1
+10223,31,Male,Florida,Basic,30,11.2,136,7,2,96,58,6,Neutral,4,1
+10224,62,Female,Florida,Premium,10,113.36,217,6,2,95,56,4,Positive,1,0
+10225,55,Female,Illinois,Premium,48,161.29,496,5,2,79,54,1,Positive,2,1
+10226,60,Male,New York,Premium,4,98.82,173,2,3,60,95,9,Negative,3,1
+10227,68,Male,New York,Enterprise,24,34.62,17,6,0,72,17,1,Positive,2,0
+10228,44,Female,Texas,Basic,1,10.92,133,4,3,81,26,10,Neutral,1,1
+10229,31,Male,Illinois,Basic,59,20.13,412,0,2,76,41,7,Positive,1,0
+10230,66,Male,Texas,Enterprise,53,179.73,279,1,4,67,60,10,Positive,2,1
+10231,18,Male,Illinois,Premium,25,145.87,59,4,0,2,87,5,Neutral,3,0
+10232,40,Female,Florida,Enterprise,29,40.24,494,6,1,93,66,9,Positive,0,0
+10233,55,Male,Florida,Premium,54,67.0,354,8,4,50,60,9,Positive,1,1
+10234,31,Male,New York,Basic,25,129.6,305,2,2,89,11,3,Neutral,3,0
+10235,63,Male,New York,Premium,49,52.41,11,9,3,71,33,4,Negative,0,0
+10236,26,Female,Illinois,Basic,34,41.48,224,9,4,80,19,6,Positive,0,1
+10237,39,Male,Florida,Basic,38,90.51,58,4,3,9,42,10,Neutral,1,0
+10238,51,Male,Texas,Premium,27,197.52,25,8,3,71,83,8,Neutral,4,1
+10239,59,Male,California,Premium,5,73.56,285,8,1,48,37,9,Positive,1,1
+10240,62,Female,Texas,Enterprise,56,84.2,169,2,0,19,0,3,Positive,2,0
+10241,31,Female,Florida,Premium,22,29.27,157,4,1,87,92,9,Negative,1,0
+10242,30,Female,California,Premium,19,102.45,44,6,0,0,63,10,Negative,2,1
+10243,52,Female,New York,Basic,51,154.12,149,8,4,56,6,10,Negative,4,0
+10244,68,Female,Illinois,Basic,44,97.67,362,4,0,45,34,8,Positive,1,0
+10245,34,Male,New York,Premium,22,188.35,276,1,4,35,56,3,Negative,0,1
+10246,50,Female,California,Premium,8,145.8,417,3,2,67,6,1,Negative,1,1
+10247,43,Female,California,Premium,25,101.33,122,4,3,53,49,4,Negative,4,1
+10248,35,Female,New York,Basic,36,82.7,447,1,2,57,11,8,Positive,4,1
+10249,45,Male,Texas,Premium,27,140.57,448,4,1,78,21,9,Neutral,1,0
+10250,34,Female,California,Enterprise,19,20.34,94,5,0,81,1,5,Negative,2,1
+10251,66,Female,Illinois,Basic,48,190.06,45,7,0,67,31,9,Negative,1,1
+10252,20,Female,California,Premium,59,125.09,319,5,1,49,27,5,Negative,0,1
+10253,58,Female,Florida,Premium,29,144.55,146,4,3,8,81,2,Positive,0,0
+10254,39,Female,Texas,Basic,29,189.2,17,1,2,64,94,5,Positive,3,0
+10255,66,Male,Florida,Basic,16,155.41,317,3,2,24,57,6,Neutral,4,1
+10256,33,Female,Illinois,Enterprise,40,14.79,125,4,3,47,62,7,Negative,0,0
+10257,45,Female,California,Premium,59,90.34,105,3,3,30,49,5,Positive,1,1
+10258,30,Female,Texas,Basic,54,34.5,165,4,2,25,39,1,Positive,1,1
+10259,66,Female,Texas,Basic,33,72.93,257,8,2,76,30,6,Positive,2,0
+10260,21,Female,Illinois,Enterprise,41,187.34,411,1,3,68,88,1,Negative,0,1
+10261,39,Male,New York,Basic,48,70.69,134,8,0,19,83,10,Negative,1,0
+10262,69,Female,Florida,Basic,58,39.03,337,5,0,63,81,6,Negative,2,0
+10263,61,Female,New York,Basic,21,191.52,216,4,0,68,70,5,Positive,1,0
+10264,20,Male,Texas,Basic,45,52.45,377,5,0,29,47,8,Negative,0,1
+10265,33,Female,California,Premium,17,116.38,173,1,1,8,30,9,Negative,1,0
+10266,48,Male,New York,Premium,54,44.93,194,6,2,46,31,1,Positive,3,0
+10267,23,Male,New York,Basic,56,151.92,269,1,0,59,24,4,Neutral,4,0
+10268,59,Female,California,Premium,35,75.24,462,0,1,9,53,8,Positive,3,0
+10269,66,Female,New York,Basic,27,118.03,264,8,1,68,8,3,Neutral,4,1
+10270,64,Female,Florida,Basic,50,127.54,433,8,1,23,60,2,Neutral,1,0
+10271,39,Female,Texas,Premium,39,53.86,82,4,3,19,72,8,Negative,1,1
+10272,41,Male,Texas,Enterprise,38,108.64,71,4,2,84,92,10,Neutral,4,1
+10273,26,Male,Texas,Basic,38,148.44,154,4,3,12,92,6,Positive,3,1
+10274,29,Male,Illinois,Basic,38,127.31,483,4,2,62,50,3,Negative,0,0
+10275,56,Female,Florida,Premium,46,87.02,239,6,2,22,29,6,Negative,4,0
+10276,31,Male,California,Premium,3,35.26,409,2,3,43,48,7,Negative,4,1
+10277,63,Female,New York,Premium,22,190.33,330,0,0,58,88,3,Negative,2,1
+10278,58,Female,California,Basic,27,180.28,269,5,1,87,17,3,Neutral,1,0
+10279,53,Male,New York,Premium,17,145.75,264,4,4,16,63,4,Negative,1,0
+10280,41,Female,Illinois,Basic,8,155.08,139,7,3,96,37,7,Positive,4,1
+10281,58,Male,California,Premium,56,177.52,76,8,1,36,14,8,Positive,1,1
+10282,33,Female,New York,Basic,36,136.1,115,0,1,39,93,1,Negative,4,1
+10283,47,Male,New York,Premium,2,138.54,435,7,0,45,61,4,Positive,2,1
+10284,43,Female,Illinois,Premium,44,48.87,380,1,2,13,2,5,Neutral,1,0
+10285,39,Female,Texas,Premium,20,141.38,162,5,4,71,43,3,Positive,4,1
+10286,66,Female,Florida,Basic,44,168.07,378,7,1,16,22,8,Neutral,0,1
+10287,30,Female,Texas,Basic,39,186.71,306,9,0,54,66,9,Negative,4,0
+10288,58,Female,New York,Premium,14,126.01,411,4,1,20,37,3,Negative,3,1
+10289,43,Male,Illinois,Basic,11,157.35,380,9,4,63,90,4,Negative,4,1
+10290,64,Female,Illinois,Premium,54,80.25,203,9,1,96,51,5,Negative,3,0
+10291,31,Female,Florida,Premium,5,147.08,132,4,0,99,78,8,Neutral,4,0
+10292,51,Male,California,Premium,6,161.33,317,9,0,58,59,2,Neutral,1,0
+10293,57,Male,New York,Enterprise,26,75.41,159,7,3,93,83,4,Negative,3,1
+10294,64,Male,New York,Premium,31,29.83,285,6,2,42,28,3,Positive,1,0
+10295,65,Male,California,Premium,33,65.55,483,5,2,83,37,5,Negative,0,0
+10296,46,Male,New York,Premium,50,160.39,438,9,0,21,0,6,Negative,4,0
+10297,43,Female,Texas,Basic,42,185.0,146,3,0,5,90,3,Negative,3,1
+10298,63,Female,Texas,Basic,29,65.73,123,7,0,74,69,5,Neutral,2,1
+10299,50,Male,New York,Basic,27,188.59,229,9,1,37,91,5,Negative,1,0
+10300,35,Male,California,Basic,57,103.01,184,1,0,41,26,2,Neutral,1,0
+10301,33,Male,California,Premium,1,198.66,476,6,4,75,1,7,Negative,2,0
+10302,36,Male,Texas,Basic,7,123.09,83,6,0,70,94,5,Positive,4,1
+10303,32,Male,Florida,Premium,30,39.98,10,6,3,25,98,6,Negative,0,0
+10304,37,Female,New York,Premium,56,151.87,356,7,3,58,6,3,Neutral,2,1
+10305,37,Male,California,Basic,51,74.24,421,2,0,71,36,5,Positive,1,0
+10306,22,Male,Florida,Enterprise,50,122.18,55,1,0,19,59,2,Negative,0,1
+10307,62,Male,New York,Basic,5,59.93,352,2,0,80,18,10,Negative,0,0
+10308,34,Female,Texas,Enterprise,37,147.09,438,9,3,81,44,8,Positive,0,0
+10309,36,Female,Illinois,Premium,8,26.5,291,6,3,88,10,2,Neutral,3,0
+10310,65,Female,Florida,Premium,19,116.52,269,8,2,51,15,7,Positive,1,0
+10311,39,Female,Florida,Basic,30,29.58,469,7,1,52,7,10,Negative,1,1
+10312,42,Female,Texas,Basic,39,183.31,355,3,4,45,87,5,Negative,0,1
+10313,41,Male,Florida,Enterprise,56,39.7,445,2,2,86,28,8,Negative,3,0
+10314,52,Female,Texas,Basic,11,79.69,47,0,0,95,86,6,Negative,1,1
+10315,50,Female,Florida,Basic,24,57.44,497,8,3,12,78,10,Positive,1,1
+10316,55,Female,Illinois,Enterprise,15,146.83,82,4,2,59,3,10,Neutral,1,0
+10317,45,Male,California,Premium,2,22.32,75,4,4,2,67,5,Positive,3,0
+10318,53,Female,Illinois,Premium,18,47.14,297,7,1,33,90,10,Positive,2,1
+10319,48,Male,Texas,Basic,53,133.06,438,0,4,2,57,3,Neutral,1,0
+10320,31,Female,New York,Premium,28,53.55,17,9,4,26,14,10,Positive,0,0
+10321,56,Male,Florida,Enterprise,41,143.96,211,1,4,0,95,1,Neutral,0,0
+10322,67,Male,Texas,Premium,37,41.68,279,3,3,29,46,3,Negative,4,1
+10323,57,Male,California,Premium,40,134.74,400,3,3,79,1,1,Neutral,2,0
+10324,63,Female,California,Basic,23,98.98,463,1,1,29,10,2,Positive,1,0
+10325,25,Male,California,Premium,20,14.62,185,2,2,70,95,1,Negative,1,0
+10326,20,Female,Florida,Basic,49,126.1,387,6,3,35,5,3,Negative,2,0
+10327,55,Female,California,Basic,2,108.87,393,8,4,37,87,10,Negative,0,1
+10328,59,Female,Illinois,Basic,22,70.01,100,0,0,9,66,4,Neutral,2,0
+10329,26,Male,New York,Premium,4,162.24,463,8,3,15,74,9,Negative,2,1
+10330,66,Male,Florida,Premium,21,92.32,447,6,0,38,74,8,Neutral,1,0
+10331,52,Female,New York,Premium,7,112.78,402,3,3,86,55,9,Negative,2,0
+10332,28,Female,Illinois,Basic,34,191.33,61,7,2,60,20,7,Negative,3,1
+10333,24,Male,New York,Enterprise,54,138.63,351,0,0,70,49,10,Negative,1,1
+10334,37,Female,Florida,Premium,29,19.11,295,8,4,14,82,3,Positive,4,0
+10335,58,Male,Illinois,Basic,26,168.25,257,3,1,48,1,4,Negative,1,1
+10336,54,Female,Illinois,Premium,42,42.78,228,3,1,12,37,7,Positive,4,0
+10337,36,Male,California,Basic,54,137.4,139,7,0,41,21,10,Positive,0,1
+10338,64,Male,Illinois,Basic,5,173.72,297,4,4,62,54,10,Positive,1,0
+10339,64,Female,California,Premium,12,179.22,352,4,4,6,85,9,Positive,2,1
+10340,29,Male,Florida,Premium,30,39.89,10,2,2,92,53,6,Negative,1,1
+10341,38,Female,Florida,Enterprise,50,100.27,395,1,2,0,12,3,Positive,3,1
+10342,66,Female,Illinois,Basic,23,93.08,133,0,0,19,40,10,Negative,4,1
+10343,29,Male,California,Enterprise,1,100.35,490,6,2,1,55,8,Positive,1,0
+10344,53,Female,Illinois,Premium,48,32.99,135,1,0,73,41,1,Positive,2,0
+10345,58,Male,Texas,Basic,58,140.82,417,9,3,49,72,9,Positive,4,0
+10346,31,Female,Florida,Basic,46,123.87,222,0,4,90,57,5,Negative,3,0
+10347,38,Male,California,Enterprise,36,160.05,277,2,3,34,16,10,Positive,4,0
+10348,36,Female,Florida,Premium,48,186.87,240,2,1,30,2,2,Negative,3,1
+10349,63,Female,New York,Premium,42,75.28,22,7,0,44,1,3,Positive,3,1
+10350,44,Male,Texas,Premium,32,142.9,180,1,1,89,81,1,Neutral,0,1
+10351,38,Female,Illinois,Enterprise,7,113.62,363,8,4,6,20,7,Negative,0,0
+10352,64,Male,New York,Premium,21,189.36,424,6,2,16,63,7,Neutral,1,0
+10353,35,Female,New York,Basic,44,159.89,143,5,0,23,17,8,Neutral,1,0
+10354,55,Female,Texas,Basic,18,51.23,215,1,0,88,84,3,Neutral,1,0
+10355,31,Male,Texas,Premium,7,67.41,363,3,4,10,68,1,Neutral,0,1
+10356,25,Male,New York,Premium,48,105.5,373,4,2,16,63,6,Positive,0,0
+10357,65,Male,California,Premium,20,54.05,321,1,2,88,55,4,Negative,4,1
+10358,55,Male,Illinois,Premium,55,85.32,148,6,0,29,91,10,Positive,2,0
+10359,22,Female,California,Basic,40,105.35,58,3,4,35,6,9,Positive,4,0
+10360,24,Male,California,Premium,44,188.48,89,8,2,8,87,1,Negative,4,1
+10361,39,Male,California,Premium,53,23.81,412,5,1,86,81,1,Negative,3,1
+10362,52,Female,New York,Basic,51,164.82,212,8,0,35,5,4,Negative,0,1
+10363,59,Female,California,Premium,45,99.31,197,6,2,65,19,2,Negative,3,0
+10364,21,Male,California,Enterprise,39,177.65,466,4,2,80,82,7,Positive,1,0
+10365,45,Female,New York,Basic,53,19.05,135,4,0,59,72,8,Negative,2,1
+10366,30,Female,New York,Enterprise,57,117.09,418,6,4,70,42,3,Positive,1,1
+10367,58,Male,Illinois,Premium,4,133.45,399,8,3,71,4,1,Neutral,2,0
+10368,29,Female,Florida,Basic,20,185.62,64,7,2,8,54,8,Negative,3,0
+10369,50,Male,Florida,Premium,5,114.55,245,7,0,11,59,3,Negative,1,1
+10370,54,Female,Texas,Basic,10,168.48,303,0,1,0,48,6,Neutral,0,0
+10371,34,Male,Illinois,Basic,41,195.51,437,6,2,66,61,4,Neutral,2,1
+10372,20,Male,Illinois,Enterprise,58,70.24,187,0,4,15,96,5,Positive,4,0
+10373,44,Male,Texas,Basic,45,198.65,428,6,1,91,73,10,Neutral,4,0
+10374,23,Male,Florida,Premium,6,43.41,440,8,2,98,75,1,Positive,2,0
+10375,29,Female,Illinois,Basic,23,140.16,319,1,4,8,9,8,Negative,3,0
+10376,62,Male,New York,Basic,5,133.79,92,2,4,81,98,5,Positive,2,0
+10377,34,Male,Florida,Basic,23,34.78,315,4,1,23,30,6,Negative,4,0
+10378,69,Male,New York,Premium,12,26.99,343,2,4,81,93,8,Neutral,3,0
+10379,69,Female,Illinois,Enterprise,27,124.41,324,6,3,70,75,10,Positive,4,0
+10380,57,Male,New York,Premium,26,89.28,122,3,4,50,19,5,Negative,2,1
+10381,36,Male,Texas,Premium,47,25.95,463,2,1,3,74,6,Negative,3,0
+10382,21,Female,Florida,Premium,10,152.89,460,0,0,88,35,6,Neutral,2,1
+10383,55,Female,Illinois,Premium,5,30.34,195,2,4,87,72,7,Negative,0,0
+10384,35,Female,Texas,Enterprise,54,164.31,332,0,3,57,77,1,Neutral,2,1
+10385,55,Male,Texas,Basic,26,29.29,324,1,2,95,5,5,Neutral,0,1
+10386,24,Female,Illinois,Premium,49,145.7,181,1,1,23,73,6,Neutral,0,0
+10387,41,Female,New York,Basic,30,175.31,14,2,1,92,3,3,Negative,4,1
+10388,53,Female,Texas,Enterprise,29,172.32,350,9,0,79,83,9,Neutral,1,1
+10389,62,Female,Florida,Premium,16,152.5,470,0,1,8,66,9,Neutral,2,0
+10390,62,Female,Texas,Basic,21,45.8,497,2,3,52,97,7,Positive,3,1
+10391,41,Female,Texas,Basic,7,100.01,250,2,1,68,51,4,Positive,1,1
+10392,69,Female,New York,Basic,50,77.31,315,0,3,11,15,5,Positive,0,1
+10393,36,Female,Florida,Enterprise,21,96.93,334,3,2,85,51,5,Neutral,0,1
+10394,53,Female,Florida,Basic,36,151.76,109,6,1,41,98,7,Neutral,3,1
+10395,36,Male,Florida,Premium,57,172.85,411,7,0,69,70,4,Neutral,2,0
+10396,40,Female,Florida,Basic,36,134.88,320,2,4,59,5,8,Positive,2,1
+10397,32,Male,Texas,Premium,13,12.65,237,3,2,13,42,3,Negative,4,1
+10398,38,Male,Florida,Basic,16,34.1,226,9,3,10,30,2,Negative,0,1
+10399,61,Male,Illinois,Basic,17,74.79,485,8,4,87,47,9,Negative,3,1
+10400,35,Male,California,Basic,42,182.57,199,6,2,80,38,1,Positive,1,1
+10401,39,Female,California,Premium,7,124.94,416,7,2,34,26,5,Positive,2,1
+10402,64,Male,Illinois,Basic,16,162.51,482,5,2,2,0,5,Negative,0,0
+10403,41,Male,Texas,Basic,32,97.3,53,9,2,61,11,7,Negative,1,1
+10404,28,Female,Illinois,Basic,54,187.06,320,2,3,45,49,3,Neutral,2,0
+10405,28,Female,New York,Premium,38,62.74,193,7,0,96,44,6,Positive,2,0
+10406,61,Male,Texas,Enterprise,36,173.92,489,4,1,42,94,6,Negative,3,1
+10407,46,Male,New York,Basic,43,42.87,227,2,1,92,32,6,Neutral,0,1
+10408,23,Female,California,Premium,14,147.85,390,2,1,28,67,10,Negative,3,0
+10409,45,Female,Florida,Enterprise,16,140.01,279,2,4,31,40,7,Neutral,4,0
+10410,39,Female,New York,Basic,11,31.26,283,4,1,33,18,5,Positive,2,1
+10411,19,Female,California,Premium,14,169.81,463,6,0,67,40,6,Neutral,4,1
+10412,68,Male,New York,Basic,32,167.28,161,2,2,0,25,7,Neutral,0,1
+10413,50,Male,Texas,Premium,13,174.71,142,5,3,25,89,6,Neutral,2,1
+10414,40,Female,Texas,Premium,1,59.49,100,9,1,38,89,3,Neutral,2,1
+10415,43,Female,Florida,Premium,39,37.21,392,6,3,12,83,6,Neutral,3,0
+10416,23,Male,Texas,Premium,39,97.44,263,4,4,34,81,2,Positive,0,1
+10417,22,Male,Texas,Enterprise,57,173.11,195,5,1,61,76,2,Negative,2,0
+10418,34,Female,New York,Premium,30,161.88,151,8,0,61,37,6,Neutral,4,1
+10419,35,Female,California,Premium,24,141.04,94,8,3,43,69,6,Neutral,2,1
+10420,64,Female,New York,Premium,17,197.09,478,1,0,18,99,2,Negative,1,0
+10421,22,Female,New York,Basic,15,133.36,295,3,2,43,79,2,Negative,3,1
+10422,46,Female,Florida,Basic,41,180.91,201,4,4,22,13,1,Neutral,3,1
+10423,49,Female,New York,Basic,31,96.58,395,9,4,76,64,7,Negative,0,0
+10424,52,Male,Texas,Premium,30,160.47,474,0,4,40,79,5,Negative,3,0
+10425,26,Female,Texas,Basic,52,140.2,222,1,0,73,88,8,Positive,3,1
+10426,28,Female,Texas,Enterprise,42,19.06,19,3,0,69,91,4,Neutral,4,0
+10427,35,Male,California,Premium,39,80.84,388,2,2,96,95,3,Neutral,3,0
+10428,48,Male,Florida,Premium,5,166.39,366,4,3,71,6,6,Neutral,1,0
+10429,53,Female,Texas,Enterprise,9,81.75,167,2,4,74,34,2,Positive,0,1
+10430,67,Female,Florida,Basic,36,65.69,271,7,2,44,97,4,Positive,2,1
+10431,18,Male,Illinois,Premium,4,15.03,343,3,3,56,87,4,Neutral,3,1
+10432,47,Male,Texas,Basic,4,39.42,162,0,2,65,55,6,Neutral,1,0
+10433,25,Female,Texas,Premium,1,39.93,15,1,3,90,97,8,Negative,3,1
+10434,43,Male,New York,Premium,50,186.81,415,5,3,22,8,3,Neutral,0,0
+10435,55,Male,Illinois,Basic,24,35.24,47,8,3,37,46,5,Negative,2,0
+10436,33,Male,Texas,Basic,32,103.0,326,9,2,17,77,3,Negative,1,0
+10437,19,Female,Illinois,Basic,51,157.44,391,8,0,2,28,2,Neutral,4,0
+10438,49,Male,Florida,Premium,38,103.61,123,4,3,43,42,10,Neutral,4,0
+10439,64,Female,Florida,Basic,11,88.41,475,3,1,4,54,4,Positive,4,0
+10440,46,Male,Texas,Basic,58,181.92,334,5,0,27,24,2,Negative,3,0
+10441,18,Female,New York,Premium,23,180.6,210,3,2,42,12,3,Negative,2,1
+10442,21,Female,California,Basic,11,170.37,285,3,1,56,76,10,Negative,4,0
+10443,46,Male,New York,Premium,26,102.86,111,3,1,92,2,7,Positive,3,0
+10444,49,Male,California,Enterprise,52,118.09,283,3,3,65,61,8,Negative,2,1
+10445,46,Female,Texas,Premium,6,44.39,208,7,1,69,10,9,Positive,2,1
+10446,67,Female,Texas,Premium,21,172.59,123,7,1,64,7,8,Neutral,0,0
+10447,54,Male,Texas,Basic,42,45.02,372,1,3,12,6,8,Negative,2,1
+10448,68,Female,Texas,Premium,47,43.51,315,0,0,78,98,2,Negative,4,0
+10449,58,Male,Texas,Basic,19,194.17,281,2,1,98,96,3,Negative,0,1
+10450,21,Male,New York,Basic,27,77.3,206,8,3,53,6,9,Positive,1,1
+10451,22,Male,Florida,Enterprise,28,192.48,203,4,1,1,62,4,Neutral,4,0
+10452,33,Female,New York,Premium,2,188.22,408,7,1,21,28,9,Negative,1,1
+10453,45,Female,Florida,Premium,40,181.72,360,4,1,31,50,3,Negative,4,0
+10454,36,Male,Texas,Basic,35,182.96,54,9,1,77,91,6,Negative,1,0
+10455,59,Female,Illinois,Premium,58,124.56,79,4,4,10,43,7,Neutral,1,0
+10456,29,Female,California,Enterprise,24,18.54,286,0,0,81,20,3,Negative,4,1
+10457,30,Female,California,Premium,18,175.87,408,8,1,48,1,10,Neutral,3,0
+10458,65,Male,New York,Enterprise,7,195.58,97,8,0,88,45,5,Negative,4,1
+10459,53,Male,Florida,Premium,42,161.36,281,9,1,12,26,3,Negative,0,0
+10460,38,Male,Florida,Enterprise,52,133.58,323,4,1,39,4,7,Positive,4,0
+10461,37,Female,Florida,Basic,47,49.02,197,2,1,35,93,9,Neutral,0,0
+10462,54,Female,Florida,Premium,12,188.21,154,7,0,39,80,6,Negative,3,1
+10463,37,Female,Texas,Enterprise,41,21.3,367,8,2,70,63,8,Positive,4,1
+10464,36,Male,Illinois,Premium,53,87.41,327,6,4,15,84,10,Neutral,0,1
+10465,47,Female,California,Basic,11,79.05,228,2,3,96,60,2,Negative,1,0
+10466,33,Male,California,Basic,54,172.23,396,8,2,77,73,7,Negative,1,1
+10467,21,Female,New York,Basic,50,30.74,360,5,2,96,55,5,Positive,0,0
+10468,28,Male,Illinois,Basic,29,41.0,288,7,0,96,20,4,Positive,1,0
+10469,30,Male,Illinois,Basic,22,61.49,274,8,2,89,1,4,Positive,4,1
+10470,39,Male,New York,Basic,54,86.31,372,0,2,59,46,4,Neutral,1,1
+10471,36,Female,Illinois,Basic,3,119.08,406,1,1,11,53,6,Positive,4,1
+10472,46,Female,New York,Basic,24,175.76,240,6,4,16,85,6,Neutral,0,1
+10473,28,Female,Florida,Premium,55,91.66,344,2,4,75,83,10,Negative,4,0
+10474,67,Male,New York,Basic,29,61.13,133,0,0,48,25,8,Negative,1,0
+10475,69,Female,Illinois,Basic,54,23.69,32,8,4,59,51,9,Negative,4,0
+10476,26,Male,Illinois,Premium,38,67.43,300,0,2,36,7,4,Positive,2,1
+10477,52,Female,Florida,Premium,51,92.31,299,2,2,54,37,6,Neutral,2,0
+10478,47,Female,California,Premium,27,147.01,115,4,4,37,72,7,Positive,4,0
+10479,38,Female,California,Premium,49,76.39,27,1,1,27,18,9,Positive,4,1
+10480,18,Female,Illinois,Premium,42,156.99,346,5,0,30,25,4,Positive,2,1
+10481,21,Female,Texas,Premium,40,73.2,450,3,1,27,27,6,Neutral,2,0
+10482,44,Female,California,Basic,34,10.71,238,1,4,7,40,10,Negative,3,1
+10483,66,Female,California,Enterprise,15,36.12,360,8,0,98,84,10,Positive,0,1
+10484,64,Female,Texas,Basic,18,50.51,136,9,2,18,1,8,Neutral,0,1
+10485,34,Male,Illinois,Premium,11,79.9,177,4,0,29,4,8,Positive,1,0
+10486,60,Male,California,Premium,24,19.49,231,9,3,94,61,8,Neutral,4,0
+10487,64,Male,Florida,Premium,15,168.15,291,2,4,70,86,10,Positive,0,0
+10488,30,Female,Texas,Premium,43,54.32,279,1,0,26,44,10,Negative,2,1
+10489,58,Male,Florida,Basic,23,155.78,57,4,2,15,30,5,Neutral,4,0
+10490,69,Male,Texas,Premium,13,127.41,301,2,3,53,22,10,Neutral,3,0
+10491,57,Male,California,Basic,4,175.82,112,0,3,14,50,10,Neutral,3,0
+10492,44,Male,New York,Enterprise,35,85.23,331,2,0,84,74,7,Positive,1,0
+10493,59,Male,Illinois,Basic,53,137.13,277,9,0,15,91,7,Positive,1,0
+10494,49,Female,Illinois,Basic,59,80.47,168,0,0,45,61,9,Positive,1,0
+10495,60,Male,California,Basic,41,154.6,28,7,0,1,9,5,Negative,4,1
+10496,27,Female,New York,Premium,8,88.36,405,1,3,87,92,2,Neutral,4,0
+10497,54,Female,Texas,Basic,30,185.42,134,1,2,95,75,3,Positive,2,0
+10498,24,Female,Texas,Premium,16,189.53,60,6,4,49,19,6,Negative,3,1
+10499,28,Male,Florida,Basic,7,192.17,211,0,2,24,34,6,Positive,0,1
+10500,58,Female,Illinois,Enterprise,25,143.9,56,1,4,60,76,10,Neutral,4,1
+10501,65,Female,Florida,Basic,19,55.25,112,1,3,16,51,10,Neutral,2,1
+10502,32,Male,New York,Basic,17,167.99,322,5,4,2,14,4,Positive,3,0
+10503,18,Female,California,Basic,30,48.0,253,0,2,79,29,6,Negative,2,1
+10504,34,Male,Texas,Enterprise,38,151.54,92,4,3,71,41,9,Neutral,0,0
+10505,19,Male,Texas,Basic,15,194.54,298,4,1,67,55,8,Negative,2,1
+10506,69,Male,New York,Basic,28,83.72,467,0,3,26,6,1,Neutral,2,1
+10507,57,Female,Texas,Basic,37,13.08,464,4,4,39,94,7,Positive,1,0
+10508,46,Female,California,Premium,20,166.02,369,7,0,82,39,9,Neutral,0,0
+10509,65,Female,New York,Basic,24,169.49,467,1,4,95,56,2,Neutral,4,1
+10510,18,Male,Illinois,Basic,3,51.1,326,0,3,96,39,10,Neutral,0,1
+10511,56,Male,Florida,Basic,2,110.39,449,6,3,41,48,2,Negative,1,1
+10512,58,Female,Illinois,Premium,8,88.38,80,2,0,75,42,7,Neutral,3,1
+10513,22,Female,Texas,Basic,44,11.86,97,2,0,97,36,1,Neutral,0,1
+10514,60,Male,Florida,Premium,14,152.06,147,3,2,27,97,10,Neutral,3,0
+10515,64,Female,Texas,Basic,49,71.3,490,2,1,87,97,10,Negative,2,0
+10516,66,Female,Illinois,Basic,13,189.48,149,4,1,16,53,5,Neutral,4,1
+10517,34,Female,Illinois,Basic,10,166.53,355,6,2,92,81,4,Neutral,4,0
+10518,67,Male,New York,Premium,3,163.09,241,5,0,72,78,1,Negative,3,1
+10519,34,Male,Texas,Basic,16,152.48,94,8,3,47,77,2,Neutral,0,0
+10520,47,Female,Florida,Premium,25,110.09,284,9,2,2,0,8,Neutral,0,0
+10521,56,Male,New York,Basic,44,47.84,63,6,4,3,47,3,Positive,3,0
+10522,28,Female,New York,Premium,27,111.06,110,0,0,68,38,8,Positive,4,0
+10523,60,Male,Illinois,Basic,17,34.1,175,0,4,53,10,6,Neutral,2,0
+10524,52,Female,California,Premium,30,191.78,85,3,2,83,26,5,Negative,4,0
+10525,37,Female,Texas,Basic,20,36.43,254,2,3,10,23,5,Negative,3,1
+10526,29,Male,Illinois,Premium,19,15.18,193,8,4,72,60,3,Positive,3,0
+10527,57,Female,Texas,Premium,1,12.71,185,1,4,84,58,6,Negative,4,1
+10528,23,Male,California,Basic,46,166.0,450,8,4,89,56,6,Neutral,3,0
+10529,20,Female,Illinois,Basic,27,88.31,471,7,2,5,9,8,Neutral,3,0
+10530,23,Male,California,Basic,24,42.04,348,8,0,45,59,4,Neutral,3,0
+10531,58,Female,California,Premium,42,156.53,138,2,0,4,35,3,Positive,4,1
+10532,66,Female,Illinois,Basic,46,109.57,140,0,3,69,70,10,Positive,0,0
+10533,59,Female,Illinois,Premium,29,119.92,14,7,4,96,48,6,Negative,3,0
+10534,54,Female,California,Basic,21,115.84,480,1,3,39,34,9,Negative,4,1
+10535,39,Female,Texas,Basic,48,180.29,295,4,4,18,76,3,Neutral,0,0
+10536,19,Female,Florida,Premium,38,76.13,443,1,3,29,19,8,Positive,3,0
+10537,38,Male,Illinois,Basic,30,190.31,179,0,3,53,36,3,Positive,0,0
+10538,26,Female,New York,Basic,19,35.33,396,2,2,62,97,5,Negative,0,1
+10539,55,Female,California,Premium,25,122.78,454,9,4,89,17,4,Positive,1,1
+10540,55,Female,Florida,Premium,37,147.0,230,2,1,95,70,6,Negative,1,0
+10541,34,Female,Florida,Premium,13,131.4,101,8,2,35,55,7,Negative,4,0
+10542,69,Female,Florida,Basic,35,186.75,405,9,4,72,2,3,Neutral,2,0
+10543,20,Female,California,Premium,24,50.19,277,0,1,79,68,8,Positive,3,1
+10544,52,Male,Florida,Enterprise,53,153.18,341,0,3,44,83,4,Positive,2,0
+10545,36,Female,Florida,Premium,46,95.65,334,8,4,19,74,7,Positive,1,0
+10546,45,Male,Illinois,Enterprise,51,62.62,331,5,3,66,25,8,Negative,2,0
+10547,37,Female,Florida,Basic,28,19.41,357,8,4,83,43,2,Negative,2,0
+10548,22,Female,Florida,Basic,24,39.31,182,9,1,73,55,9,Neutral,0,0
+10549,41,Female,Texas,Basic,11,59.04,188,4,3,80,18,9,Negative,4,0
+10550,27,Male,Texas,Premium,59,127.67,266,1,4,12,17,10,Negative,0,1
+10551,48,Male,Illinois,Basic,45,192.03,373,4,4,89,67,2,Negative,2,0
+10552,63,Female,California,Basic,1,65.68,366,2,4,95,88,8,Positive,2,1
+10553,65,Female,Florida,Premium,26,26.48,199,1,1,42,42,4,Positive,2,1
+10554,39,Female,Illinois,Premium,15,78.21,484,8,1,48,6,10,Negative,1,1
+10555,40,Male,New York,Premium,20,199.17,88,7,3,87,64,6,Negative,3,0
+10556,68,Male,New York,Basic,56,158.79,148,3,3,30,88,10,Positive,2,1
+10557,58,Female,Illinois,Enterprise,14,40.06,302,8,2,43,15,9,Negative,0,0
+10558,40,Female,Texas,Basic,9,44.84,161,3,4,92,78,9,Negative,0,1
+10559,49,Female,California,Basic,46,123.1,160,7,0,39,98,6,Positive,3,0
+10560,26,Female,New York,Basic,29,46.9,493,6,2,16,48,8,Neutral,4,0
+10561,42,Female,Texas,Basic,22,199.42,424,8,3,40,0,6,Positive,2,0
+10562,46,Male,Texas,Basic,32,163.78,188,3,3,52,81,6,Positive,1,1
+10563,64,Female,New York,Basic,41,13.77,352,1,2,23,7,4,Negative,4,1
+10564,42,Female,Florida,Basic,42,64.96,180,0,4,32,17,9,Negative,4,1
+10565,31,Male,Illinois,Basic,53,62.08,451,0,4,24,17,3,Neutral,1,0
+10566,21,Female,New York,Premium,15,165.74,153,9,3,42,91,1,Negative,3,1
+10567,59,Male,California,Basic,27,86.98,186,6,3,49,25,8,Neutral,2,1
+10568,22,Male,Texas,Basic,59,69.14,140,1,0,60,35,2,Neutral,4,0
+10569,31,Female,Illinois,Premium,37,139.01,280,7,2,45,89,6,Positive,3,0
+10570,18,Female,Texas,Basic,13,168.2,275,4,1,86,45,7,Neutral,1,0
+10571,47,Male,New York,Basic,30,192.5,457,1,3,88,5,4,Neutral,0,1
+10572,44,Female,New York,Basic,43,174.38,146,3,0,62,35,4,Negative,2,1
+10573,38,Male,New York,Basic,47,144.98,316,5,3,71,40,4,Positive,0,0
+10574,44,Female,California,Premium,11,80.74,132,2,1,38,73,8,Neutral,4,1
+10575,56,Male,Illinois,Enterprise,10,109.27,303,7,2,18,54,4,Negative,2,1
+10576,28,Male,New York,Basic,20,115.25,86,5,0,21,2,3,Neutral,2,1
+10577,69,Male,Texas,Enterprise,51,111.74,446,6,3,54,62,6,Negative,0,1
+10578,59,Male,California,Premium,46,194.34,90,9,3,18,47,7,Neutral,0,0
+10579,62,Male,California,Premium,53,157.3,400,0,4,51,16,4,Negative,3,1
+10580,18,Female,Florida,Premium,17,21.93,100,4,1,53,55,8,Neutral,3,1
+10581,54,Female,New York,Premium,10,124.15,111,2,2,41,86,3,Neutral,2,1
+10582,67,Female,California,Basic,19,146.94,444,3,3,22,27,1,Neutral,3,1
+10583,55,Female,California,Premium,39,76.94,85,4,3,95,0,6,Positive,3,0
+10584,44,Male,Illinois,Basic,52,36.35,169,0,2,69,23,2,Neutral,4,1
+10585,21,Female,Illinois,Basic,22,64.73,448,1,0,30,97,4,Neutral,4,0
+10586,19,Female,New York,Basic,4,43.38,238,3,2,37,42,1,Positive,4,0
+10587,19,Female,Texas,Premium,54,120.75,119,5,2,95,63,3,Negative,0,0
+10588,67,Female,Texas,Basic,26,90.71,128,9,2,63,43,6,Positive,4,0
+10589,30,Female,California,Basic,54,199.21,298,7,3,44,53,5,Negative,3,0
+10590,62,Male,Texas,Basic,34,192.66,343,5,1,77,84,3,Negative,1,0
+10591,47,Male,Florida,Premium,50,167.07,261,1,0,5,32,1,Negative,3,1
+10592,49,Female,Florida,Premium,43,128.41,194,7,4,80,42,1,Negative,3,0
+10593,50,Female,Illinois,Basic,23,39.3,63,3,3,7,48,1,Positive,1,0
+10594,38,Male,Florida,Enterprise,8,73.86,131,6,4,13,72,2,Negative,4,0
+10595,69,Male,California,Premium,7,89.34,481,4,4,93,26,7,Positive,1,1
+10596,22,Male,New York,Basic,34,150.76,53,9,0,75,78,4,Positive,3,1
+10597,63,Female,New York,Basic,57,147.9,57,6,4,5,79,8,Positive,0,1
+10598,38,Female,Florida,Basic,33,154.58,275,3,3,65,29,1,Neutral,2,1
+10599,31,Male,Illinois,Basic,59,188.06,361,6,4,12,96,3,Negative,0,0
+10600,19,Male,California,Basic,19,88.3,85,6,4,64,13,6,Neutral,0,1
+10601,42,Male,Illinois,Basic,39,34.46,118,8,4,10,38,3,Positive,1,0
+10602,24,Female,Texas,Basic,1,174.74,26,7,3,21,21,7,Negative,1,0
+10603,36,Male,Florida,Premium,41,198.95,358,7,2,98,27,2,Positive,0,1
+10604,28,Female,New York,Basic,40,142.21,139,6,3,76,17,1,Neutral,1,1
+10605,20,Male,Texas,Premium,42,60.91,300,3,4,67,52,2,Positive,0,0
+10606,35,Female,Illinois,Premium,3,92.74,314,6,4,71,52,8,Negative,3,1
+10607,63,Female,Texas,Basic,10,86.54,172,0,2,34,20,9,Neutral,0,1
+10608,53,Female,Florida,Enterprise,6,128.04,451,3,3,93,43,4,Neutral,1,0
+10609,58,Male,California,Basic,26,150.23,22,4,3,31,95,7,Positive,3,0
+10610,37,Female,Illinois,Premium,4,76.44,26,8,3,16,73,2,Neutral,2,0
+10611,66,Female,New York,Enterprise,18,181.2,36,9,4,88,44,8,Negative,0,0
+10612,22,Female,Florida,Basic,50,109.64,131,6,0,21,1,1,Positive,4,0
+10613,19,Male,Illinois,Basic,17,164.32,378,0,4,81,60,6,Positive,4,1
+10614,46,Female,Texas,Premium,33,176.66,401,6,1,31,5,7,Positive,4,1
+10615,63,Male,Texas,Premium,44,173.12,436,5,2,94,28,10,Positive,3,1
+10616,62,Female,New York,Premium,31,125.19,155,1,1,11,16,10,Neutral,0,1
+10617,57,Male,New York,Premium,14,53.05,74,4,1,68,12,2,Negative,1,0
+10618,44,Male,New York,Basic,27,130.76,302,0,0,71,86,4,Negative,3,1
+10619,27,Male,California,Premium,13,134.27,352,5,2,82,77,1,Positive,0,0
+10620,69,Male,New York,Premium,56,84.5,147,5,2,62,10,2,Neutral,0,1
+10621,58,Female,New York,Basic,28,118.05,99,2,1,98,90,6,Negative,0,0
+10622,26,Female,New York,Basic,6,113.7,281,8,3,9,86,4,Positive,2,1
+10623,50,Male,New York,Basic,55,10.9,273,2,1,34,95,7,Positive,2,0
+10624,35,Female,Texas,Basic,37,128.58,169,3,0,80,74,2,Positive,0,1
+10625,56,Male,Illinois,Basic,35,26.17,121,7,0,12,58,8,Neutral,4,1
+10626,66,Female,New York,Premium,46,79.08,10,7,2,34,39,8,Neutral,2,1
+10627,20,Female,California,Enterprise,6,97.3,249,0,2,72,92,1,Negative,2,1
+10628,31,Male,Texas,Basic,30,151.08,415,0,0,83,29,7,Neutral,4,0
+10629,28,Female,Texas,Premium,43,45.29,455,5,3,98,39,6,Negative,1,1
+10630,62,Male,California,Basic,19,188.84,408,3,0,61,1,6,Positive,3,0
+10631,37,Female,Florida,Premium,54,22.14,102,6,0,81,23,9,Neutral,1,0
+10632,66,Female,Illinois,Premium,22,20.76,386,6,3,8,18,9,Neutral,2,1
+10633,69,Female,Illinois,Premium,37,37.94,303,0,0,91,34,5,Negative,4,1
+10634,60,Female,New York,Premium,44,40.35,485,4,4,27,37,4,Negative,4,1
+10635,57,Male,New York,Premium,14,121.3,333,8,1,37,76,3,Positive,3,0
+10636,42,Male,New York,Basic,42,159.67,69,0,3,81,15,7,Neutral,0,0
+10637,63,Female,Texas,Premium,6,145.58,482,5,0,46,51,3,Negative,4,1
+10638,49,Female,New York,Basic,2,45.15,36,2,0,47,41,5,Positive,2,1
+10639,66,Male,Texas,Basic,24,178.2,92,7,0,22,5,1,Positive,2,1
+10640,41,Male,California,Basic,49,41.88,255,8,4,96,56,5,Positive,2,1
+10641,31,Female,Texas,Premium,34,123.78,15,9,1,1,0,8,Neutral,3,1
+10642,23,Male,Texas,Basic,20,108.9,350,1,0,52,80,7,Neutral,0,1
+10643,43,Female,Illinois,Premium,31,125.67,418,4,0,14,95,4,Positive,3,0
+10644,40,Female,California,Basic,50,55.22,222,3,1,1,48,6,Positive,2,1
+10645,51,Male,Florida,Basic,17,117.73,131,9,4,33,34,8,Negative,3,0
+10646,67,Male,New York,Premium,4,80.59,466,2,3,55,35,4,Positive,0,0
+10647,55,Female,California,Premium,43,139.51,363,8,0,43,32,8,Neutral,4,0
+10648,44,Female,Florida,Basic,27,92.09,366,7,0,48,41,2,Neutral,4,0
+10649,57,Male,Texas,Basic,1,16.66,265,1,2,16,25,6,Neutral,0,1
+10650,38,Male,Florida,Premium,23,86.19,361,0,4,54,26,1,Negative,1,1
+10651,61,Female,Illinois,Enterprise,10,21.99,428,0,0,35,77,9,Neutral,4,0
+10652,18,Female,Texas,Basic,25,149.89,450,0,3,55,71,10,Negative,0,0
+10653,59,Female,Illinois,Basic,23,55.48,283,4,2,73,71,7,Positive,3,1
+10654,18,Female,California,Basic,22,44.88,227,3,4,23,31,1,Neutral,1,0
+10655,21,Female,Illinois,Basic,5,167.29,120,7,2,82,55,2,Negative,4,1
+10656,27,Male,Florida,Premium,32,116.42,133,9,0,60,23,6,Positive,3,1
+10657,59,Female,Texas,Premium,5,180.99,86,8,2,64,84,5,Neutral,1,1
+10658,28,Male,Texas,Basic,20,74.01,270,9,3,1,36,1,Neutral,3,0
+10659,21,Male,Texas,Premium,9,55.58,106,4,1,60,79,2,Neutral,1,1
+10660,66,Male,Florida,Premium,48,60.78,92,2,4,58,59,4,Negative,4,1
+10661,43,Male,Florida,Premium,13,199.71,20,4,4,6,18,5,Positive,2,1
+10662,25,Female,Illinois,Basic,17,165.64,390,8,3,74,84,6,Negative,3,0
+10663,63,Male,Texas,Basic,59,150.41,208,2,2,3,35,3,Negative,3,0
+10664,64,Male,Illinois,Premium,17,42.68,352,4,1,77,28,8,Neutral,1,0
+10665,66,Male,Texas,Premium,57,17.87,14,4,0,90,27,2,Positive,1,1
+10666,23,Female,Texas,Basic,22,77.4,98,0,2,13,84,4,Neutral,0,1
+10667,40,Male,California,Basic,17,190.53,205,9,4,70,57,3,Negative,4,0
+10668,21,Male,California,Premium,46,72.58,259,8,4,4,24,2,Negative,2,1
+10669,68,Female,Texas,Basic,48,143.03,240,3,4,77,99,4,Positive,3,1
+10670,43,Male,California,Basic,38,89.28,485,4,4,6,40,4,Neutral,2,0
+10671,68,Male,New York,Basic,4,20.14,288,9,1,66,14,5,Neutral,0,1
+10672,61,Male,Texas,Premium,44,57.46,49,1,4,99,6,5,Negative,0,0
+10673,63,Female,Texas,Basic,32,182.26,158,1,1,90,8,7,Negative,0,1
+10674,43,Male,Illinois,Premium,49,194.1,163,8,4,87,28,10,Negative,1,0
+10675,44,Male,New York,Enterprise,51,23.91,335,0,3,35,8,1,Neutral,0,1
+10676,25,Male,New York,Basic,31,88.12,267,9,0,46,91,7,Neutral,2,0
+10677,39,Female,New York,Enterprise,2,69.0,360,1,3,9,30,4,Negative,4,1
+10678,55,Female,Texas,Basic,33,33.5,171,1,4,52,11,3,Positive,4,0
+10679,25,Male,New York,Enterprise,39,25.18,303,7,1,58,57,6,Neutral,1,0
+10680,40,Male,Florida,Basic,7,161.99,222,7,2,79,40,9,Negative,4,0
+10681,29,Male,California,Premium,21,195.32,252,8,1,51,90,5,Negative,4,0
+10682,36,Male,New York,Premium,58,88.85,373,5,0,1,78,5,Positive,2,1
+10683,37,Male,New York,Basic,38,68.15,491,0,1,72,10,5,Positive,1,0
+10684,50,Male,California,Basic,29,136.86,356,4,2,25,79,3,Neutral,2,0
+10685,27,Male,Illinois,Basic,20,87.96,129,9,2,11,2,4,Negative,1,1
+10686,28,Male,Florida,Premium,50,134.36,107,5,0,3,58,8,Positive,1,0
+10687,51,Male,Illinois,Basic,15,163.0,23,8,0,59,23,3,Neutral,2,1
+10688,24,Male,California,Basic,24,82.46,253,0,2,61,0,1,Positive,3,0
+10689,37,Male,Illinois,Basic,10,10.14,27,3,0,25,6,3,Neutral,0,0
+10690,23,Female,California,Basic,8,119.47,381,2,0,27,32,7,Positive,2,0
+10691,38,Male,Texas,Basic,43,154.81,222,5,4,0,97,8,Neutral,3,0
+10692,67,Female,Illinois,Basic,21,113.47,73,1,2,38,4,9,Positive,3,0
+10693,51,Female,Texas,Basic,45,92.15,311,8,4,42,60,7,Negative,1,1
+10694,45,Male,Florida,Enterprise,54,186.1,98,2,2,99,62,1,Negative,0,1
+10695,29,Female,Texas,Premium,22,188.6,146,1,4,94,38,10,Neutral,0,1
+10696,39,Female,Illinois,Premium,14,146.99,55,4,0,77,83,8,Positive,0,1
+10697,18,Female,California,Enterprise,51,123.9,171,8,1,52,91,3,Negative,1,1
+10698,68,Male,California,Premium,52,45.34,18,5,0,30,60,6,Positive,0,0
+10699,31,Male,New York,Basic,51,57.5,447,5,2,35,55,3,Neutral,0,0
+10700,54,Male,Florida,Basic,31,186.58,350,2,3,76,99,9,Neutral,4,1
+10701,45,Male,Florida,Basic,57,165.08,436,4,1,74,9,9,Neutral,2,0
+10702,55,Female,Illinois,Basic,29,186.26,217,0,0,42,91,9,Negative,4,0
+10703,23,Female,Illinois,Premium,14,147.71,155,2,3,57,30,5,Negative,0,0
+10704,24,Female,Texas,Premium,50,163.2,206,1,0,46,84,3,Negative,2,0
+10705,48,Female,California,Enterprise,18,159.33,375,1,1,7,45,5,Neutral,1,0
+10706,21,Female,California,Premium,40,192.3,355,7,4,40,23,8,Neutral,4,1
+10707,68,Male,California,Basic,7,139.31,168,4,4,92,68,7,Positive,4,0
+10708,43,Male,California,Basic,14,86.91,244,9,3,28,67,1,Positive,4,1
+10709,44,Male,Texas,Basic,52,21.09,78,8,2,65,30,6,Neutral,2,1
+10710,56,Male,Texas,Enterprise,48,126.22,249,9,2,73,52,9,Positive,2,0
+10711,41,Male,New York,Basic,48,173.0,10,6,1,82,88,2,Positive,0,0
+10712,51,Female,New York,Basic,18,47.24,152,2,0,54,30,3,Positive,1,1
+10713,39,Female,New York,Premium,7,120.69,166,0,4,11,75,10,Positive,0,0
+10714,18,Male,Florida,Basic,10,25.71,34,6,3,7,87,2,Positive,1,0
+10715,61,Male,Texas,Premium,51,125.43,111,2,1,70,33,7,Neutral,3,1
+10716,40,Male,New York,Premium,30,198.43,54,1,4,47,90,5,Neutral,0,0
+10717,44,Male,Texas,Basic,22,63.89,40,1,0,76,86,5,Positive,4,1
+10718,69,Male,Illinois,Basic,2,48.14,162,0,0,49,85,2,Negative,1,1
+10719,31,Male,New York,Basic,52,151.46,269,4,2,61,21,3,Positive,0,0
+10720,57,Male,California,Basic,41,114.87,403,4,3,98,72,10,Neutral,0,0
+10721,28,Female,Florida,Enterprise,55,103.74,160,7,2,65,93,3,Positive,4,0
+10722,41,Male,California,Basic,19,150.54,324,9,0,2,40,3,Neutral,2,1
+10723,41,Female,Illinois,Enterprise,50,122.66,112,6,3,37,80,2,Negative,2,0
+10724,54,Female,New York,Premium,43,186.41,47,4,3,31,47,2,Neutral,1,0
+10725,69,Female,California,Enterprise,8,83.18,394,5,1,42,49,1,Negative,2,0
+10726,68,Male,Texas,Basic,55,67.1,418,8,4,75,23,4,Positive,3,0
+10727,33,Male,Texas,Premium,37,145.02,408,2,4,77,1,9,Positive,4,0
+10728,25,Female,Texas,Basic,24,167.9,333,9,0,54,64,5,Positive,1,0
+10729,24,Female,Florida,Basic,24,43.37,458,8,3,17,20,6,Positive,4,0
+10730,27,Female,California,Premium,14,173.61,119,3,4,87,30,7,Neutral,1,1
+10731,35,Female,California,Premium,59,114.78,471,2,4,18,55,9,Positive,3,0
+10732,55,Female,California,Basic,30,124.34,217,0,3,34,43,3,Positive,2,1
+10733,65,Male,Texas,Premium,54,99.53,212,5,0,39,56,4,Negative,3,0
+10734,69,Male,New York,Premium,55,54.66,79,6,0,16,56,6,Neutral,1,0
+10735,22,Female,Texas,Premium,4,176.17,222,0,1,19,1,4,Neutral,4,0
+10736,59,Female,Illinois,Basic,2,190.31,169,0,2,90,77,4,Neutral,4,0
+10737,54,Female,New York,Premium,30,130.61,119,4,4,68,18,9,Negative,3,1
+10738,25,Female,California,Basic,10,53.6,48,5,0,61,2,10,Neutral,0,0
+10739,54,Male,New York,Basic,31,170.19,183,7,2,97,1,3,Neutral,1,1
+10740,25,Male,Texas,Basic,42,63.13,357,2,2,75,1,9,Negative,3,0
+10741,26,Male,New York,Premium,48,35.95,230,5,3,99,10,9,Neutral,2,1
+10742,28,Female,Illinois,Basic,29,100.7,59,2,0,80,25,9,Negative,3,0
+10743,25,Male,New York,Enterprise,49,149.46,159,2,0,46,97,1,Positive,1,0
+10744,47,Female,California,Basic,56,64.52,237,0,4,98,80,8,Neutral,1,1
+10745,61,Female,Illinois,Basic,45,21.41,298,8,1,3,56,2,Negative,2,0
+10746,49,Male,California,Basic,23,187.74,216,3,3,25,62,8,Neutral,1,1
+10747,44,Female,Texas,Enterprise,57,28.55,462,4,4,16,75,4,Positive,4,1
+10748,19,Male,New York,Basic,47,44.98,342,3,4,15,48,4,Negative,1,1
+10749,29,Male,California,Enterprise,10,163.54,395,3,0,54,52,8,Neutral,3,1
+10750,53,Female,New York,Enterprise,36,131.75,308,8,1,93,64,8,Negative,4,0
+10751,41,Female,Illinois,Premium,19,62.91,79,5,2,72,39,9,Positive,2,1
+10752,60,Female,New York,Premium,20,167.15,313,2,4,52,27,4,Neutral,2,1
+10753,48,Male,Florida,Enterprise,35,88.59,32,6,2,83,61,3,Negative,3,1
+10754,27,Female,California,Basic,42,12.14,216,7,3,48,6,8,Positive,1,1
+10755,35,Female,Florida,Basic,45,64.7,143,3,1,0,70,7,Negative,1,1
+10756,61,Female,New York,Premium,22,99.35,31,6,3,43,36,8,Positive,2,1
+10757,24,Male,Florida,Premium,51,122.38,150,4,0,70,77,7,Negative,3,0
+10758,60,Female,Illinois,Premium,3,155.85,150,2,0,3,95,1,Negative,1,1
+10759,39,Male,California,Premium,14,39.37,187,9,3,67,50,8,Neutral,0,1
+10760,49,Male,New York,Premium,1,157.28,46,6,4,59,42,2,Neutral,3,0
+10761,34,Male,Florida,Premium,44,102.11,316,4,4,59,77,9,Neutral,0,0
+10762,26,Female,California,Enterprise,32,16.96,173,2,1,24,28,7,Positive,4,0
+10763,59,Female,California,Premium,3,99.14,338,7,0,42,89,9,Negative,2,1
+10764,36,Male,New York,Premium,22,59.03,334,6,1,24,63,4,Negative,1,1
+10765,68,Male,New York,Basic,43,55.25,77,1,0,26,98,3,Neutral,4,1
+10766,65,Male,California,Basic,48,74.32,455,3,4,88,5,1,Negative,2,1
+10767,62,Male,California,Premium,24,118.9,275,5,1,18,75,4,Negative,2,0
+10768,58,Female,Texas,Basic,25,122.4,168,1,1,58,96,4,Positive,2,1
+10769,57,Female,Illinois,Enterprise,35,186.18,17,7,4,67,50,2,Negative,2,1
+10770,18,Male,California,Basic,32,183.14,481,5,1,89,5,3,Negative,1,0
+10771,47,Male,Texas,Enterprise,10,118.86,483,0,1,58,87,8,Negative,2,1
+10772,45,Female,New York,Basic,26,29.8,404,2,2,84,3,2,Positive,0,1
+10773,47,Female,Texas,Premium,10,29.76,207,8,2,15,84,9,Positive,1,1
+10774,44,Male,Illinois,Basic,30,23.55,170,8,1,75,13,5,Positive,1,0
+10775,53,Female,New York,Basic,34,104.59,356,9,1,46,84,6,Neutral,2,1
+10776,51,Male,Illinois,Basic,14,99.0,54,4,2,57,86,5,Negative,2,1
+10777,40,Male,New York,Enterprise,15,64.09,151,4,2,30,42,6,Neutral,3,1
+10778,59,Male,Illinois,Premium,20,165.53,97,6,3,65,38,6,Negative,4,1
+10779,65,Male,Illinois,Premium,33,43.63,299,3,3,61,37,4,Neutral,4,0
+10780,31,Male,Texas,Enterprise,22,173.32,480,7,3,20,53,5,Positive,2,0
+10781,63,Female,New York,Basic,5,11.09,164,7,3,63,18,6,Neutral,1,1
+10782,65,Female,California,Premium,43,133.96,465,6,1,94,18,7,Neutral,3,0
+10783,69,Female,New York,Basic,41,171.01,407,9,2,68,10,5,Negative,3,1
+10784,51,Male,Florida,Basic,23,169.95,337,3,4,92,53,3,Neutral,2,0
+10785,49,Male,Illinois,Basic,18,103.14,301,0,2,81,13,3,Neutral,4,1
+10786,29,Male,Illinois,Enterprise,48,70.27,433,2,3,19,55,3,Negative,3,0
+10787,31,Male,Illinois,Basic,38,92.28,94,0,4,56,44,3,Positive,1,0
+10788,54,Male,New York,Basic,12,120.13,166,6,4,55,11,1,Negative,3,1
+10789,36,Female,Florida,Basic,48,198.63,351,0,0,22,44,7,Neutral,1,1
+10790,32,Female,Florida,Basic,51,193.54,113,7,0,29,57,10,Neutral,1,1
+10791,40,Female,Texas,Basic,40,169.8,86,4,1,24,92,4,Positive,0,0
+10792,22,Female,Florida,Premium,13,147.68,324,4,3,60,64,4,Negative,3,1
+10793,21,Female,California,Premium,5,13.09,33,0,0,75,23,3,Positive,3,1
+10794,63,Male,Illinois,Basic,36,74.96,350,0,3,21,75,4,Negative,2,0
+10795,47,Male,Illinois,Enterprise,21,39.15,135,1,1,89,92,8,Positive,1,1
+10796,61,Female,Texas,Basic,31,197.92,374,2,3,42,95,6,Neutral,0,1
+10797,27,Male,New York,Premium,16,111.72,275,0,1,22,74,8,Negative,4,1
+10798,26,Male,Florida,Enterprise,39,85.53,18,0,4,47,50,2,Negative,2,1
+10799,48,Female,California,Basic,28,42.28,47,0,0,53,25,3,Positive,2,0
+10800,68,Male,California,Basic,28,165.89,171,1,1,54,36,7,Negative,4,0
+10801,24,Female,Illinois,Basic,16,197.73,330,7,3,48,47,1,Neutral,0,0
+10802,44,Male,Illinois,Premium,49,121.27,335,0,1,57,98,1,Negative,4,0
+10803,68,Male,Florida,Premium,48,50.35,443,7,2,18,75,9,Positive,4,1
+10804,38,Male,Texas,Basic,7,94.68,132,5,3,58,91,6,Positive,3,1
+10805,33,Female,Illinois,Basic,30,197.01,362,4,4,69,33,10,Positive,2,1
+10806,35,Female,California,Premium,11,161.4,243,8,0,94,80,7,Negative,0,0
+10807,53,Female,Texas,Basic,38,103.38,338,0,0,22,83,7,Neutral,2,1
+10808,67,Male,Texas,Premium,59,134.42,255,0,0,91,28,5,Negative,2,0
+10809,62,Male,Texas,Basic,6,62.82,146,9,3,34,25,1,Positive,0,0
+10810,31,Male,California,Premium,32,100.34,86,3,2,18,75,5,Positive,2,1
+10811,39,Female,Florida,Basic,12,124.56,403,8,3,97,60,6,Negative,1,0
+10812,29,Male,Texas,Basic,11,171.35,48,3,2,35,75,1,Neutral,3,1
+10813,65,Female,Illinois,Premium,44,74.57,94,8,0,66,28,7,Neutral,3,0
+10814,38,Female,Illinois,Basic,24,158.01,132,8,2,50,23,5,Neutral,2,0
+10815,39,Male,California,Premium,35,96.91,359,8,2,1,7,10,Neutral,2,1
+10816,36,Female,Florida,Basic,14,74.26,160,1,1,57,91,10,Neutral,1,0
+10817,49,Female,New York,Enterprise,6,67.57,387,2,4,44,94,1,Positive,0,1
+10818,42,Female,Florida,Basic,16,161.37,470,0,1,43,7,6,Positive,0,0
+10819,20,Male,Illinois,Premium,45,28.05,457,5,2,36,36,3,Neutral,4,1
+10820,46,Female,Illinois,Premium,38,141.84,419,5,4,5,5,6,Neutral,0,1
+10821,63,Male,California,Basic,52,142.6,458,7,4,26,87,4,Neutral,3,1
+10822,19,Female,Texas,Basic,54,32.59,47,0,0,65,58,2,Negative,4,0
+10823,43,Female,Florida,Basic,8,32.56,280,8,2,53,76,7,Negative,4,1
+10824,53,Female,Illinois,Premium,49,60.16,418,8,2,55,71,4,Neutral,1,0
+10825,52,Female,Florida,Premium,57,64.25,434,5,3,97,2,1,Neutral,0,0
+10826,45,Male,New York,Basic,50,71.48,392,8,1,76,50,8,Positive,3,1
+10827,59,Male,Illinois,Premium,2,162.55,468,2,2,27,7,1,Positive,0,0
+10828,31,Female,Illinois,Premium,45,156.94,76,3,3,22,91,10,Neutral,3,1
+10829,39,Male,Florida,Premium,39,49.24,436,9,1,21,48,10,Positive,2,1
+10830,60,Male,California,Enterprise,54,90.75,398,3,2,66,37,1,Neutral,4,1
+10831,40,Male,New York,Basic,6,179.25,225,4,4,60,55,4,Negative,0,0
+10832,64,Female,Illinois,Basic,2,90.37,282,0,0,52,45,4,Neutral,3,1
+10833,49,Male,Illinois,Premium,39,96.35,221,2,4,40,90,9,Negative,3,1
+10834,51,Female,Illinois,Premium,47,92.01,222,9,3,82,90,3,Positive,2,0
+10835,22,Male,Illinois,Basic,28,29.67,107,1,3,41,19,4,Neutral,2,1
+10836,36,Male,Texas,Premium,37,65.42,467,5,2,12,91,4,Neutral,0,0
+10837,52,Female,New York,Basic,20,36.25,220,4,3,26,60,1,Negative,4,0
+10838,62,Male,New York,Basic,29,194.41,336,9,4,60,25,9,Neutral,2,1
+10839,48,Male,Texas,Premium,47,50.85,25,7,2,73,75,1,Positive,2,0
+10840,28,Male,New York,Enterprise,26,169.4,23,6,1,75,54,3,Neutral,3,0
+10841,63,Male,Florida,Basic,55,153.16,81,0,2,42,43,4,Neutral,0,1
+10842,46,Male,Texas,Basic,33,169.48,77,3,3,55,47,7,Neutral,4,1
+10843,48,Male,Texas,Premium,53,29.53,496,7,3,40,13,10,Positive,1,0
+10844,27,Female,Texas,Basic,7,113.82,374,0,2,48,65,9,Neutral,1,1
+10845,69,Male,Illinois,Enterprise,51,198.77,313,1,3,76,55,6,Neutral,1,0
+10846,59,Male,New York,Basic,11,188.21,260,2,3,20,37,8,Positive,1,0
+10847,66,Female,Florida,Basic,47,50.38,291,9,3,59,82,8,Neutral,3,0
+10848,39,Female,Texas,Basic,45,196.7,19,8,4,80,47,1,Negative,1,0
+10849,64,Male,California,Basic,40,188.2,72,2,1,65,25,8,Positive,0,0
+10850,34,Male,Florida,Basic,34,144.71,212,8,1,18,10,6,Negative,2,1
+10851,28,Male,California,Premium,32,162.37,459,0,2,69,18,4,Neutral,4,0
+10852,20,Male,Texas,Premium,28,169.24,381,2,4,33,21,3,Neutral,3,1
+10853,22,Male,California,Basic,18,114.97,155,7,0,65,95,10,Negative,4,1
+10854,29,Male,Texas,Premium,11,151.14,417,5,1,65,84,5,Positive,1,1
+10855,37,Male,Illinois,Enterprise,25,64.0,101,0,3,87,32,6,Neutral,4,1
+10856,50,Male,Florida,Enterprise,38,194.02,304,6,4,86,31,9,Negative,3,0
+10857,18,Female,Texas,Premium,28,82.29,466,6,3,20,17,1,Neutral,4,0
+10858,63,Male,Florida,Basic,15,177.68,399,9,3,81,90,4,Positive,0,1
+10859,23,Male,New York,Premium,45,13.31,82,8,1,89,68,10,Positive,0,0
+10860,27,Female,Texas,Basic,2,70.63,175,7,2,80,75,9,Positive,2,0
+10861,30,Female,Illinois,Premium,25,89.37,88,6,3,39,10,5,Neutral,3,0
+10862,27,Female,Illinois,Enterprise,21,52.71,398,7,3,49,19,10,Positive,4,0
+10863,34,Female,Illinois,Premium,51,51.83,222,1,4,54,97,2,Positive,0,1
+10864,27,Female,New York,Premium,44,92.75,409,8,1,83,38,7,Neutral,4,1
+10865,25,Female,Texas,Premium,54,33.11,318,3,3,58,55,7,Neutral,0,0
+10866,32,Male,California,Premium,59,82.68,159,0,2,51,73,3,Neutral,0,0
+10867,43,Female,California,Basic,13,190.44,232,3,1,90,50,7,Positive,2,0
+10868,19,Male,Florida,Enterprise,34,146.1,13,8,3,13,71,4,Positive,4,1
+10869,38,Female,Illinois,Premium,47,186.98,401,6,4,34,18,9,Positive,3,1
+10870,25,Male,Illinois,Premium,6,196.95,255,0,1,20,87,7,Neutral,1,0
+10871,34,Female,California,Basic,7,170.67,319,9,2,16,38,9,Positive,2,1
+10872,65,Male,New York,Premium,8,187.78,334,6,3,78,55,6,Positive,3,0
+10873,65,Male,Texas,Premium,54,163.7,131,8,0,62,64,8,Negative,3,0
+10874,41,Female,California,Premium,44,118.81,216,4,4,94,81,8,Negative,3,1
+10875,38,Female,Florida,Premium,40,63.68,157,1,4,4,95,4,Positive,3,0
+10876,18,Male,Texas,Enterprise,33,124.53,228,0,1,68,47,6,Positive,1,0
+10877,41,Male,California,Enterprise,40,111.81,305,7,3,87,6,9,Positive,0,0
+10878,61,Male,California,Premium,58,18.69,310,7,4,54,27,6,Positive,2,0
+10879,20,Female,Florida,Basic,44,165.77,333,2,3,48,60,5,Positive,0,1
+10880,59,Female,California,Basic,12,140.82,240,0,3,33,42,10,Positive,1,0
+10881,57,Female,California,Basic,19,30.53,14,5,2,86,53,1,Neutral,1,1
+10882,57,Female,Florida,Basic,42,12.64,112,9,4,69,45,3,Neutral,1,0
+10883,50,Male,Florida,Premium,24,27.08,159,5,1,49,88,10,Negative,4,1
+10884,45,Female,Illinois,Basic,57,194.77,191,0,4,42,18,9,Positive,1,0
+10885,62,Female,California,Basic,8,188.73,489,5,3,24,66,9,Positive,4,1
+10886,31,Female,Illinois,Basic,47,67.5,229,3,1,45,11,6,Positive,0,1
+10887,59,Male,Florida,Premium,22,180.87,133,6,0,87,64,8,Negative,3,1
+10888,46,Female,California,Premium,22,90.49,229,0,1,19,77,8,Negative,0,1
+10889,20,Male,California,Basic,26,154.1,171,6,0,1,65,3,Negative,1,0
+10890,41,Male,Texas,Basic,8,16.32,449,3,1,37,87,7,Neutral,4,1
+10891,43,Female,New York,Premium,42,15.16,140,4,0,81,78,3,Neutral,3,1
+10892,41,Female,California,Enterprise,13,65.9,218,9,4,90,88,7,Positive,3,0
+10893,30,Male,Florida,Basic,27,62.6,415,7,0,78,43,5,Neutral,3,0
+10894,31,Female,Illinois,Premium,46,73.12,404,1,0,53,33,9,Positive,3,0
+10895,28,Female,Texas,Basic,45,69.8,391,4,1,8,78,7,Neutral,1,1
+10896,21,Female,California,Premium,22,140.39,427,7,0,19,51,7,Neutral,4,1
+10897,20,Female,Illinois,Premium,4,184.48,345,7,1,39,76,10,Positive,0,1
+10898,55,Male,Texas,Basic,47,10.39,27,6,1,43,24,9,Negative,3,1
+10899,29,Female,Florida,Basic,41,61.29,419,7,2,38,51,2,Neutral,3,1
+10900,68,Female,New York,Premium,31,26.56,252,5,3,21,65,2,Neutral,2,0
+10901,56,Female,Florida,Basic,2,137.36,379,1,4,57,33,8,Negative,3,0
+10902,18,Male,Florida,Premium,29,17.22,472,4,2,46,96,3,Positive,2,1
+10903,31,Male,New York,Premium,27,46.23,43,9,0,54,34,3,Negative,0,1
+10904,39,Male,New York,Premium,3,88.96,307,1,1,92,50,5,Negative,1,0
+10905,41,Female,California,Premium,21,16.01,173,2,4,24,55,9,Negative,3,1
+10906,30,Female,California,Premium,54,140.41,12,6,3,57,75,10,Positive,1,0
+10907,22,Male,New York,Premium,35,157.54,428,8,0,19,32,1,Positive,2,1
+10908,52,Male,New York,Basic,52,187.6,81,1,3,52,34,5,Negative,1,1
+10909,42,Female,California,Premium,14,148.58,38,9,4,26,75,9,Positive,3,0
+10910,62,Female,New York,Enterprise,56,159.09,255,6,3,24,75,3,Neutral,4,0
+10911,38,Female,California,Premium,4,198.28,82,5,2,46,43,6,Negative,4,1
+10912,54,Male,Florida,Basic,2,89.9,121,4,2,11,65,7,Positive,1,1
+10913,69,Male,Illinois,Basic,41,131.8,128,9,0,17,52,6,Neutral,0,1
+10914,46,Male,New York,Basic,39,167.56,411,9,1,84,28,3,Positive,3,0
+10915,68,Female,Florida,Premium,26,136.36,474,7,0,50,85,9,Negative,1,1
+10916,38,Male,California,Premium,9,105.52,166,4,4,42,55,7,Neutral,2,1
+10917,44,Male,California,Basic,12,47.11,435,9,1,30,60,5,Negative,2,1
+10918,38,Female,New York,Basic,3,87.29,303,4,4,17,15,5,Positive,1,1
+10919,39,Male,New York,Premium,53,30.41,194,5,4,41,44,8,Neutral,0,0
+10920,32,Male,Illinois,Basic,29,124.79,446,8,4,79,73,7,Positive,4,0
+10921,35,Female,Florida,Basic,20,182.94,413,9,2,83,36,6,Neutral,1,1
+10922,51,Male,Florida,Premium,16,147.4,405,4,0,92,80,7,Positive,3,0
+10923,19,Female,Florida,Premium,31,145.71,368,0,3,10,99,4,Positive,3,0
+10924,60,Male,Texas,Enterprise,56,172.64,414,2,1,66,78,9,Negative,4,0
+10925,47,Male,Illinois,Premium,46,176.75,245,6,4,71,43,2,Positive,3,1
+10926,19,Female,Illinois,Premium,4,138.06,304,6,3,40,51,2,Neutral,0,0
+10927,68,Female,California,Enterprise,54,20.73,380,9,3,50,30,9,Neutral,4,0
+10928,68,Male,New York,Enterprise,30,45.44,199,2,1,53,86,6,Neutral,0,1
+10929,52,Male,California,Basic,9,140.41,155,2,0,61,30,10,Negative,3,1
+10930,47,Male,California,Basic,15,122.69,78,3,0,82,44,5,Positive,4,0
+10931,34,Female,California,Basic,28,144.91,279,2,1,25,21,2,Negative,3,0
+10932,69,Male,Illinois,Basic,17,137.56,340,2,0,46,49,6,Negative,0,1
+10933,68,Female,Florida,Enterprise,11,145.94,298,7,1,90,70,6,Positive,4,0
+10934,30,Female,Illinois,Premium,41,75.86,499,0,1,78,73,10,Neutral,0,0
+10935,50,Male,California,Basic,42,194.11,115,9,2,62,39,5,Positive,4,1
+10936,32,Female,Illinois,Basic,48,151.33,363,9,1,18,65,6,Negative,3,1
+10937,20,Male,Illinois,Premium,41,130.45,454,0,1,31,93,2,Neutral,4,1
+10938,50,Female,Illinois,Premium,11,12.68,460,1,0,99,26,3,Neutral,0,1
+10939,28,Female,Texas,Premium,9,124.24,266,6,0,85,33,7,Negative,2,1
+10940,28,Female,Illinois,Premium,30,168.67,163,5,3,69,11,1,Neutral,4,1
+10941,43,Male,Texas,Basic,49,113.94,434,6,3,27,60,10,Negative,4,1
+10942,38,Female,Florida,Basic,35,140.49,371,1,2,74,98,9,Positive,2,0
+10943,59,Female,Texas,Premium,11,29.64,116,9,1,68,74,3,Neutral,3,0
+10944,56,Female,Texas,Basic,3,163.48,180,5,4,79,73,2,Positive,1,0
+10945,47,Female,Florida,Enterprise,37,14.44,225,4,3,50,18,3,Negative,2,0
+10946,47,Male,California,Basic,53,135.37,334,0,1,37,23,2,Positive,3,0
+10947,31,Female,California,Premium,1,93.41,366,9,0,82,49,9,Neutral,4,0
+10948,56,Male,New York,Enterprise,47,15.37,127,1,1,58,60,5,Negative,3,1
+10949,56,Female,California,Basic,19,135.21,118,7,1,70,75,4,Positive,3,0
+10950,30,Male,Florida,Basic,50,92.8,486,7,0,96,38,10,Neutral,1,1
+10951,66,Female,California,Basic,1,163.79,445,6,3,17,20,3,Negative,4,1
+10952,31,Female,New York,Premium,37,107.39,319,2,4,46,21,9,Negative,3,0
+10953,67,Male,Illinois,Premium,15,166.06,246,0,4,67,44,9,Positive,3,0
+10954,46,Male,Texas,Basic,56,132.02,222,1,2,96,79,3,Positive,3,0
+10955,62,Female,New York,Premium,35,76.57,209,7,0,19,18,5,Negative,4,0
+10956,51,Female,Texas,Basic,16,11.36,204,8,3,31,94,8,Negative,2,1
+10957,64,Male,California,Basic,5,165.73,432,5,0,13,42,9,Positive,3,0
+10958,59,Female,New York,Basic,15,74.26,118,3,2,8,76,7,Positive,2,0
+10959,20,Female,California,Premium,39,43.43,397,3,4,26,34,7,Neutral,1,0
+10960,55,Female,Texas,Premium,39,67.49,28,9,3,23,58,10,Negative,2,0
+10961,33,Male,New York,Basic,50,121.38,141,5,3,3,51,3,Negative,4,1
+10962,69,Male,New York,Enterprise,51,103.59,162,0,0,90,75,5,Positive,2,0
+10963,69,Female,Illinois,Enterprise,57,104.05,183,5,1,83,66,5,Positive,3,0
+10964,31,Male,Texas,Basic,57,84.77,414,1,3,72,5,8,Neutral,0,1
+10965,52,Male,Illinois,Basic,1,188.47,103,4,4,84,86,2,Positive,2,1
+10966,63,Male,California,Premium,12,104.71,171,9,2,85,26,7,Negative,0,0
+10967,58,Female,New York,Premium,36,142.47,58,8,1,52,85,2,Neutral,2,0
+10968,43,Female,Texas,Basic,53,132.1,251,8,3,70,46,10,Neutral,1,0
+10969,54,Female,California,Basic,37,43.64,322,0,1,66,64,5,Neutral,2,1
+10970,48,Male,New York,Premium,38,20.58,314,3,0,77,75,4,Negative,1,0
+10971,50,Male,Florida,Basic,4,166.41,304,5,2,19,61,6,Neutral,1,0
+10972,61,Male,New York,Basic,22,67.59,254,9,0,96,32,6,Neutral,3,1
+10973,62,Female,Texas,Premium,12,161.9,60,7,0,39,68,2,Negative,0,0
+10974,49,Male,Illinois,Basic,58,138.86,187,3,0,58,12,9,Positive,1,0
+10975,45,Male,Illinois,Premium,33,100.72,373,9,0,25,69,1,Positive,3,1
+10976,24,Male,Texas,Basic,38,29.62,288,9,2,16,23,5,Negative,3,0
+10977,59,Female,Florida,Basic,3,108.11,105,5,2,60,44,3,Negative,0,1
+10978,27,Male,Florida,Basic,47,102.67,289,4,2,70,94,7,Positive,4,1
+10979,38,Male,California,Basic,24,50.79,304,6,0,78,9,3,Neutral,3,0
+10980,69,Male,California,Basic,5,145.77,336,3,0,58,33,9,Neutral,4,0
+10981,45,Male,New York,Basic,15,53.35,204,9,1,15,48,3,Positive,0,0
+10982,30,Male,California,Basic,47,115.45,101,6,1,8,41,1,Positive,2,0
+10983,39,Female,Florida,Basic,54,118.39,210,1,2,30,24,7,Neutral,3,1
+10984,38,Female,Florida,Premium,36,200.0,62,5,1,5,45,3,Positive,2,1
+10985,57,Male,Illinois,Premium,7,183.38,489,2,2,71,97,3,Positive,3,1
+10986,62,Female,California,Premium,8,123.89,281,6,0,49,6,4,Neutral,0,0
+10987,43,Male,Texas,Basic,22,154.42,188,7,0,62,18,3,Negative,4,1
+10988,64,Male,Texas,Basic,18,150.14,360,0,3,94,26,3,Neutral,2,1
+10989,29,Male,Florida,Enterprise,8,62.13,140,0,3,90,43,7,Positive,2,0
+10990,19,Female,Florida,Basic,14,191.25,250,5,2,11,70,7,Negative,1,0
+10991,52,Female,Illinois,Basic,4,113.26,303,9,2,4,50,7,Neutral,3,0
+10992,68,Male,Texas,Basic,17,91.92,293,9,3,24,42,7,Neutral,0,1
+10993,34,Male,Illinois,Premium,12,176.24,240,4,4,93,68,6,Positive,3,0
+10994,29,Male,Illinois,Basic,58,181.83,149,2,1,30,60,2,Positive,4,0
+10995,59,Female,California,Premium,20,196.5,121,6,3,40,58,1,Positive,2,0
+10996,35,Female,New York,Premium,30,80.13,205,4,1,94,24,8,Neutral,1,0
+10997,23,Female,California,Premium,46,154.02,104,1,4,22,52,6,Neutral,1,0
+10998,31,Female,Florida,Basic,41,92.58,461,0,1,93,47,7,Positive,4,1
+10999,36,Male,California,Enterprise,7,78.37,468,6,4,54,72,3,Neutral,0,0
+11000,66,Female,Texas,Basic,3,107.77,12,3,1,8,70,4,Negative,0,1
