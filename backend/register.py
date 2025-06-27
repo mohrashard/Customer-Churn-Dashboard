@@ -1,5 +1,5 @@
 import os
-from flask import Flask, request, jsonify, session
+from flask import Flask, request, jsonify, session, make_response
 from pymongo import MongoClient
 from werkzeug.security import generate_password_hash, check_password_hash
 import re
@@ -21,6 +21,23 @@ users_collection = db["users"]
 
 # Create unique index on email field to enforce uniqueness
 users_collection.create_index("email", unique=True)
+
+# CORS middleware
+@app.after_request
+def add_cors_headers(response):
+    response.headers['Access-Control-Allow-Origin'] = 'http://localhost:3000'
+    response.headers['Access-Control-Allow-Headers'] = 'Content-Type'
+    response.headers['Access-Control-Allow-Methods'] = 'GET, POST, PUT, DELETE, OPTIONS'
+    response.headers['Access-Control-Allow-Credentials'] = 'true'
+    return response
+
+# Handle OPTIONS requests
+@app.route('/register', methods=['OPTIONS'])
+@app.route('/login', methods=['OPTIONS'])
+@app.route('/logout', methods=['OPTIONS'])
+@app.route('/profile', methods=['OPTIONS'])
+def options_handler():
+    return '', 200
 
 def validate_password(password):
     """
