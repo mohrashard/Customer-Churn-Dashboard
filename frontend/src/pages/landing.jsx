@@ -182,7 +182,8 @@ const Retentify = () => {
         <div className="nav-container">
           <div className="nav-brand">
             <div className="logo-placeholder">
-              <img src="/placeholder.svg?height=40&width=40" alt="Retentify Logo" />
+              <img src="/retentifyLogo.png" alt="Retentify Logo"  />
+
             </div>
             <span className="brand-text">Retentify</span>
           </div>
@@ -487,7 +488,7 @@ const Retentify = () => {
             <div className="footer-brand">
               <div className="footer-logo">
                 <div className="logo-placeholder">
-                  <img src="/placeholder.svg?height=32&width=32" alt="Retentify Logo" />
+                  <img src="/retentifyLogo.png" alt="Retentify Logo" />
                 </div>
                 <h3 className="brand-name">Retentify</h3>
               </div>
