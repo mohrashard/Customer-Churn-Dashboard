@@ -1,79 +1,94 @@
-import { useEffect, useState } from "react"
-import '../styles/RetentifyLanding.css';
+import { useEffect, useState } from "react";
+import "../styles/RetentifyLanding.css";
+import { useNavigate } from "react-router-dom";
 
 const Retentify = () => {
-  const [scrollY, setScrollY] = useState(0)
-  const [activeSection, setActiveSection] = useState("home")
-
+  const [scrollY, setScrollY] = useState(0);
+  const [activeSection, setActiveSection] = useState("home");
+  const navigate = useNavigate();
   useEffect(() => {
     const handleScroll = () => {
-      setScrollY(window.scrollY)
+      setScrollY(window.scrollY);
 
       // Update active section based on scroll position
-      const sections = ["home", "about", "features", "pricing", "testimonials", "faq", "contact"]
+      const sections = [
+        "home",
+        "about",
+        "features",
+        "pricing",
+        "testimonials",
+        "faq",
+        "contact",
+      ];
       const currentSection = sections.find((section) => {
-        const element = document.getElementById(section)
+        const element = document.getElementById(section);
         if (element) {
-          const rect = element.getBoundingClientRect()
-          return rect.top <= 100 && rect.bottom >= 100
+          const rect = element.getBoundingClientRect();
+          return rect.top <= 100 && rect.bottom >= 100;
         }
-        return false
-      })
+        return false;
+      });
 
       if (currentSection) {
-        setActiveSection(currentSection)
+        setActiveSection(currentSection);
       }
-    }
+    };
 
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   const scrollToSection = (sectionId) => {
-    const element = document.getElementById(sectionId)
+    const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" })
+      element.scrollIntoView({ behavior: "smooth" });
     }
-  }
+  };
 
   const features = [
     {
       title: "Real-Time Churn Risk Scoring",
-      description: "AI algorithms analyze customer behavior patterns to predict churn risk with 94% accuracy.",
+      description:
+        "AI algorithms analyze customer behavior patterns to predict churn risk with 94% accuracy.",
       icon: "🎯",
       delay: "0.1s",
     },
     {
       title: "Smart Customer Segmentation",
-      description: "Automatically categorize customers into risk segments for targeted retention strategies.",
+      description:
+        "Automatically categorize customers into risk segments for targeted retention strategies.",
       icon: "🔍",
       delay: "0.2s",
     },
     {
       title: "Automated Retention Playbooks",
-      description: "Deploy proven retention workflows triggered by customer behavior and risk scores.",
+      description:
+        "Deploy proven retention workflows triggered by customer behavior and risk scores.",
       icon: "⚡",
       delay: "0.3s",
     },
     {
       title: "Advanced CRM Integration",
-      description: "Seamlessly sync with Salesforce, HubSpot, and 50+ other platforms you already use.",
+      description:
+        "Seamlessly sync with Salesforce, HubSpot, and 50+ other platforms you already use.",
       icon: "🔗",
       delay: "0.4s",
     },
     {
       title: "Predictive Analytics Dashboard",
-      description: "Visualize customer health scores and trends with interactive charts and reports.",
+      description:
+        "Visualize customer health scores and trends with interactive charts and reports.",
       icon: "📊",
       delay: "0.5s",
     },
     {
       title: "Custom Alert System",
-      description: "Get instant notifications when customers show signs of potential churn.",
+      description:
+        "Get instant notifications when customers show signs of potential churn.",
       icon: "🚨",
       delay: "0.6s",
     },
-  ]
+  ];
 
   const pricingPlans = [
     {
@@ -120,7 +135,7 @@ const Retentify = () => {
       ],
       popular: false,
     },
-  ]
+  ];
 
   const testimonials = [
     {
@@ -132,20 +147,22 @@ const Retentify = () => {
       delay: "0.1s",
     },
     {
-      quote: "The automated playbooks saved our team 20 hours per week while improving retention rates by 35%.",
+      quote:
+        "The automated playbooks saved our team 20 hours per week while improving retention rates by 35%.",
       author: "Marcus Rodriguez",
       role: "Head of Growth, DataVault",
       company: "DataVault",
       delay: "0.2s",
     },
     {
-      quote: "Finally, a tool that predicts churn before it happens. Game-changing for our SaaS business.",
+      quote:
+        "Finally, a tool that predicts churn before it happens. Game-changing for our SaaS business.",
       author: "Emily Watson",
       role: "CEO, CloudSync",
       company: "CloudSync",
       delay: "0.3s",
     },
-  ]
+  ];
 
   const faqs = [
     {
@@ -173,7 +190,7 @@ const Retentify = () => {
       answer:
         "You can create custom playbooks, modify existing ones, and set up automated triggers based on your specific business needs.",
     },
-  ]
+  ];
 
   return (
     <div className="retentify-app">
@@ -182,23 +199,32 @@ const Retentify = () => {
         <div className="nav-container">
           <div className="nav-brand">
             <div className="logo-placeholder">
-              <img src="/retentifyLogo.png" alt="Retentify Logo"  />
-
+              <img src="/retentifyLogo.png" alt="Retentify Logo" />
             </div>
             <span className="brand-text">Retentify</span>
           </div>
           <div className="nav-menu">
-            {["Home", "About", "Features", "Pricing", "Testimonials", "FAQ", "Contact"].map((item) => (
+            {[
+              "Home",
+              "About",
+              "Features",
+              "Pricing",
+              "Testimonials",
+              "FAQ",
+              "Contact",
+            ].map((item) => (
               <button
                 key={item}
-                className={`nav-link ${activeSection === item.toLowerCase() ? "active" : ""}`}
+                className={`nav-link ${
+                  activeSection === item.toLowerCase() ? "active" : ""
+                }`}
                 onClick={() => scrollToSection(item.toLowerCase())}
               >
                 {item}
               </button>
             ))}
           </div>
-          <button className="nav-cta" onClick={() => scrollToSection("contact")}>
+          <button className="nav-cta" onClick={() => navigate("/register")}>
             Get Started
           </button>
         </div>
@@ -231,15 +257,21 @@ const Retentify = () => {
                 Predict. Engage. Retain.
               </h1>
               <p className="hero-subtitle">
-                Turn churn into growth using AI-powered customer insights. Identify at-risk customers before they leave
-                and deploy automated retention strategies that actually work.
+                Turn churn into growth using AI-powered customer insights.
+                Identify at-risk customers before they leave and deploy
+                automated retention strategies that actually work.
               </p>
               <div className="hero-cta">
-                <button className="cta-primary glow-button" onClick={() => scrollToSection("contact")}>
-                  Start Free Trial
+                <button
+                  className="cta-primary glow-button"
+                  onClick={() => navigate("/register")}
+                >
+                  Get Started
                   <div className="button-glow"></div>
                 </button>
-                <button className="cta-secondary glass-button">Watch Demo</button>
+                <button className="cta-secondary glass-button">
+                  Watch Demo
+                </button>
               </div>
               <div className="hero-stats">
                 <div className="stat">
@@ -268,11 +300,26 @@ const Retentify = () => {
                   </div>
                   <div className="mockup-content">
                     <div className="chart-placeholder">
-                      <div className="chart-bar" style={{ height: "60%" }}></div>
-                      <div className="chart-bar" style={{ height: "80%" }}></div>
-                      <div className="chart-bar" style={{ height: "45%" }}></div>
-                      <div className="chart-bar" style={{ height: "90%" }}></div>
-                      <div className="chart-bar" style={{ height: "70%" }}></div>
+                      <div
+                        className="chart-bar"
+                        style={{ height: "60%" }}
+                      ></div>
+                      <div
+                        className="chart-bar"
+                        style={{ height: "80%" }}
+                      ></div>
+                      <div
+                        className="chart-bar"
+                        style={{ height: "45%" }}
+                      ></div>
+                      <div
+                        className="chart-bar"
+                        style={{ height: "90%" }}
+                      ></div>
+                      <div
+                        className="chart-bar"
+                        style={{ height: "70%" }}
+                      ></div>
                     </div>
                     <div className="metrics-grid">
                       <div className="metric-card">
@@ -317,8 +364,9 @@ const Retentify = () => {
             <div className="about-text">
               <h2 className="section-title">Why Customer Retention Matters</h2>
               <p className="section-subtitle">
-                Acquiring new customers costs 5x more than retaining existing ones. Yet most companies only discover
-                churn after it's too late.
+                Acquiring new customers costs 5x more than retaining existing
+                ones. Yet most companies only discover churn after it's too
+                late.
               </p>
               <div className="stats-grid">
                 <div className="stat-card">
@@ -356,12 +404,20 @@ const Retentify = () => {
       <section id="features" className="features-section">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">Powerful Features for Customer Success</h2>
-            <p className="section-subtitle">Everything you need to predict, prevent, and reduce customer churn</p>
+            <h2 className="section-title">
+              Powerful Features for Customer Success
+            </h2>
+            <p className="section-subtitle">
+              Everything you need to predict, prevent, and reduce customer churn
+            </p>
           </div>
           <div className="features-grid">
             {features.map((feature, index) => (
-              <div key={index} className="feature-card neumorphic-card" style={{ animationDelay: feature.delay }}>
+              <div
+                key={index}
+                className="feature-card neumorphic-card"
+                style={{ animationDelay: feature.delay }}
+              >
                 <div className="feature-icon-3d">
                   <span className="feature-emoji">{feature.icon}</span>
                 </div>
@@ -379,12 +435,19 @@ const Retentify = () => {
         <div className="container">
           <div className="section-header">
             <h2 className="section-title">Simple, Transparent Pricing</h2>
-            <p className="section-subtitle">Choose the plan that fits your business needs</p>
+            <p className="section-subtitle">
+              Choose the plan that fits your business needs
+            </p>
           </div>
           <div className="pricing-grid">
             {pricingPlans.map((plan, index) => (
-              <div key={index} className={`pricing-card ${plan.popular ? "popular" : ""}`}>
-                {plan.popular && <div className="popular-badge">Most Popular</div>}
+              <div
+                key={index}
+                className={`pricing-card ${plan.popular ? "popular" : ""}`}
+              >
+                {plan.popular && (
+                  <div className="popular-badge">Most Popular</div>
+                )}
                 <div className="pricing-header">
                   <h3 className="plan-name">{plan.name}</h3>
                   <div className="plan-price">
@@ -401,8 +464,14 @@ const Retentify = () => {
                     </div>
                   ))}
                 </div>
-                <button className={`pricing-cta ${plan.popular ? "primary" : "secondary"}`}>
-                  {plan.name === "Enterprise" ? "Contact Sales" : "Start Free Trial"}
+                <button
+                  className={`pricing-cta ${
+                    plan.popular ? "primary" : "secondary"
+                  }`}
+                >
+                  {plan.name === "Enterprise"
+                    ? "Contact Sales"
+                    : "Start Free Trial"}
                 </button>
               </div>
             ))}
@@ -415,11 +484,17 @@ const Retentify = () => {
         <div className="container">
           <div className="section-header">
             <h2 className="section-title">Trusted by Industry Leaders</h2>
-            <p className="section-subtitle">See how companies are saving millions with Retentify</p>
+            <p className="section-subtitle">
+              See how companies are saving millions with Retentify
+            </p>
           </div>
           <div className="testimonials-grid">
             {testimonials.map((testimonial, index) => (
-              <div key={index} className="testimonial-card glass-card" style={{ animationDelay: testimonial.delay }}>
+              <div
+                key={index}
+                className="testimonial-card glass-card"
+                style={{ animationDelay: testimonial.delay }}
+              >
                 <div className="quote-icon">"</div>
                 <p className="testimonial-quote">{testimonial.quote}</p>
                 <div className="testimonial-author">
@@ -427,7 +502,9 @@ const Retentify = () => {
                   <div className="author-info">
                     <span className="author-name">{testimonial.author}</span>
                     <span className="author-role">{testimonial.role}</span>
-                    <span className="author-company">{testimonial.company}</span>
+                    <span className="author-company">
+                      {testimonial.company}
+                    </span>
                   </div>
                 </div>
                 <div className="card-shimmer"></div>
@@ -442,7 +519,9 @@ const Retentify = () => {
         <div className="container">
           <div className="section-header">
             <h2 className="section-title">Frequently Asked Questions</h2>
-            <p className="section-subtitle">Everything you need to know about Retentify</p>
+            <p className="section-subtitle">
+              Everything you need to know about Retentify
+            </p>
           </div>
           <div className="faq-grid">
             {faqs.map((faq, index) => (
@@ -463,20 +542,29 @@ const Retentify = () => {
         </div>
         <div className="container">
           <div className="cta-content">
-            <h2 className="cta-title">Ready to Reduce Churn and Grow Revenue?</h2>
+            <h2 className="cta-title">
+              Ready to Reduce Churn and Grow Revenue?
+            </h2>
             <p className="cta-subtitle">
-              Join thousands of companies using Retentify to predict churn, engage customers, and drive growth.
+              Join thousands of companies using Retentify to predict churn,
+              engage customers, and drive growth.
             </p>
             <div className="cta-form">
               <div className="form-group">
-                <input type="email" placeholder="Enter your work email" className="email-input" />
+                <input
+                  type="email"
+                  placeholder="Enter your work email"
+                  className="email-input"
+                />
                 <button className="cta-button pulse-button">
                   Start Free Trial
                   <div className="pulse-ring"></div>
                 </button>
               </div>
             </div>
-            <p className="cta-note">No credit card required • 14-day free trial • Setup in 5 minutes</p>
+            <p className="cta-note">
+              No credit card required • 14-day free trial • Setup in 5 minutes
+            </p>
           </div>
         </div>
       </section>
@@ -492,7 +580,9 @@ const Retentify = () => {
                 </div>
                 <h3 className="brand-name">Retentify</h3>
               </div>
-              <p className="brand-tagline">AI-Powered Customer Success Platform</p>
+              <p className="brand-tagline">
+                AI-Powered Customer Success Platform
+              </p>
             </div>
             <div className="footer-links-grid">
               <div className="footer-column">
@@ -569,7 +659,7 @@ const Retentify = () => {
         </div>
       </footer>
     </div>
-  )
-}
+  );
+};
 
-export default Retentify
+export default Retentify;

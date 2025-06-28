@@ -1,19 +1,48 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Register from './pages/register';
-import RetentifyLanding from './pages/landing';
-import './App.css';
+// App.js (Main Routing Component)
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { AuthProvider, useAuth } from './auth';
+import LandingPage from './pages/landing';
+import RegisterPage from './pages/register';
+import LoginPage from './pages/LoginPage';
+import DashboardPage from './pages/DashboardPage';
+import LoadingSpinner from './components/LoadingSpinner';
 
-function App() {
+function AppRouter() {
   return (
-    <Router>
-      <div className="App">
+    <AuthProvider>
+      <Router>
         <Routes>
-          <Route path="/" element={<RetentifyLanding />} />
-          <Route path="/register" element={<Register />} />
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/register" element={<RegisterPage />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route 
+            path="/dashboard" 
+            element={
+              <ProtectedRoute>
+                <DashboardPage />
+              </ProtectedRoute>
+            } 
+          />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
-      </div>
-    </Router>
+      </Router>
+    </AuthProvider>
   );
 }
 
-export default App;
+// Protected route component
+const ProtectedRoute = ({ children }) => {
+  const { isAuthenticated, isLoading } = useAuth();
+  
+  if (isLoading) {
+    return <LoadingSpinner />;
+  }
+  
+  if (!isAuthenticated) {
+    return <Navigate to="/login" />;
+  }
+  
+  return children;
+};
+
+export default AppRouter;
